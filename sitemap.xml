@@ -3,183 +3,192 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://LeoYuan0111.github.io/courses/example/example1/</loc>
+    <loc>https://leoyuan0111.github.io/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/courses/example/</loc>
+    <loc>https://leoyuan0111.github.io/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/courses/example/example2/</loc>
+    <loc>https://leoyuan0111.github.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/talk/example/</loc>
+    <loc>https://leoyuan0111.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/talk/</loc>
+    <loc>https://leoyuan0111.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/post/</loc>
+    <loc>https://leoyuan0111.github.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/publication_types/2/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/haolin-lu/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/hongguang-xiao/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/hui-zhang/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/publication_types/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/publication/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/shuainan-ye/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/publication/journal-article/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/xiangtong-chu/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/xiao-xie/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/yingcai-wu/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/zeqing-yuan/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/authors/zhutian-chen/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leoyuan0111.github.io/post/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/post/writing-technical-content/</loc>
+    <loc>https://leoyuan0111.github.io/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/courses/</loc>
+    <loc>https://leoyuan0111.github.io/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/authors/admin/</loc>
+    <loc>https://leoyuan0111.github.io/authors/admin/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/authors/</loc>
+    <loc>https://leoyuan0111.github.io/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/slides/</loc>
+    <loc>https://leoyuan0111.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/slides/example/</loc>
+    <loc>https://leoyuan0111.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/tags/deep-learning/</loc>
+    <loc>https://leoyuan0111.github.io/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/tags/demo/</loc>
+    <loc>https://leoyuan0111.github.io/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/project/external-project/</loc>
+    <loc>https://leoyuan0111.github.io/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/project/internal-project/</loc>
+    <loc>https://leoyuan0111.github.io/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/project/</loc>
+    <loc>https://leoyuan0111.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/tags/academic/</loc>
+    <loc>https://leoyuan0111.github.io/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/post/getting-started/</loc>
+    <loc>https://leoyuan0111.github.io/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/categories/</loc>
+    <loc>https://leoyuan0111.github.io/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/categories/demo/</loc>
+    <loc>https://leoyuan0111.github.io/categories/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/publication_types/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://leoyuan0111.github.io/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://LeoYuan0111.github.io/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/authors/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LeoYuan0111.github.io/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://leoyuan0111.github.io/publication/conference-paper/</loc>
   </url>
   
 </urlset>
