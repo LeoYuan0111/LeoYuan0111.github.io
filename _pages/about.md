@@ -28,7 +28,7 @@ I am also a sports enthusiast, winning badminton provincial champion and awarded
 
 
 # 🔥 News
-- *2022.01*: &nbsp;🎉 Our paper TIVEE is accepted to VIS 2021 and IEEE TVCG !
+- *2021.06*: &nbsp;🎉 Our paper TIVEE is accepted to VIS 2021 and IEEE TVCG !
 
 
 # 🎓 Education
