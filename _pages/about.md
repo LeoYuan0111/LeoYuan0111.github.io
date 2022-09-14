@@ -22,7 +22,7 @@ I am an undergraduate student at [Turing Class](http://www.cs.zju.edu.cn/turingc
 
 My current research interests lie in machine learning and computer vision, with a focus on active learning for computer vision task.
 
-I am also a sports enthusiast, winning badminton provincial champion and awarded the State First-Class Athelete.
+I am also a sports enthusiast, a badminton provincial champion and State First-Class Athelete. I have also explored the field of CS for Sports, using computer vision and immersive visualization approach.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
