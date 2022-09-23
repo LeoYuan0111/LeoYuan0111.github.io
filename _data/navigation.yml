@@ -10,7 +10,7 @@ main:
     url: "/#-education"
 
   - title: "Experience"
-    url: "/#-research-experience"
+    url: "/#-rd-experience"
 
   - title: "Publications"
     url: "/#-publications"

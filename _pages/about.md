@@ -22,7 +22,7 @@ I am an undergraduate student at [Turing Class](http://www.cs.zju.edu.cn/turingc
 
 My current research interests lie in machine learning and computer vision, with a focus on active learning for computer vision task.
 
-I am also a sports enthusiast, a badminton provincial champion and State First-Class Athelete. I have also explored the field of CS for Sports, using computer vision and immersive visualization approach.
+I am also a sports enthusiast, badminton provincial champion and State First-Class Athelete. I have also explored the field of CS in Sports, using computer vision and immersive visualization approach.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -36,7 +36,7 @@ I am also a sports enthusiast, a badminton provincial champion and State First-C
 <!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Awarded *National Most Qualified Middle School Student (top 700)* ) -->
 
 
-# 📖 Research Experience
+# 💻 R&D Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="20%">
   - Ministry of Education, *2022.05 - 2023.05*
@@ -59,17 +59,18 @@ I am also a sports enthusiast, a badminton provincial champion and State First-C
   <img align="right" src='images/TIVEE.png' alt="sym" width="20%">
   - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
     - Research on immersive visualization and visual analytics for racket sports tactics.
-    - Paper published on **IEEE VIS and IEEE TVCG** (*TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations*)
+    - Work accepted to **IEEE VIS and IEEE TVCG** (*TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations*)
 
 
 
 # 🏆 Honors and Awards
-- *2021.12* National Scholarship (Top 1%)
-- *2021.12* Zhejiang University Scholarship - First Prize (Top 3%)
-- *2021.12* Scholarship for Leading Achievements
-- *2021.12* First-Class Scholarship for Elite Students in Basic Sciences 
-- *2021.05* Men's Singles Champion of Zhejiang Provincial Badminton Championship
-- *2018.01* State First-Class Athelete
+- *2022* Baogang Scholarship (Top 1‰)
+- *2021* National Scholarship (Top 1%)
+- *2021* Zhejiang University Scholarship - First Prize (Top 3%)
+- *2021* Scholarship for Leading Achievements
+- *2021* First-Class Scholarship for Elite Students in Basic Sciences 
+- *2021* Men's Singles Champion of Zhejiang Provincial Badminton Championship
+- *2018* State First-Class Athelete
 
 
 # 📝 Publications 
