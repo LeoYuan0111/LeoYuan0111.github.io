@@ -65,7 +65,7 @@ I am also a sports enthusiast, badminton provincial champion and State First-Cla
 
 
 # 🏆 Honors and Awards
-- *2022* People's Choice Award in ACM International Conference on Mobile Human-Computer Interaction
+- *2022* People's Choice Award in ACM International Conference on Mobile Human-Computer Interaction SDC
 - *2022* Baogang Scholarship (Top 1‰)
 - *2021* National Scholarship (Top 1%)
 - *2021* Zhejiang University Scholarship - First Prize (Top 3%)
