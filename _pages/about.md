@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # Biography
-I am an undergraduate student at [Turing Class](http://www.cs.zju.edu.cn/turingclass_en/main.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp#1), [Zhejiang University](https://www.zju.edu.cn/english/).
+I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp#1), [Zhejiang University](https://www.zju.edu.cn/english/).
 
 My current research interests lie in machine learning and computer vision, with a focus on active learning for computer vision task.
 
@@ -28,11 +28,11 @@ I am also a sports enthusiast, badminton provincial champion and State First-Cla
 
 
 # 🔥 News
-- *2021.06*: &nbsp;🎉 Our paper TIVEE is accepted to VIS 2021 and IEEE TVCG !
+- *2021.06*: &nbsp;Our paper TIVEE is accepted to VIS 2021 and IEEE TVCG !
 
 
 # 🎓 Education
-- *2020.09 - 2024.06(expected)*,&nbsp; BE in Computer Science and Technology, Chu Kochen Honors College, Zhejiang University 
+- *2020.09 - 2024.06(expected)*,&nbsp; B.Eng in Computer Science and Technology, Chu Kochen Honors College, Zhejiang University 
 <!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Awarded *National Most Qualified Middle School Student (top 700)* ) -->
 
 
@@ -43,17 +43,11 @@ I am also a sports enthusiast, badminton provincial champion and State First-Cla
     - Student leader on research project regarding action recognition and video understanding.
     - Project aims to build an automated system capable of recognizing table tennis techniques and detecting the ball and players in competition video, aiding the visual analytics research for the Chinese Table Tennis Team
 
-- **Summer Bootcamp of Future Interaction for Smart Glasses**
+- **ACM International Conference on Mobile Human-Computer Interaction**
   <img align="right" src='images/FOCAREUS.png' alt="sym" width="20%">
-  - NUS HCI Lab & Huawei, *2022.06 - 2022.07* 
-    - Designed a project, *FOCAREUS*, based on Huawei Smart Glasses, to monitor attention level and help children develop better studying habits.
-    - Project won **Golden Glasses Award for Judges’ Choice** in Hackathon, and was recommended to enter ACM MobileHCI 2022.
-
-- **NUS SOC Summer Workshop** 
-  <img align="right" src='images/NUS_SWS.png' alt="sym" width="20%">
-  - School of Computing, National University of Singapore, *2022.05 - 2022.07*
-    - Finished the course SWS3026: Visual Computing with **A+**.
-    - Workshop project, Traffic Sign Recognition, won **Runner-Up Prize** in NUS SOC Summer Workshop.
+  - ACM MobileHCI & Huawei, *2022.06 - 2022.10* 
+    - Designed and implemented *FOCAREUS* based on Huawei smart eyewear, to monitor kids' studying status and health, as well as to create a bridge of interaction between parents and kids.
+    - Project won **People's Choice Award** in ACM MobileHCI Student Design Competition.
 
 - **Research Assistant**
   <img align="right" src='images/TIVEE.png' alt="sym" width="20%">
@@ -61,9 +55,17 @@ I am also a sports enthusiast, badminton provincial champion and State First-Cla
     - Research on immersive visualization and visual analytics for racket sports tactics.
     - Work accepted to **IEEE VIS and IEEE TVCG** (*TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations*)
 
+- **NUS SOC Summer Workshop** 
+  <img align="right" src='images/NUS_SWS.png' alt="sym" width="20%">
+  - School of Computing, National University of Singapore, *2022.05 - 2022.07*
+    - Finished the course SWS3026: Visual Computing with **A+**.
+    - Workshop project, Traffic Sign Recognition, won **Runner-Up Prize** in NUS SOC Summer Workshop.
+
+
 
 
 # 🏆 Honors and Awards
+- *2022* People's Choice Award in ACM International Conference on Mobile Human-Computer Interaction
 - *2022* Baogang Scholarship (Top 1‰)
 - *2021* National Scholarship (Top 1%)
 - *2021* Zhejiang University Scholarship - First Prize (Top 3%)
