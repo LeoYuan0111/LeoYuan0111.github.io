@@ -41,7 +41,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - Ministry of Education, *2022.05 - 2023.05*
-    - Student leader of research project regarding computer vision and video understanding for sports analytics.
+    - Student leader of research project regarding computer vision for visual analytics in sports.
     <!-- - Project aims to build an automated system capable of recognizing table tennis techniques and detecting the ball and players in competition video, aiding the visual analytics research for the Chinese Table Tennis Team -->
 <br /> <br />
 
