@@ -63,7 +63,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
   <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
   - School of Computing, National University of Singapore, *2022.05 - 2022.07*
     <!-- - Finished the course SWS3026: Visual Computing with **A+**. -->
-    - Workshop project won **Runner-Up Prize** in NUS SOC Summer Workshop.
+    - Workshop project won **Runner-Up Prize** in NUS SOC Summer Workshop (Visual Computing track)
 <br /> <br />
 
 
