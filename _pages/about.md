@@ -73,9 +73,9 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 - *2022* People's Choice Award @ ACM International Conference on Mobile Human-Computer Interaction SDC
 - *2022* Baogang Scholarship (5 students universitywide)
 - *2021* National Scholarship (Top 1%)
-<!-- - *2021* Zhejiang University Scholarship - First Prize
-- *2021* Scholarship for Leading Achievements
-- *2021* First-Class Scholarship for Elite Students in Basic Sciences  -->
+<!-- - *2021* Zhejiang University Scholarship - First Prize -->
+<!-- - *2021* Scholarship for Leading Achievements -->
+<!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - *2021* Men's Singles Champion of Zhejiang Provincial Badminton Championship
 - *2018* National First-Class Athelete
 
