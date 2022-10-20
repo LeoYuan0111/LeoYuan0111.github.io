@@ -52,18 +52,18 @@ I am also a sports enthusiast, badminton provincial champion and national first-
     - Project won **People's Choice Award** in ACM MobileHCI Student Design Competition.
 <br /> <br />
 
-- **Research Assistant**
-  <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
-  - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
-    <!-- - Research on immersive visualization and visual analytics for racket sports tactics. -->
-    - Work accepted to **IEEE VIS and IEEE TVCG** 
-<br /> <br />
-
 - **NUS SOC Summer Workshop** 
   <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
   - School of Computing, National University of Singapore, *2022.05 - 2022.07*
     <!-- - Finished the course SWS3026: Visual Computing with **A+**. -->
     - Workshop project won **Runner-Up Prize** in NUS SOC Summer Workshop (Visual Computing track)
+<br /> <br />
+
+- **Research Assistant**
+  <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
+  - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
+    <!-- - Research on immersive visualization and visual analytics for racket sports tactics. -->
+    - Work accepted to **IEEE VIS and IEEE TVCG** 
 <br /> <br />
 
 
