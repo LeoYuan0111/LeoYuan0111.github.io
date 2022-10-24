@@ -37,7 +37,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
-# 💻 R&D Experience
+# 💻 R&amp;D Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - Ministry of Education, *2022.05 - 2023.05*
@@ -68,7 +68,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 
 
 
-# 🏆 Honors & Awards
+# 🏆 Honors &amp; Awards
 - *2022* National Scholarship (Top 1%)
 - *2022* People's Choice Award @ ACM International Conference on Mobile Human-Computer Interaction SDC
 - *2022* Baogang Scholarship (5 students universitywide)
