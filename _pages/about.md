@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About me
+# Zeqing Yuan (Leo)
+
+## About me
 I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
 
 My current research interests lie in machine learning and computer vision.
@@ -27,17 +29,17 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# 📨 News
+## 📨 News
 - *2022.10*: &nbsp;Our design, *FOCAREUS*, won People's Choice Award in ACM MobileHCI SDC ! 
 - *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and IEEE TVCG !
 
 
-# 🎓 Education
+## 🎓 Education
 - *2020.09 - 2024.06(expected)*,&nbsp; B.Eng. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
-# 💻 R&amp;D Experience
+## 💻 R&amp;D Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - Ministry of Education, *2022.05 - 2023.05*
@@ -68,7 +70,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 
 
 
-# 🏆 Honors &amp; Awards
+## 🏆 Honors &amp; Awards
 - *2022* National Scholarship (Top 1%)
 - *2022* People's Choice Award @ ACM International Conference on Mobile Human-Computer Interaction SDC
 - *2022* Baogang Scholarship (5 students universitywide)
@@ -80,7 +82,7 @@ I am also a sports enthusiast, badminton provincial champion and national first-
 - *2018* National First-Class Athelete
 
 
-# 📃 Publications 
+## 📃 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
