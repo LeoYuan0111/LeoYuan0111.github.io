@@ -31,7 +31,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
 
 ## 📨 News
 - *2022.10*: &nbsp;Our design, *FOCAREUS*, won People's Choice Award in ACM MobileHCI SDC ! 
-- *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and IEEE TVCG !
+- *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and TVCG !
 
 
 ## 🎓 Education
@@ -65,7 +65,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
   <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
   - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
     <!-- - Research on immersive visualization and visual analytics for racket sports tactics. -->
-    - Work accepted to **IEEE VIS and IEEE TVCG** 
+    - Work accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
 
