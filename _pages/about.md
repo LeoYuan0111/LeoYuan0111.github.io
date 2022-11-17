@@ -35,7 +35,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
 
 
 ## 🎓 Education
-- *2020.09 - 2024.06(expected)*,&nbsp; B.Eng. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
+- *2020.09 - 2024.06(expected)*,&nbsp; B.E. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
