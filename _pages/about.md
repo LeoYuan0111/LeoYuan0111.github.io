@@ -74,7 +74,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
 - *2022* Scholarship for Excellent Achievement (Highest Collegiate Honor)
-- *2022* People's Choice Award @ ACM International Conference on Mobile Human-Computer Interaction SDC
+- *2022* People's Choice Award in ACM International Conference on Mobile Human-Computer Interaction SDC
 <!-- - *2022* Baogang Scholarship (5 students universitywide) -->
 - *2021* National Scholarship (Top 1%)
 - *2021* ZJU Scholarship - First Prize (Top 3%)
