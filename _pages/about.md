@@ -71,6 +71,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
 
 
 ## 🏆 Honors &amp; Awards
+- *2022* Sensetime Scholarship (30 students in AI research each year)
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
 - *2022* Scholarship for Excellent Achievement (Highest Collegiate Honor)
