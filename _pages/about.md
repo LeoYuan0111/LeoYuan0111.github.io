@@ -19,30 +19,30 @@ redirect_from:
 
 # Zeqing Yuan (Leo)
 
-## About me
+# About me
 I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
 
 My current research interests lie in visual computing and machine learning.
 
-I am also a sports enthusiast, winning badminton provincial champion and titled national first-class athelete. For this passion, I have explored the intersectional area of CS & Sports Analytics by means of computer vision and immersive visualization<!--, fortunately advised by [IACSS](https://iacss.org) director, Prof. Yingcai Wu-->.
+I am also a sports enthusiast, winning badminton provincial champion and titled national first-class athelete. For this passion, I have explored the intersectional area of CS & Sports Analytics by means of computer vision and immersive visualization.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-## 📨 News
-- *2022.10*: &nbsp;Our design, *FOCAREUS*, won People's Choice Award in ACM MobileHCI SDC ! 
+# 📨 News
+- *2022.10*: &nbsp;Our work, *FOCAREUS*, won People's Choice Award in ACM MobileHCI Student Design Competition ! 
 - *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and TVCG !
 
 
-## 🎓 Education
+# 🎓 Education
 - *2020.09 - 2024.06(expected)*,&nbsp; B.E. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
-## 💻 R&amp;D Experience
+# 💻 R&amp;D Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
-  - Ministry of Education, *2022.05 - 2023.05*
+  - State Key Lab of CAD & CG, *2022.05 - 2023.05*
     - Student leader of research project regarding computer vision for visual analytics in sports.
     <!-- - Project aims to build an automated system capable of recognizing table tennis techniques and detecting the ball and players in competition video, aiding the visual analytics research for the Chinese Table Tennis Team -->
 <br /> <br />
@@ -65,12 +65,12 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
   <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
   - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
     <!-- - Research on immersive visualization and visual analytics for racket sports tactics. -->
-    - Work accepted to **IEEE VIS and TVCG** 
+    - Work on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
 
 
-## 🏆 Honors &amp; Awards
+# 🏆 Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 students in AI research each year)
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
@@ -85,7 +85,7 @@ I am also a sports enthusiast, winning badminton provincial champion and titled 
 - *2018* National First-Class Athelete
 
 
-## 📃 Publications 
+# 📃 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
