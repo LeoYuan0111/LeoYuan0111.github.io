@@ -22,9 +22,9 @@ redirect_from:
 # About me
 I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
 
-My current research interests lie in visual computing and machine learning.
+My current research interest includes machine learning and visual computing.
 
-I am also an athlete, winning badminton provincial champion and the title of National First-Class Athlete. Driven by this passion, I have explored the intersectional area of CS for Sports Analytics by means of computer vision and immersive visualization.
+I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of sports analytics by means of computer vision and immersive visualization.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
