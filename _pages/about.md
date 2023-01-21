@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
+<!-- {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
 <span class='anchor' id='about-me'></span>
 
@@ -71,11 +71,11 @@ I am also a badminton provincial champion certified as National First-Class Athl
 
 
 # 🏆 Honors &amp; Awards
-- *2022* Sensetime Scholarship (30 undergraduates in AI research)
+- *2022* Sensetime Scholarship (30 undergrads in AI research in China)
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
-- *2022* Scholarship for Excellent Achievement (Highest Collegiate Honor)
-- *2022* People's Choice Award in ACM International Conference on Mobile Human-Computer Interaction SDC
+- *2022* Scholarship for Excellent Achievement (Highest Scholarship in CKC Honors College)
+- *2022* People's Choice Award in ACM MobileHCI student design competition
 <!-- - *2022* Baogang Scholarship (5 students universitywide) -->
 - *2021* National Scholarship (Top 1%)
 - *2021* ZJU Scholarship - First Prize (Top 3%)
