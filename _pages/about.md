@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# Zeqing Yuan (Leo)
+# Zeqing Yuan (Leo) | 袁泽清
 
 # About me
 I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
@@ -75,8 +75,8 @@ I am also a badminton provincial champion certified as National First-Class Athl
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
 - *2022* Scholarship for Excellent Achievement (Highest Scholarship in CKC Honors College)
-- *2022* People's Choice Award in ACM MobileHCI student design competition
-<!-- - *2022* Baogang Scholarship (5 students universitywide) -->
+- *2022* People's Choice Award in ACM MobileHCI Student Design Competition
+- *2022* Baogang Scholarship (5 students universitywide)
 - *2021* National Scholarship (Top 1%)
 - *2021* ZJU Scholarship - First Prize (Top 3%)
 <!-- - *2021* Scholarship for Leading Achievements -->
