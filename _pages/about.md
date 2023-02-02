@@ -40,7 +40,6 @@ FOCAREUS: Smart-eyewear-based companion combining attention management, health m
 
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
 </div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -49,7 +48,7 @@ FOCAREUS: Smart-eyewear-based companion combining attention management, health m
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
 </div>
-</div>
+
 
 # 🏆 Selected Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 undergrads in AI research in China)
@@ -99,6 +98,4 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
 
