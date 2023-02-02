@@ -40,6 +40,7 @@ FOCAREUS: Smart-eyewear-based companion combining attention management, health m
 
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
 </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -47,6 +48,7 @@ FOCAREUS: Smart-eyewear-based companion combining attention management, health m
 [TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations](https://ieeexplore.ieee.org/abstract/document/9557225)
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
+</div>
 </div>
 
 # 🏆 Selected Honors &amp; Awards
