@@ -25,13 +25,8 @@ I am also a badminton provincial champion certified as National First-Class Athl
 - *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and TVCG !
 
 
-# 🎓 Education
-- *2020.09 - 2024.06(expected)*,&nbsp; B.E. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
-- *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
-
-
 # 📃 Research 
-Currently, I am interested in machine learning, with a focus on empowering visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics in sports and smart-eyewear-based HCI.
+Currently, I am interested in machine learning, with a focus on visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics in sports and smart-eyewear-based HCI.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -49,6 +44,7 @@ FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Moni
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
 </div></div>
 
+- `MobileHCI 2022` FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring, **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao
 
 # 🏆 Selected Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 undergrads in AI research in China)
@@ -63,6 +59,11 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - *2021* Men's Singles Champion of Zhejiang Provincial Badminton Championship
 - *2018* National First-Class Athlete
+
+
+# 🎓 Education
+- *2020.09 - 2024.06(expected)*,&nbsp; B.E. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
+- *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
 # 💻 R&amp;D Experience

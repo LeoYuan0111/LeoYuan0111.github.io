@@ -5,6 +5,12 @@ main:
 
   - title: "News"
     url: "/#-news"
+
+  - title: "Research"
+    url: "/#-research"
+
+  - title: "Honors and Awards"
+    url: "/#-selected-honors--awards"
     
   - title: "Education"
     url: "/#-education"
@@ -12,11 +18,6 @@ main:
   - title: "Experience"
     url: "/#-rd-experience"
 
-  - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors--awards"
 
 
 
