@@ -33,13 +33,13 @@ I am also a badminton provincial champion certified as National First-Class Athl
 # 📃 Research 
 Currently, I am interested in machine learning, with a focus on empowering visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics in sports and smart-eyewear-based HCI.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-FOCAREUS: Smart-eyewear-based Application Combining Attention Management, Health Monitoring and Parent-child Communication
+FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring
 
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
-</div></div>
+</div></div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
