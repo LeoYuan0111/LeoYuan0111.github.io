@@ -26,15 +26,17 @@ I am also a badminton provincial champion certified as National First-Class Athl
 
 
 # 📃 Research 
-Currently, I am interested in machine learning, with a focus on visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics in sports and smart-eyewear-based HCI.
+Currently, I am interested in machine learning, with a focus on visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics for sports data and smart-eyewear-based HCI.
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring
 
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
-</div></div> -->
+
+ACM MobileHCI 2022 Student Design Competition | People's Choice Award
+</div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -42,9 +44,11 @@ FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Moni
 [TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations](https://ieeexplore.ieee.org/abstract/document/9557225)
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
+
+IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 </div></div>
 
-- `MobileHCI 2022` FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring, **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao
+<!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
 
 # 🏆 Selected Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 undergrads in AI research in China)
