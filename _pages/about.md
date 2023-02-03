@@ -31,7 +31,7 @@ Currently, I am interested in machine learning, with a focus on visual computing
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring
+[FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring]()
 
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
 
