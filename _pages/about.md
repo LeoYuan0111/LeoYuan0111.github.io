@@ -13,7 +13,7 @@ redirect_from:
 # Zeqing Yuan (Leo) | 袁泽清
 
 # About me
-I am an undergraduate student at [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
+I am an undergraduate student in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
 
 My current research interests lie in machine learning and visual computing.
 
