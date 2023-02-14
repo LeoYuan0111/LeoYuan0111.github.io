@@ -28,7 +28,7 @@ I am also a badminton provincial champion certified as National First-Class Athl
 # 📃 Research 
 Currently, I am interested in machine learning, with a focus on visual computing tasks. Previously, I have also done some work in human-computer interaction and visualization, including visual analytics for sports data and smart-eyewear-based HCI.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring]()
@@ -36,7 +36,7 @@ Currently, I am interested in machine learning, with a focus on visual computing
 **Zeqing Yuan**; Yangye Zhou; Tianyi Li; Yihan Liu; Junbo Zhao
 
 ACM MobileHCI 2022 Student Design Competition | People's Choice Award
-</div></div>
+</div></div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -79,7 +79,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 <br /> <br />
 
 - **ACM International Conference on Mobile Human-Computer Interaction**
-  <img align="right" src='images/FOCAREUS.png' alt="sym" width="17%">
+  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
   - ACM MobileHCI & Huawei, *2022.06 - 2022.10* 
     <!-- - Designed and implemented *FOCAREUS* based on Huawei smart eyewear, to monitor kids' studying status and health, as well as to create a bridge of interaction between parents and kids. -->
     - Project won **People's Choice Award** in ACM MobileHCI Student Design Competition.
