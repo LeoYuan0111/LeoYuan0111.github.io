@@ -16,12 +16,4 @@ main:
     url: "/#-education"
 
   - title: "Experience"
-    url: "/#-rd-experience"
-
-
-
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-
+    url: "/#-experience"

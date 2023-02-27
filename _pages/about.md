@@ -48,10 +48,10 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 </div></div>
 
-<!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to Attention Management and Health Monitoring](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
+<!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
 
 # 🏆 Selected Honors &amp; Awards
-- *2022* Sensetime Scholarship (30 undergrads in AI research in China)
+- *2022* Sensetime Scholarship (30 undergrads in AI research)
 - *2022* People's Choice Award in ACM MobileHCI Student Design Competition
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
@@ -70,7 +70,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
-# 💻 R&amp;D Experience
+# 💻 Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - State Key Lab of CAD & CG, *2022.05 - 2023.05*
