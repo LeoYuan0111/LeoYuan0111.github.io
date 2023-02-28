@@ -21,7 +21,7 @@ I am also a badminton provincial champion certified as National First-Class Athl
 
 
 # 📨 News
-- *2022.10*: &nbsp;Our work, *FOCAREUS*, won People's Choice Award in ACM MobileHCI Student Design Competition ! 
+- *2022.10*: &nbsp;Our work, *FOCAREUS*, won People's Choice Award in ACM MobileHCI ! 
 - *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and TVCG !
 
 
@@ -52,7 +52,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 # 🏆 Selected Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 undergrads in AI research)
-- *2022* People's Choice Award in ACM MobileHCI Student Design Competition
+- *2022* People's Choice Award @ ACM MobileHCI 2022
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
 - *2022* Scholarship for Excellent Achievement (Highest Scholarship in CKC Honors College)
