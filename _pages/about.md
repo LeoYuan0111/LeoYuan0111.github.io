@@ -15,7 +15,7 @@ redirect_from:
 # About me
 I am an undergraduate student in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp), [Zhejiang University](https://www.zju.edu.cn/english/).
 
-My current research interests lie in machine learning and visual computing.
+My current research interests lie in the areas of machine learning and visual computing.
 
 I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of sports analytics by means of computer vision and immersive visualization.
 
@@ -51,7 +51,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 <!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
 
 # 🏆 Selected Honors &amp; Awards
-- *2022* Sensetime Scholarship (30 undergrads in AI research)
+- *2022* Sensetime Scholarship (30 undergrads in AI-related research in China)
 - *2022* People's Choice Award @ ACM MobileHCI 2022
 - *2022* National Scholarship (Top 1%)
 - *2022* ZJU Scholarship - First Prize (Top 3%)
