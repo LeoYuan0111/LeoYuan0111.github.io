@@ -15,9 +15,9 @@ redirect_from:
 # About me
 I am an undergraduate student in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
 
-My current research interests lie in the areas of machine learning and visual computing.
+My current research interests lie in machine learning and visual computing.
 
-I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of sports analytics by means of computer vision and immersive visualization.
+I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of visual analytics for sports data by means of computer vision and immersive visualization.
 
 
 # 📨 News
@@ -51,14 +51,14 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 <!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
 
 # 🏆 Selected Honors &amp; Awards
-- *2022* Sensetime Scholarship (30 undergrads in AI-related research in China)
+- *2022* Sensetime Fellowship (30 undergrad AI researchers in China each year)
 - *2022* People's Choice Award @ ACM MobileHCI 2022
 - *2022* National Scholarship (Top 1%)
-- *2022* ZJU Scholarship - First Prize (Top 3%)
-- *2022* Scholarship for Excellent Achievement (Highest Scholarship in CKC Honors College)
-- *2022* Baogang Scholarship (5 students universitywide)
+<!-- - *2022* ZJU Scholarship - First Prize (Top 3%) -->
+- *2022* Chu Kochen Honors College Scholarship for Excellence (Highest Collegiate Honor)
+<!-- - *2022* Baogang Scholarship (5 students universitywide) -->
 - *2021* National Scholarship (Top 1%)
-- *2021* ZJU Scholarship - First Prize (Top 3%)
+<!-- - *2021* ZJU Scholarship - First Prize (Top 3%) -->
 <!-- - *2021* Scholarship for Leading Achievements -->
 <!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - *2021* Men's Singles Champion of Zhejiang Provincial Badminton Championship
@@ -66,7 +66,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 
 # 🎓 Education
-- *2020.09 - 2024.06(expected)*,&nbsp; B.E. in Computer Science and Engineering, Zhejiang University (CKC Honors Program)
+- *2020.09 - Present*,&nbsp; B.Eng.(Honors) in Computer Science, Zhejiang University
 - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
 
 
