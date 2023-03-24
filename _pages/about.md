@@ -13,11 +13,11 @@ redirect_from:
 # Zeqing Yuan (Leo) | 袁泽清
 
 # About me
-I am an undergraduate student in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm) (Experimental Class for Top-Notched Talents in Computer Science), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
+I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
 
 My current research interests lie in machine learning and visual computing.
 
-I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of visual analytics for sports data by means of computer vision and immersive visualization.
+<!-- I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of visual analytics for sports data by means of computer vision and immersive visualization. -->
 
 
 # 📨 News
@@ -26,7 +26,7 @@ I am also a badminton provincial champion certified as National First-Class Athl
 
 
 # 📃 Research 
-Currently, I am interested in machine learning and data-centric AI, with a focus on visual computing tasks. Previously, I have also done some work in visualization and human-computer interaction, including visual analytics for sports data and smart-eyewear-based HCI.
+Currently, I am interested in machine learning and computer vision. Previously, I have also done some work in visualization and human-computer interaction, including visual analytics for sports data and smart-eyewear-based HCI.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -51,7 +51,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 <!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
 
 # 🏆 Selected Honors &amp; Awards
-- *2022* Sensetime Fellowship (30 undergrad AI researchers in China each year)
+- *2022* Sensetime Scholarship (30 undergrad AI researchers in China each year)
 - *2022* People's Choice Award @ ACM MobileHCI 2022
 - *2022* National Scholarship (Top 1%)
 <!-- - *2022* ZJU Scholarship - First Prize (Top 3%) -->
@@ -67,14 +67,14 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 # 🎓 Education
 - *2020.09 - Present*,&nbsp; B.Eng.(Honors) in Computer Science, Zhejiang University
-- *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony)
+<!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony) -->
 
 
 # 💻 Experience
 - **National Innovation Training Program**
   <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - State Key Lab of CAD & CG, *2022.05 - 2023.05*
-    - Student leader of research project regarding computer vision for visual analytics in sports.
+    - Student leader of research project regarding video understanding and visual analytics for sports data.
     <!-- - Project aims to build an automated system capable of recognizing table tennis techniques and detecting the ball and players in competition video, aiding the visual analytics research for the Chinese Table Tennis Team -->
 <br /> <br />
 
