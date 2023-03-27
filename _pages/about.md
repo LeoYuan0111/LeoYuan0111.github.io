@@ -95,7 +95,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 <br /> <br /> -->
 
 - **Undergraduate Research Assistant**
-  <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
+  <!-- <img align="right" src='images/TIVEE.png' alt="sym" width="17%"> -->
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *2021.01 - 2021.05* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
