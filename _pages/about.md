@@ -71,7 +71,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 # 💻 Experience
 - **Undergraduate Researcher**
-  - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *2022.07 - *
+  - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *2022.07 - Present*
     - Working on research regarding data-efficient AI
 <br /> <br />
 
