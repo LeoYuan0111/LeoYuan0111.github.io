@@ -44,7 +44,9 @@ ACM MobileHCI 2022 Student Design Competition | People's Choice Award
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
 
-IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
+Transactions on Visualization and Computer Graphics (VIS 2021)
+
+Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels.
 </div></div>
 
 <!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
