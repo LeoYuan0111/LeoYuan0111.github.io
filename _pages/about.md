@@ -20,8 +20,8 @@ Besides research, I am also a sports fan, badminton champion and national first-
 
 
 # 📨 News
-- *2022.10*: &nbsp;Our work, *FOCAREUS*, won People's Choice Award in ACM MobileHCI ! 
-- *2021.06*: &nbsp;Our paper, *TIVEE*, is accepted to IEEE VIS and TVCG !
+- *2022.10*: &nbsp;Our work, *FOCAREUS*, has received People's Choice Award in ACM MobileHCI ! 
+- *2021.06*: &nbsp;Our paper, *TIVEE*, has been accepted to IEEE VIS and TVCG !
 
 
 # 📃 Research 
