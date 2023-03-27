@@ -12,12 +12,11 @@ redirect_from:
 
 # Zeqing Yuan (Leo) | 袁泽清
 
-# About me
-I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
+Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
 
-My current research interests lie in machine learning and visual computing.
+My current research interests lie in computer vision and machine learning.
 
-<!-- I am also a badminton provincial champion certified as National First-Class Athlete. For the passion in sports, I have explored the intersectional area of visual analytics for sports data by means of computer vision and immersive visualization. -->
+Besides research, I am also a sports fan, badminton champion and national first-class athlete.
 
 
 # 📨 News
@@ -26,7 +25,7 @@ My current research interests lie in machine learning and visual computing.
 
 
 # 📃 Research 
-Currently, I am interested in machine learning and computer vision. Previously, I have also done some work in visualization and human-computer interaction, including visual analytics for sports data and smart-eyewear-based HCI.
+Currently, I am interested in computer vision and machine learning, particularly 3D vision, generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,7 +51,7 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 # 🏆 Selected Honors &amp; Awards
 - *2022* Sensetime Scholarship (30 undergrad AI researchers in China each year)
-- *2022* People's Choice Award @ ACM MobileHCI 2022
+- *2022* People's Choice Award @ ACM MobileHCI 2022 
 - *2022* National Scholarship (Top 1%)
 <!-- - *2022* ZJU Scholarship - First Prize (Top 3%) -->
 - *2022* Chu Kochen Honors College Scholarship for Excellence (Highest Collegiate Honor)
@@ -71,32 +70,34 @@ IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2021)
 
 
 # 💻 Experience
+- **Undergraduate Researcher**
+  - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *2022.07 - *
+    - Working on research regarding data-efficient AI
+<br /> <br />
+
 - **National Innovation Training Program**
-  <img align="right" src='images/SRTP.png' alt="sym" width="17%">
-  - State Key Lab of CAD & CG, *2022.05 - 2023.05*
-    - Student leader of research project regarding video understanding and visual analytics for sports data.
-    <!-- - Project aims to build an automated system capable of recognizing table tennis techniques and detecting the ball and players in competition video, aiding the visual analytics research for the Chinese Table Tennis Team -->
+  <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
+  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *2022.05 - 2023.05*
+    - Student leader of research project regarding video understanding and visual analytics for sports data
 <br /> <br />
 
-- **ACM International Conference on Mobile Human-Computer Interaction**
-  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
-  - ACM MobileHCI & Huawei, *2022.06 - 2022.10* 
-    <!-- - Designed and implemented *FOCAREUS* based on Huawei smart eyewear, to monitor kids' studying status and health, as well as to create a bridge of interaction between parents and kids. -->
-    - Project won **People's Choice Award** in ACM MobileHCI Student Design Competition.
+- **ACM MobileHCI 2022 Student Design Competition**
+  <!-- <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%"> -->
+  - International Conference on Mobile Human-Computer Interaction, *2022.06 - 2022.10* 
+    - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
-- **NUS SOC Summer Workshop** 
+<!-- - **NUS SOC Summer Workshop** 
   <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
   - School of Computing, National University of Singapore, *2022.05 - 2022.07*
-    <!-- - Finished the course SWS3026: Visual Computing with **A+**. -->
+    - Finished the course SWS3026: Visual Computing with **A+**.
     - Workshop project won **Runner-Up Prize** in Visual Computing track
-<br /> <br />
+<br /> <br /> -->
 
-- **Research Assistant**
+- **Undergraduate Research Assistant**
   <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
-  - State Key Lab of CAD & CG, *2021.01 - 2021.05* 
-    <!-- - Research on immersive visualization and visual analytics for racket sports tactics. -->
-    - Work on immersive visualization accepted to **IEEE VIS and TVCG** 
+  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *2021.01 - 2021.05* 
+    - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
 
