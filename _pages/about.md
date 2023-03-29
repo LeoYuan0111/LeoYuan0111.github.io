@@ -16,12 +16,12 @@ Hi, I am an undergraduate student majoring in Computer Science in [Turing Class]
 
 My current research interests lie in computer vision and machine learning.
 
-Besides research, I am also a sports fan, badminton champion and national first-class athlete.
+Besides research, I am also a sports fan and badminton champion.
 
 
 # 📨 News
-- *2022.10*: &nbsp;Our work, *FOCAREUS*, has received People's Choice Award in ACM MobileHCI ! 
-- *2021.06*: &nbsp;Our paper, *TIVEE*, has been accepted to IEEE VIS and TVCG !
+- [Oct, 2022] &nbsp;One work receiving People's Choice Award in MobileHCI 2022 ! 
+- [June, 2021] &nbsp;One paper accepted by VIS 2021 and TVCG !
 
 
 # 📃 Research 
@@ -40,30 +40,30 @@ ACM MobileHCI 2022 Student Design Competition | People's Choice Award
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2021</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations](https://ieeexplore.ieee.org/abstract/document/9557225)
+**TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations**
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
 
-Transactions on Visualization and Computer Graphics (VIS 2021)
+*TVCG (VIS 2021)*
 
-Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels.
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9557225)]
+
+<!-- Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels. -->
 </div></div>
 
-<!-- - ``MobileHCI 2022`` [FOCAREUS: A Smart-Eyewear-based Solution to manage attention and working health](), **Zeqing Yuan**, Yangye Zhou, Tianyi Li, Yihan Liu, Junbo Zhao -->
-
-# 🏆 Selected Honors &amp; Awards
-- *2022* Sensetime Scholarship (30 undergrad AI researchers in China each year)
-- *2022* People's Choice Award @ ACM MobileHCI 2022 
-- *2022* National Scholarship (Top 1%)
+# 🏆 Selected Awards
+- SenseTime Scholarship, 2022 (30 undergraduate AI researchers in China each year)
+- People's Choice Award @ ACM MobileHCI 2022 
+- Chinese National Scholarship, 2022 (Top 1%)
 <!-- - *2022* ZJU Scholarship - First Prize (Top 3%) -->
-- *2022* Chu Kochen Honors College Scholarship for Excellence (Highest Collegiate Honor)
+- Chu Kochen Honors College Scholarship for Excellence, 2022 (Highest Collegiate Honor)
 <!-- - *2022* Baogang Scholarship (5 students universitywide) -->
-- *2021* National Scholarship (Top 1%)
+- Chinese National Scholarship, 2021 (Top 1%)
 <!-- - *2021* ZJU Scholarship - First Prize (Top 3%) -->
 <!-- - *2021* Scholarship for Leading Achievements -->
 <!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
-- *2021* Men's Singles Champion of Zhejiang Provincial Badminton Championship
-- *2018* National First-Class Athlete
+- Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
+- Chinese National First-Class Athlete, 2018
 
 
 # 🎓 Education
