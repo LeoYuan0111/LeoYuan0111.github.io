@@ -16,11 +16,11 @@ Hi, I am an undergraduate student majoring in Computer Science in [Turing Class]
 
 My current research interests lie in computer vision and machine learning.
 
-Besides research, I am also a sports fan and badminton champion.
+Besides research, I am also a sports fan and badminton provincial champion.
 
 
 # 📨 News
-- [Oct, 2022] &nbsp;One work receiving People's Choice Award in MobileHCI 2022 ! 
+- [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
 - [June, 2021] &nbsp;One paper accepted by VIS 2021 and TVCG !
 
 
@@ -52,21 +52,22 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 </div></div>
 
 # 🏆 Selected Awards
-- SenseTime Scholarship, 2022 (30 undergraduate AI researchers in China each year)
-- People's Choice Award @ ACM MobileHCI 2022 
-- Chinese National Scholarship, 2022 (Top 1%)
-<!-- - *2022* ZJU Scholarship - First Prize (Top 3%) -->
-- Chu Kochen Honors College Scholarship for Excellence, 2022 (Highest Collegiate Honor)
-<!-- - *2022* Baogang Scholarship (5 students universitywide) -->
-- Chinese National Scholarship, 2021 (Top 1%)
-<!-- - *2021* ZJU Scholarship - First Prize (Top 3%) -->
+- **SenseTime Scholarship**, 2022 *(30 undergrads in AI-related research selected nationwide)*
+- **People's Choice Award @ ACM MobileHCI** 2022 
+- **Chinese National Scholarship**, 2022 *(Top 1%)*
+- ZJU Scholarship - First Prize, 2022 
+- Chu Kochen Honors College Scholarship for Excellence, 2022 *(Highest Collegiate Honor)*
+- Baogang Scholarship, 2022 
+- **Chinese National Scholarship**, 2021 *(Top 1%)*
+- ZJU Scholarship - First Prize, 2021 
 <!-- - *2021* Scholarship for Leading Achievements -->
 <!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
-- Chinese National First-Class Athlete, 2018
+- **Chinese National First-Class Athlete**, 2018
 
 
 # 🎓 Education
+
 - *2020.09 - Present*,&nbsp; B.Eng.(Honors) in Computer Science, Zhejiang University
 <!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony) -->
 
@@ -89,17 +90,16 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
-<!-- - **NUS SOC Summer Workshop** 
-  <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
+- **NUS Summer Workshop** 
+  <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore, *2022.05 - 2022.07*
-    - Finished the course SWS3026: Visual Computing with **A+**.
-    - Workshop project won **Runner-Up Prize** in Visual Computing track
-<br /> <br /> -->
+    - Received A+ in course *Visual Computing* with a project awarded Runner-Up Prize
+<br /> <br />
 
 - **Undergraduate Research Assistant**
   <!-- <img align="right" src='images/TIVEE.png' alt="sym" width="17%"> -->
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *2021.01 - 2021.05* 
-    - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
+    - Paper on immersive visualization accepted by **IEEE VIS and TVCG** 
 <br /> <br />
 
 
