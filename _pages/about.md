@@ -16,7 +16,7 @@ Hi, I am an undergraduate student majoring in Computer Science in [Turing Class]
 
 My current research interests lie in computer vision and machine learning.
 
-Besides research, I am also a sports fan and badminton provincial champion :)
+Besides research, I am also a sports fan and badminton provincial champion.
 
 
 # 📨 News
