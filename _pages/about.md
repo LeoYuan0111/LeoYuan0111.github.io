@@ -67,7 +67,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 
 # 🎓 Education
-<img align="right" src='images/zju.png' alt="ZJU" width="10%">
+<img align="left" src='images/zju.png' alt="ZJU" width="10%">
 **Zhejiang University**
 2020.09 - Present
 **B.Eng.(Honors) in Computer Science**
