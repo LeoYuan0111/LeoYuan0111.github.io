@@ -72,7 +72,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - *Sept, 2020 - June, 2024 (expected)*
   - **B.Eng.(Honors) in Computer Science**
-  - Ranking Top 1%
+  - Member of Turing Class, Ranking Top 1%
 
 
 - **National University of Singapore**
