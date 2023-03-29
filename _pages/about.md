@@ -16,12 +16,12 @@ Hi, I am an undergraduate student majoring in Computer Science in [Turing Class]
 
 My current research interests lie in computer vision and machine learning.
 
-Besides research, I am also a sports fan and badminton provincial champion.
+Besides research, I am also a sports fan and badminton provincial champion :)
 
 
 # 📨 News
 - [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
-- [June, 2021] &nbsp;One paper accepted by VIS 2021 and TVCG !
+- [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG !
 
 
 # 📃 Research 
@@ -69,6 +69,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 # 🎓 Education
 
 - *2020.09 - Present*,&nbsp; B.Eng.(Honors) in Computer Science, Zhejiang University
+<img align="right" src='images/zju.png' alt="ZJU" width="50%">
 <!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony) -->
 
 
@@ -93,13 +94,13 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - **NUS Summer Workshop** 
   <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore, *2022.05 - 2022.07*
-    - Received A+ in course *Visual Computing* with a project awarded Runner-Up Prize
+    - Received A+ in the course, *Visual Computing*, with a project awarded Runner-Up Prize
 <br /> <br />
 
 - **Undergraduate Research Assistant**
   <!-- <img align="right" src='images/TIVEE.png' alt="sym" width="17%"> -->
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *2021.01 - 2021.05* 
-    - Paper on immersive visualization accepted by **IEEE VIS and TVCG** 
+    - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
 
