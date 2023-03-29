@@ -72,11 +72,13 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - *Sept, 2020 - Present*
   - **B.Eng.(Honors) in Computer Science**
+  - Member of Turing Class, Ranking Top 1%
 
 - **National University of Singapore**
   <img align="right" src='images/NUS.jpg' alt="NUS" width="10%">
   - *May, 2022 - July, 2022*
   - **School of Computing Summer Workshop**
+  - A+ in Visual Computing track
 
 <!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony) -->
 
