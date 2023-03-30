@@ -82,38 +82,36 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
     - A+ in Visual Computing track
 <br /> <br />
 
-<!-- - *2017.09 - 2020.06*,&nbsp; Xiamen NO.1 Middle School (Student Speaker at Graduation Ceremony) -->
 
-
-# 💻 Experience
+<!-- # 💻 Experience
 - **Undergraduate Researcher**
   - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *July, 2022 - Present*
     - Working on research regarding data-efficient AI
 <br /> <br />
 
 - **National Innovation Training Program**
-  <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
+  <img align="right" src='images/SRTP.png' alt="sym" width="17%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *May, 2022 - May, 2023*
     - Student leader of research project regarding video understanding and visual analytics for sports data
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
-  <!-- <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%"> -->
+  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
   - International Conference on Mobile Human-Computer Interaction, *June, 2022 - Oct, 2022* 
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
 - **NUS Summer Workshop** 
-  <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
+  <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
   - School of Computing, National University of Singapore, *May, 2022 - July, 2022*
     - Received A+ in the course, *Visual Computing*, with a project awarded Runner-Up Prize
 <br /> <br />
 
 - **Undergraduate Research Assistant**
-  <!-- <img align="right" src='images/TIVEE.png' alt="sym" width="17%"> -->
+  <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
-<br /> <br />
+<br /> <br /> -->
 
 
 
