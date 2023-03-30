@@ -19,12 +19,12 @@ My current research interests lie in computer vision and machine learning.
 Besides research, I am also a sports fan and badminton provincial champion.
 
 
-# 📨 News
+# News
 - [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
 - [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG !
 
 
-# 📃 Research 
+# Research 
 Currently, I am interested in computer vision and machine learning, particularly 3D vision, generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
@@ -51,7 +51,8 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <!-- Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels. -->
 </div></div>
 
-# 🏆 Selected Awards
+# Selected Awards
+
 - **SenseTime Scholarship**, 2022 *(30 undergrads in AI-related research selected nationwide)*
 - **People's Choice Award @ ACM MobileHCI** 2022 
 - **Chinese National Scholarship**, 2022 *(Top 1%)*
@@ -66,13 +67,13 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - **Chinese National First-Class Athlete**, 2018
 
 
-# 🎓 Education
+# Experience
 
 - **Zhejiang University**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - *Sept, 2020 - June, 2024 (expected)*
   - **B.Eng.(Honors) in Computer Science**
-    - Member of Turing Class, Ranking Top 1%
+    - Member of Turing Class, CKC Honors Program
 <br /> <br />
 
 - **National University of Singapore**
@@ -83,7 +84,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <br /> <br />
 
 
-<!-- # 💻 Experience
+<!-- # 💻 Experience 🎓📃 📨 🏆 
 - **Undergraduate Researcher**
   - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *July, 2022 - Present*
     - Working on research regarding data-efficient AI
