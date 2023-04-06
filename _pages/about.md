@@ -12,7 +12,7 @@ redirect_from:
 
 # Zeqing Yuan (Leo)
 
-Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/).
+Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/). 
 
 My current research interests lie in computer vision and machine learning.
 
@@ -48,7 +48,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 [[Paper](https://ieeexplore.ieee.org/abstract/document/9557225)]
 
-<!-- Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels. -->
+Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels.
 </div></div>
 
 # Selected Awards
@@ -79,7 +79,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - **National University of Singapore**
   <img align="right" src='images/NUS.jpg' alt="NUS" width="10%">
   - *May, 2022 - July, 2022*
-  - **School of Computing Summer Workshop**
+  - School of Computing Summer Workshop
     - A+ in Visual Computing track
 <br /> <br />
 
