@@ -59,8 +59,6 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - Baogang Scholarship, 2022 
 - **Chinese National Scholarship**, 2021 *(Top 1%)*
 - ZJU Scholarship - First Prize, 2021 
-<!-- - *2021* Scholarship for Leading Achievements -->
-<!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
 - **Chinese National First-Class Athlete**, 2018 -->
 
