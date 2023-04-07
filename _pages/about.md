@@ -49,7 +49,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels
 </div></div>
 
-# Selected Awards
+<!-- # Selected Awards
 
 - **SenseTime Scholarship**, 2022 *(30 undergrads in AI-related research selected nationwide)*
 - **People's Choice Award @ ACM MobileHCI** 2022 
@@ -62,10 +62,10 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <!-- - *2021* Scholarship for Leading Achievements -->
 <!-- - *2021* First-Class Scholarship for Elite Students in Basic Sciences -->
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
-- **Chinese National First-Class Athlete**, 2018
+- **Chinese National First-Class Athlete**, 2018 -->
 
 
-# Experience
+<!-- # Experience
 
 - **Zhejiang University**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
@@ -79,7 +79,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
   - *May, 2022 - July, 2022*
   - School of Computing Summer Workshop
     - A+ in Visual Computing track
-<br /> <br />
+<br /> <br /> -->
 
 
 <!-- # 💻 Experience 🎓📃 📨 🏆 
