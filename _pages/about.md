@@ -54,11 +54,11 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 - **SenseTime Scholarship**, 2022 *(30 AI-related undergraduate researchers selected nationwide)*
 - **People's Choice Award @ ACM MobileHCI** 2022 
-- **Chinese National Scholarship**, 2022 *(Top 1%)*
+- **National Scholarship**, 2022 *(Top 1%)*
 - ZJU Scholarship - First Prize, 2022 
 - Chu Kochen Honors College Scholarship for Excellence, 2022 *(Highest Collegiate Honor)*
 <!-- - Baogang Scholarship, 2022 -->
-- **Chinese National Scholarship**, 2021 *(Top 1%)*
+- **National Scholarship**, 2021 *(Top 1%)*
 - ZJU Scholarship - First Prize, 2021 
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
 - **Chinese National First-Class Athlete**, 2018
