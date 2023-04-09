@@ -66,12 +66,12 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 # Experience
 
-- **Stanford University**
+<!-- - **Stanford University**
   <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
   - *May, 2023 -*
   - **Visiting Research Student at [Stanford Artificial Intelligence Laboratory (SAIL)](https://ai.stanford.edu/)**
-    <!-- - Summer research intern at [Stanford Vision and Learning Lab (SVL)](http://svl.stanford.edu/) -->
-<br /> <br />
+    - Summer research intern at [Stanford Vision and Learning Lab (SVL)](http://svl.stanford.edu/)
+<br /> <br /> -->
 
 - **Zhejiang University**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
