@@ -7,11 +7,11 @@ main:
   - title: "Research"
     url: "/#research"
 
-  # - title: "Awards"
-  #   url: "/#selected-awards"
+  - title: "Awards"
+    url: "/#selected-awards"
     
   # - title: "Education"
   #   url: "/#education"
 
-  # - title: "Experience"
-  #   url: "/#experience"
+  - title: "Experience"
+    url: "/#experience"

@@ -49,21 +49,29 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels
 </div></div>
 
-<!-- # Selected Awards
 
-- **SenseTime Scholarship**, 2022 *(30 undergrads in AI-related research selected nationwide)*
+# Selected Awards
+
+- **SenseTime Scholarship**, 2022 *(30 AI-related undergraduate researchers selected nationwide)*
 - **People's Choice Award @ ACM MobileHCI** 2022 
 - **Chinese National Scholarship**, 2022 *(Top 1%)*
 - ZJU Scholarship - First Prize, 2022 
 - Chu Kochen Honors College Scholarship for Excellence, 2022 *(Highest Collegiate Honor)*
-- Baogang Scholarship, 2022 
+<!-- - Baogang Scholarship, 2022 -->
 - **Chinese National Scholarship**, 2021 *(Top 1%)*
 - ZJU Scholarship - First Prize, 2021 
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
-- **Chinese National First-Class Athlete**, 2018 -->
+- **Chinese National First-Class Athlete**, 2018
 
 
-<!-- # Experience
+# Experience
+
+- **Stanford University**
+  <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
+  - *May, 2023 -*
+  - **Visiting Research Student at [Stanford Artificial Intelligence Laboratory (SAIL)](https://ai.stanford.edu/)**
+    <!-- - Summer research intern at [Stanford Vision and Learning Lab (SVL)](http://svl.stanford.edu/) -->
+<br /> <br />
 
 - **Zhejiang University**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
@@ -76,8 +84,8 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
   <img align="right" src='images/NUS.jpg' alt="NUS" width="10%">
   - *May, 2022 - July, 2022*
   - School of Computing Summer Workshop
-    - A+ in Visual Computing track
-<br /> <br /> -->
+    - Received A+ in Visual Computing track
+<br /> <br />
 
 
 <!-- # 💻 Experience 🎓📃 📨 🏆 
