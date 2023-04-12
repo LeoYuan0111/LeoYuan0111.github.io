@@ -91,27 +91,27 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 # 💻 Experience 
 - **Undergraduate Student Researcher**
-  <img align="right" src='images/zju.png' alt="ZJU" width="17%">
+  <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - Zhejiang University, *July, 2022 - Present*
     - Working on independent project regarding data-efficient AI
 <br /> <br />
 
 - **National Undergraduate Innovative Research Program**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
-  <img align="right" src='images/zju.png' alt="ZJU" width="17%">
+  <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   <!-- [Interactive Data Group](https://zjuidg.org/),  -->
   - State Key Lab of CAD & CG, *May, 2022 - May, 2023*
     - Lead of research project regarding video understanding and visual analytics for sports data
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
-  <img align="right" src='images/MobileHCI.png' alt="sym" width="17%">
+  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
   - International Conference on Mobile Human-Computer Interaction, *June, 2022 - Oct, 2022* 
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
 - **NUS Summer Workshop** 
-  <img align="right" src='images/NUS.jpg' alt="NUS" width="17%">
+  <img align="right" src='images/NUS.jpg' alt="NUS" width="10%">
   <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore, *May, 2022 - July, 2022*
     - Received A+ in the course, *Visual Computing*, with a prize-winning project
