@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# Zeqing Yuan (Leo)
+# Zeqing Yuan (Leo) | 袁泽清
 
 Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/). 
 
@@ -18,13 +18,14 @@ My current research interests lie in computer vision and machine learning.
 
 Besides research, I am also a sports fan and badminton provincial champion.
 
+I'm always eager to connect and collaborate with fellow creatives, feel free to drop me an email if you share my research interests.
 
-# News
+# 📨 News
 - [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
 - [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG !
 
 
-# Research 
+# 📃 Research 
 Currently, I am interested in computer vision and machine learning, particularly 3D vision, generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
@@ -50,28 +51,28 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 </div></div>
 
 
-# Selected Awards
+# 🏆 Selected Awards
 
-- **SenseTime Scholarship**, 2022 *(30 AI-related undergraduate researchers selected nationwide)*
+- **SenseTime Fellowship**, 2022  (30 AI-related undergraduate researchers selected nationwide)
 - **People's Choice Award @ ACM MobileHCI** 2022 
-- **National Scholarship**, 2022 *(Top 1%)*
-- ZJU Scholarship - First Prize, 2022 
-- Chu Kochen Honors College Scholarship for Excellence, 2022 *(Highest Collegiate Honor)*
-<!-- - Baogang Scholarship, 2022 -->
-- **National Scholarship**, 2021 *(Top 1%)*
-- ZJU Scholarship - First Prize, 2021 
-- Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021
-- **Chinese National First-Class Athlete**, 2018
+- **Chinese National Scholarship**, 2022, 2021  (Top 1%)
+- ZJU Scholarship - First Prize, 2022, 2021 
+- Baogang Scholarship, 2022  (5 students selected in ZJU)
+- CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
+<!-- - **National Scholarship**, 2021 *(Top 1%)* -->
+<!-- - ZJU Scholarship - First Prize, 2021  -->
+- Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021 
+- **Chinese National First-Class Athlete**, 2018  (Highest lifelong honor attainable for Chinese non-professional athletes)
 
 
-# Experience
+<!-- # Experience 🎓
 
-<!-- - **Stanford University**
+- **Stanford University**
   <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
   - *May, 2023 -*
   - **Visiting Research Student at [Stanford Artificial Intelligence Laboratory (SAIL)](https://ai.stanford.edu/)**
     - Summer research intern at [Stanford Vision and Learning Lab (SVL)](http://svl.stanford.edu/)
-<br /> <br /> -->
+<br /> <br /> 
 
 - **Zhejiang University**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
@@ -85,38 +86,43 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
   - *May, 2022 - July, 2022*
   - School of Computing Summer Workshop
     - Received A+ in Visual Computing track
+<br /> <br /> -->
+
+
+# 💻 Experience 
+- **Undergraduate Student Researcher**
+  <img align="right" src='images/zju.png' alt="ZJU" width="17%">
+  - Zhejiang University, *July, 2022 - Present*
+    - Working on independent project regarding data-efficient AI
 <br /> <br />
 
-
-<!-- # 💻 Experience 🎓📃 📨 🏆 
-- **Undergraduate Researcher**
-  - [M3 Lab](http://jakezhao.net/group/), Zhejiang University, *July, 2022 - Present*
-    - Working on research regarding data-efficient AI
-<br /> <br />
-
-- **National Innovation Training Program**
-  <img align="right" src='images/SRTP.png' alt="sym" width="17%">
-  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *May, 2022 - May, 2023*
-    - Student leader of research project regarding video understanding and visual analytics for sports data
+- **National Undergraduate Innovative Research Program**
+  <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
+  <img align="right" src='images/zju.png' alt="ZJU" width="17%">
+  <!-- [Interactive Data Group](https://zjuidg.org/),  -->
+  - State Key Lab of CAD & CG, *May, 2022 - May, 2023*
+    - Lead of research project regarding video understanding and visual analytics for sports data
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
-  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
+  <img align="right" src='images/MobileHCI.png' alt="sym" width="17%">
   - International Conference on Mobile Human-Computer Interaction, *June, 2022 - Oct, 2022* 
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
 - **NUS Summer Workshop** 
-  <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%">
+  <img align="right" src='images/NUS.jpg' alt="NUS" width="17%">
+  <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore, *May, 2022 - July, 2022*
-    - Received A+ in the course, *Visual Computing*, with a project awarded Runner-Up Prize
+    - Received A+ in the course, *Visual Computing*, with a prize-winning project
 <br /> <br />
 
 - **Undergraduate Research Assistant**
   <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
-  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
+  <!-- [Interactive Data Group](https://zjuidg.org/),  -->
+  - State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
-<br /> <br /> -->
+<br /> <br />
 
 
 

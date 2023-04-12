@@ -2,16 +2,16 @@
 main:
 
   - title: "News"
-    url: "/#news"
+    url: "/#-news"
 
   - title: "Research"
-    url: "/#research"
+    url: "/#-research"
 
   - title: "Awards"
-    url: "/#selected-awards"
+    url: "/#-selected-awards"
     
   # - title: "Education"
   #   url: "/#education"
 
   - title: "Experience"
-    url: "/#experience"
+    url: "/#-experience"

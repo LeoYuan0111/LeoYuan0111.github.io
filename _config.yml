@@ -29,7 +29,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=IcfUuAkAAAAJ&hl=en"
   email            : "leo.zq.yuan@gmail.com"
-  CV               : # "https://drive.google.com/file/d/1Qdpq9lX-_uUQOAeO0Z_kHPp45G8fZ0LY/view?usp=sharing"
+  CV               : "https://drive.google.com/file/d/1Qdpq9lX-_uUQOAeO0Z_kHPp45G8fZ0LY/view?usp=sharing"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -38,13 +38,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "leoyuan0111"
+  github           : "leoyuan0111"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : ""
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
@@ -52,7 +52,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # "Leo_ZQ_Yuan"
+  twitter          : "Leo_ZQ_Yuan"
   vine             :
   weibo            :
   xing             :
