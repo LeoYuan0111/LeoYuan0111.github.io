@@ -18,7 +18,7 @@ My current research interests lie in computer vision and machine learning.
 
 Besides research, I am also a sports fan and badminton provincial champion.
 
-I'm always eager to connect and collaborate with fellow creatives, feel free to drop me an email if you share my research interests.
+I'm always excited to connect and collaborate with creative people, feel free to drop me an email if you share my research interests.
 
 # 📨 News
 - [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
