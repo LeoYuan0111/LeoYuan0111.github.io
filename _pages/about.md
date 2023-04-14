@@ -62,7 +62,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <!-- - **National Scholarship**, 2021 *(Top 1%)* -->
 <!-- - ZJU Scholarship - First Prize, 2021  -->
 - Men's Singles Champion of Zhejiang Provincial Badminton Championship, 2021 
-- **Chinese National First-Class Athlete**, 2018  (Highest lifelong honor attainable for Chinese non-professional athletes)
+- **Chinese National First-Class Athlete**, 2018  (Lifelong honor bestowed upon gold and silver medalists in professional sports competition)
 
 
 <!-- # Experience 🎓
