@@ -38,7 +38,7 @@ Currently, I am interested in computer vision and machine learning, particularly
 ACM MobileHCI 2022 Student Design Competition | People's Choice Award
 </div></div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG (VIS 2021)</div><img src='images/TIVEE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG (VIS 2021)</div><img src='images/TIVEE.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations**
@@ -47,7 +47,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 [[Paper](https://ieeexplore.ieee.org/abstract/document/9557225)]
 
-- Using VR for 3D immersive visualization to analyze badminton tactics from multi-levels
+- Using Virtual Reality for 3D immersive visualization to analyze badminton tactics from multi-levels
 </div></div>
 
 
