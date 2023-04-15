@@ -105,7 +105,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
-  <img align="right" src='images/MobileHCI.jpg' alt="sym" width="17%">
+  <img align="right" src='images/MobileHCI.jpg' alt="MobileHCI" width="20%">
   - International Conference on Mobile Human-Computer Interaction, *June, 2022 - Oct, 2022* 
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
@@ -118,7 +118,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 <br /> <br />
 
 - **Undergraduate Research Assistant**
-  <img align="right" src='images/TIVEE.png' alt="sym" width="17%">
+  <img align="right" src='images/TIVEE.png' alt="TIVEE" width="20%">
   <!-- [Interactive Data Group](https://zjuidg.org/),  -->
   - State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
