@@ -61,7 +61,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
 <!-- - **National Scholarship**, 2021 *(Top 1%)* -->
 <!-- - ZJU Scholarship - First Prize, 2021  -->
-- Provincial Champion, Men's Singles, Zhejiang Badminton Championships, 2021 
+- Badminton Men's Singles Provincial Champion, Zhejiang Badminton Championship, 2021 
 - **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
 
 
