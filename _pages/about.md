@@ -61,7 +61,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 - CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
 <!-- - **National Scholarship**, 2021 *(Top 1%)* -->
 <!-- - ZJU Scholarship - First Prize, 2021  -->
-- [Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
+- Provincial 🥈, Badminton Men's Doubles, [University Games, Zhejiang, 2023](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
 - **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
 
