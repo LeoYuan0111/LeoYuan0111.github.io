@@ -14,7 +14,7 @@ redirect_from:
 
 Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/). 
 
-My current research interests lie in computer vision and machine learning.
+My research interests lie in computer vision and machine learning.
 
 Besides research, I am also a sports fan and badminton provincial champion.
 
@@ -52,18 +52,19 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 
 # 🏆 Selected Awards
-
-- **SenseTime Fellowship**, 2022  (30 AI-related undergraduate researchers selected nationwide)
+- **SenseTime Scholarship**, 2022  (30 undergraduate researchers selected nationwide)
 - **People's Choice Award @ ACM MobileHCI** 2022 
-- **Chinese National Scholarship**, 2022, 2021  (Top 1%)
-- ZJU Scholarship - First Prize, 2022, 2021 
+- **Chinese National Scholarship**, 2022  (Top 1%)
 - Baogang Scholarship, 2022  (5 students selected in ZJU)
+- ZJU Scholarship - First Prize, 2022
 - CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
-<!-- - **National Scholarship**, 2021 *(Top 1%)* -->
-<!-- - ZJU Scholarship - First Prize, 2021  -->
-- Provincial 🥈, Badminton Men's Doubles, [University Games, Zhejiang, 2023](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
-- Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
+- **Chinese National Scholarship**, 2021  (Top 1%)
+- ZJU Scholarship - First Prize, 2021
+
+Miscellaneous
 - **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
+- Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
+- Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023 [[game video]](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
 
 
 <!-- # Experience 🎓
