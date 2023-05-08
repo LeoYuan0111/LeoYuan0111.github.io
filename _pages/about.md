@@ -52,16 +52,19 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 
 # 🏆 Selected Awards
-- **SenseTime Scholarship**, 2022  (30 undergraduate researchers selected nationwide)
-- **People's Choice Award @ ACM MobileHCI** 2022 
-- **Chinese National Scholarship**, 2022  (Top 1%)
-- Baogang Scholarship, 2022  (5 students selected in ZJU)
-- ZJU Scholarship - First Prize, 2022
-- CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
-- **Chinese National Scholarship**, 2021  (Top 1%)
-- ZJU Scholarship - First Prize, 2021
+Research
+- **SenseTime Scholarship**, 2022  (30 undergraduates in CS research selected nationwide)
+- **People's Choice Award @ ACM MobileHCI** 2022  
 
-Miscellaneous
+Academic
+- **Chinese National Scholarship**, 2022  (Top 1%)
+- **Chinese National Scholarship**, 2021  (Top 1%)
+- Baogang Scholarship, 2022  (5 students selected in ZJU)
+- CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
+- ZJU Scholarship - First Prize, 2022  
+- ZJU Scholarship - First Prize, 2021  
+
+Sports
 - **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
 - Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
@@ -92,11 +95,11 @@ Miscellaneous
 
 
 # 💻 Experience 
-- **Undergraduate Student Researcher**
+<!-- - **Undergraduate Student Researcher**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - Zhejiang University, *July, 2022 - Present*
     - Working on independent project regarding data-efficient AI
-<br /> <br />
+<br /> <br /> -->
 
 - **National Undergraduate Innovative Research Program**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
