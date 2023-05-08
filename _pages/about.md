@@ -52,9 +52,9 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 
 
 # 🏆 Selected Awards
-Research
+R&D
 - **SenseTime Scholarship**, 2022  (30 undergraduates in CS research selected nationwide)
-- **People's Choice Award @ ACM MobileHCI** 2022  
+- People's Choice Award @ ACM MobileHCI 2022 Student Design Competition  (Hackathon winner selected from 40+ international submissions)
 
 Academic
 - **Chinese National Scholarship**, 2022  (Top 1%)
