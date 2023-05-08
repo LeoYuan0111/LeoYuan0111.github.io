@@ -64,7 +64,7 @@ Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**
 Miscellaneous
 - **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
-- Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=Video&style=social&logo=bilibili&query=$.data.playInfo[0].online&url=https://api.bilibili.com/x/web-interface/view?aid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
+- Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=Video&style=social&logo=bilibili&query=$.data.playInfo[0].online&url=https://api.bilibili.com/x/web-interface/view?aid=1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
 
 
 <!-- # Experience 🎓
