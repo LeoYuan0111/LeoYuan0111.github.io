@@ -26,7 +26,7 @@ I'm always excited to connect and collaborate with creative people, feel free to
 
 
 # 📃 Research 
-Currently, I am interested in computer vision and machine learning, particularly 3D vision, generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
+Currently, I am interested in computer vision and machine learning, particularly visual generative models. Previously, I have also done some work in visualization and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
