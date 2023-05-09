@@ -103,10 +103,10 @@ Sports
 
 - **National Undergraduate Innovative Research Program**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
-  <img align="right" src='images/zju.png' alt="ZJU" width="10%">
+  <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="10%">
   <!-- [Interactive Data Group](https://zjuidg.org/),  -->
   - State Key Lab of CAD & CG, *May, 2022 - May, 2023*
-    - Lead of research project regarding video understanding and visual analytics for sports data
+    - Student leader of research project on video understanding and visual analytics for sports data, in collaboration with National Table Tennis Team
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
