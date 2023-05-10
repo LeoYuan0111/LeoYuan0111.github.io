@@ -21,12 +21,12 @@ Besides research, I am also a sports fan and badminton provincial champion.
 I'm always excited to connect and collaborate with creative people, feel free to drop me an email if you share my research interests.
 
 # 📨 News
-- [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022 ! 
-- [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG !
+- [Oct, 2022] &nbsp;One work receives People's Choice Award in MobileHCI 2022
+- [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG
 
 
 # 📃 Research 
-Currently, I am interested in computer vision and machine learning, particularly visual generative models. Previously, I have also done some work in visualization and human-computer interaction.
+Currently, I am interested in computer vision and machine learning, particularly generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
