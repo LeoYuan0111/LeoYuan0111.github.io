@@ -16,8 +16,6 @@ Hi, I am an undergraduate student majoring in Computer Science in [Turing Class]
 
 My research interest lie in the intersection of computer vision, machine learning and visual analytics.
 
-Besides research, I am also a sports fan and badminton provincial champion.
-
 I'm always excited to connect and collaborate with creative people, feel free to drop me an email if you share my research interests.
 
 # 📨 News
@@ -25,7 +23,7 @@ I'm always excited to connect and collaborate with creative people, feel free to
 - [June, 2021] &nbsp;One paper accepted to VIS 2021 and TVCG
 
 
-# 📃 Research 
+# 💻 Research 
 Currently, I am interested in computer vision and machine learning. Previously, I have also done some work in visual analytics and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
@@ -64,14 +62,8 @@ Academic
 - ZJU Scholarship - First Prize, 2022  
 - ZJU Scholarship - First Prize, 2021  
 
-Sports
-- **Chinese National First-Class Athlete**  (Lifelong honor awarded for silver medal in professional badminton championship in 2018)
-- Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
-- Provincial 🥈, Badminton Men's Doubles, University Sports Games of Zhejiang Province, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
 
-
-<!-- # Experience 🎓
-
+<!-- 
 - **Stanford University**
   <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
   - *May, 2023 -*
@@ -94,7 +86,7 @@ Sports
 <br /> <br /> -->
 
 
-# 💻 Experience 
+# 📃 Experience 
 <!-- - **Undergraduate Student Researcher**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - Zhejiang University, *July, 2022 - Present*
@@ -129,3 +121,11 @@ Sports
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
+
+# Miscellaneous 
+Besides research, I am also a sports fan and badminton provincial champion.
+
+- **Chinese National First-Class Athlete**  (Lifelong honor awarded for silver medal in professional badminton championship in 2018)
+- Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
+- Provincial 🥈, Badminton Men's Doubles, University Sports Games of Zhejiang Province, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
+  <img align="right" src='images/doubles.png' alt="Men's Doubles" width="20%">
