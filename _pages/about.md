@@ -14,7 +14,7 @@ redirect_from:
 
 Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/). 
 
-My research interests lie in computer vision and machine learning.
+My research interest lie in the intersection of computer vision, machine learning and visual analytics.
 
 Besides research, I am also a sports fan and badminton provincial champion.
 
@@ -26,7 +26,7 @@ I'm always excited to connect and collaborate with creative people, feel free to
 
 
 # 📃 Research 
-Currently, I am interested in computer vision and machine learning, particularly generative models and data-efficient AI. Previously, I have also done some work in visualization and human-computer interaction.
+Currently, I am interested in computer vision and machine learning. Previously, I have also done some work in visual analytics and human-computer interaction.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2022</div><img src='images/MobileHCI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -59,15 +59,15 @@ R&D
 Academic
 - **Chinese National Scholarship**, 2022  (Top 1%)
 - **Chinese National Scholarship**, 2021  (Top 1%)
-- Baogang Scholarship, 2022  (5 students selected in ZJU)
+- Baogang Scholarship, 2022  (5 students selected in Zhejiang University)
 - CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
 - ZJU Scholarship - First Prize, 2022  
 - ZJU Scholarship - First Prize, 2021  
 
 Sports
-- **Chinese National First-Class Athlete**, 2018  (Lifelong honor awarded for silver medal in professional badminton championship)
+- **Chinese National First-Class Athlete**  (Lifelong honor awarded for silver medal in professional badminton championship in 2018)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
-- Provincial 🥈, Badminton Men's Doubles, University Games, Zhejiang, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
+- Provincial 🥈, Badminton Men's Doubles, University Sports Games of Zhejiang Province, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
 
 
 <!-- # Experience 🎓
@@ -101,7 +101,7 @@ Sports
     - Working on independent project regarding data-efficient AI
 <br /> <br /> -->
 
-- **National Undergraduate Innovative Research Program**
+- **National Undergraduate Innovative Research Project**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
   <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="20%">
   <!-- [Interactive Data Group](https://zjuidg.org/),  -->
@@ -128,9 +128,4 @@ Sports
   - State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
-
-
-
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
