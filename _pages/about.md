@@ -43,7 +43,7 @@ ACM MobileHCI 2022 Student Design Competition | People's Choice Award
 
 Xiangtong Chu; Xiao Xie; Shuainan Ye; Haolin Lu; Hongguang Xiao; **Zeqing Yuan**; Zhutian Chen; Hui Zhang; Yingcai Wu
 
-[[Paper](https://ieeexplore.ieee.org/abstract/document/9557225)]
+[[PDF](https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf)] [[www](https://ieeexplore.ieee.org/abstract/document/9557225)] [[Video](https://www.youtube.com/watch?v=4j5CL5HamQQ)]
 
 - Using Virtual Reality for 3D immersive visualization to analyze badminton tactics from multi-levels
 </div></div>
@@ -87,6 +87,12 @@ Academic
 
 
 # 📃 Experience 
+- **Visiting Research Intern**
+  <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
+  - [Stanford AI Lab (SAIL)](https://ai.stanford.edu/), *May, 2023 - Present*
+    - I am joining [Stanford Vision & Learning lab](https://svl.stanford.edu/) this summer, hosted by [Prof. Jiajun Wu](https://jiajunwu.com/)
+<br /> <br />
+
 <!-- - **Undergraduate Student Researcher**
   <img align="right" src='images/zju.png' alt="ZJU" width="10%">
   - Zhejiang University, *July, 2022 - Present*
@@ -96,9 +102,9 @@ Academic
 - **National Undergraduate Innovative Research Project**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
   <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="20%">
-  <!-- [Interactive Data Group](https://zjuidg.org/),  -->
-  - State Key Lab of CAD & CG, *May, 2022 - May, 2023*
+  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *May, 2022 - May, 2023*
     - Student leader of research project on video understanding and visual analytics for sports data, in collaboration with National Table Tennis Team
+    - 1 China patent submitted
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
@@ -116,8 +122,7 @@ Academic
 
 - **Undergraduate Research Assistant**
   <img align="right" src='images/TIVEE.png' alt="TIVEE" width="20%">
-  <!-- [Interactive Data Group](https://zjuidg.org/),  -->
-  - State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
+  - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
 
