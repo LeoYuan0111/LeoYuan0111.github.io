@@ -88,7 +88,7 @@ Academic
 
 # 📃 Experience 
 - **Visiting Research Intern**
-  <img align="right" src='images/stanford.png' alt="Stanford" width="10%">
+  <img align="right" src='images/stanford.png' alt="Stanford" width="15%">
   - [Stanford AI Lab (SAIL)](https://ai.stanford.edu/), *May, 2023 - Present*
     - I am joining [Stanford Vision & Learning lab](https://svl.stanford.edu/) this summer, hosted by [Prof. Jiajun Wu](https://jiajunwu.com/)
 <br /> <br />
@@ -101,27 +101,27 @@ Academic
 
 - **National Undergraduate Innovative Research Project**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
-  <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="20%">
+  <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="30%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *May, 2022 - May, 2023*
     - Student leader of research project on video understanding and visual analytics for sports data, in collaboration with National Table Tennis Team
     - 1 China patent submitted
 <br /> <br />
 
 - **ACM MobileHCI 2022 Student Design Competition**
-  <img align="right" src='images/MobileHCI.jpg' alt="MobileHCI" width="20%">
+  <img align="right" src='images/MobileHCI.jpg' alt="MobileHCI" width="30%">
   - International Conference on Mobile Human-Computer Interaction, *June, 2022 - Oct, 2022* 
     - Work received **People's Choice Award** (4 selected from 46 international submissions)
 <br /> <br />
 
 - **NUS Summer Workshop** 
-  <img align="right" src='images/NUS.jpg' alt="NUS" width="10%">
+  <img align="right" src='images/NUS.jpg' alt="NUS" width="15%">
   <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore, *May, 2022 - July, 2022*
     - Received A+ in the course, *Visual Computing*, with a prize-winning project
 <br /> <br />
 
 - **Undergraduate Research Assistant**
-  <img align="right" src='images/TIVEE.png' alt="TIVEE" width="20%">
+  <img align="right" src='images/TIVEE.png' alt="TIVEE" width="30%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG, *Jan, 2021 - May, 2021* 
     - Paper on immersive visualization accepted to **IEEE VIS and TVCG** 
 <br /> <br />
