@@ -138,6 +138,7 @@ Besides research, I am also a sports fan and badminton provincial champion.
 - **Chinese National First-Class Athlete**  (Lifelong honor awarded for silver medal in professional badminton championship in 2018)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
 - Provincial 🥈, Badminton Men's Doubles, University Sports Games of Zhejiang Province, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
+
 <p text-align="center">
   <img align="middle" src='images/doubles.png' alt="Men's Doubles" width="30%">
 </p>
