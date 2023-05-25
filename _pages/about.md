@@ -88,7 +88,7 @@ Academic
 
 # 📃 Experience 
 - **Visiting Research Intern**
-  <img align="right" src='images/stanford.png' alt="Stanford" width="15%">
+  <img align="right" src='images/stanford.png' alt="Stanford" width="12%">
   - [Stanford Artificial Intelligence Laboratory (SAIL)](https://ai.stanford.edu/)
   - *May, 2023 - Present*
     - I am joining [Stanford Vision & Learning lab](https://svl.stanford.edu/) this summer, hosted by [Prof. Jiajun Wu](https://jiajunwu.com/)
@@ -102,7 +102,8 @@ Academic
 
 - **National Undergraduate Innovative Research Project**
   <!-- <img align="right" src='images/SRTP.png' alt="sym" width="17%"> -->
-  <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="30%">
+  <!-- <img align="right" src='images/ball_stroke.gif' alt="Table Tennis Visual Analytics" width="30%"> -->
+  <img align="right" src='images/zju.png' alt="ZJU" width="12%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG
   - *May, 2022 - May, 2023*
     - Student leader of research project on video understanding and visual analytics for sports data, in collaboration with Chinese Table Tennis Team
@@ -117,7 +118,7 @@ Academic
 <br /> <br />
 
 - **NUS Summer Workshop** 
-  <img align="right" src='images/NUS.jpg' alt="NUS" width="15%">
+  <img align="right" src='images/NUS.jpg' alt="NUS" width="12%">
   <!-- <img align="right" src='images/NUS_SWS.png' alt="sym" width="17%"> -->
   - School of Computing, National University of Singapore
   - *May, 2022 - July, 2022*
