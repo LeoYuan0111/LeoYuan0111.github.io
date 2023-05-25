@@ -14,7 +14,7 @@ redirect_from:
 
 Hi, I am an undergraduate student majoring in Computer Science in [Turing Class](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm), [Zhejiang University](https://www.zju.edu.cn/english/), jointly cultivated by [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp) and [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/). 
 
-My research interest lie in the intersection of computer vision, machine learning and visual analytics.
+My research interests lie in computer vision and machine learning.
 
 I'm always excited to connect and collaborate with creative people, feel free to drop me an email if you share my research interests.
 
