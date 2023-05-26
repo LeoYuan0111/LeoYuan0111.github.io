@@ -91,7 +91,7 @@ Academic
   <img align="right" src='images/stanford.png' alt="Stanford" width="12%">
   - [Stanford Artificial Intelligence Laboratory (SAIL)](https://ai.stanford.edu/)
   - *May, 2023 - Present*
-    - I am joining [Stanford Vision & Learning lab](https://svl.stanford.edu/) this summer, hosted by [Prof. Jiajun Wu](https://jiajunwu.com/)
+    - I am joining [Stanford Vision & Learning lab](https://svl.stanford.edu/) this summer, hosted by Prof. [Jiajun Wu](https://jiajunwu.com/)
 <br /> <br />
 
 <!-- - **Undergraduate Student Researcher**
@@ -106,7 +106,7 @@ Academic
   <img align="right" src='images/zju.png' alt="ZJU" width="12%">
   - [Interactive Data Group](https://zjuidg.org/), State Key Lab of CAD & CG
   - *May, 2022 - May, 2023*
-    - Student leader of research project on video understanding and visual analytics for sports data, in collaboration with Chinese Table Tennis Team
+    - Student leader of research project on video understanding and visual analytics, in collaboration with Chinese Table Tennis Team
     - **1 China patent** submitted
 <br /> <br />
 
@@ -139,4 +139,5 @@ Besides research, I am also a sports fan and badminton provincial champion.
 - **Chinese National First-Class Athlete**  (Lifelong honor awarded for silver medal in professional badminton championship in 2018)
 - Provincial 🥇, Badminton Men's Singles, Zhejiang Badminton Championship, 2021 
 - Provincial 🥈, Badminton Men's Doubles, University Sports Games of Zhejiang Province, 2023 [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ)](https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92)
-  <img align="center" src='images/doubles.png' alt="Men's Doubles" width="30%">
+  <img align="right" src='images/doubles.png' alt="Men's Doubles" width="30%">
+  
