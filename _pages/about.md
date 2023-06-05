@@ -58,7 +58,8 @@ Academic
 - **Chinese National Scholarship**, 2022  (Top 1%)
 - **Chinese National Scholarship**, 2021  (Top 1%)
 - Baogang Scholarship, 2022  (5 students selected in Zhejiang University)
-- CKC Honors College Scholarship for Excellence, 2022  (Highest Collegiate Honor)
+- CSST College Star, 2023   (10/~2000; Highest collegiate honor at [College of Computer Sci. and Tech.](http://www.en.cs.zju.edu.cn/))
+- CKC College Scholarship for Excellence, 2022  (Highest collegiate honor at [CKC Honors College](http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp))
 - ZJU Scholarship - First Prize, 2022  
 - ZJU Scholarship - First Prize, 2021  
 
