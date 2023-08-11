@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="styles.css">
 	<link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
 	<script>
 	window.dataLayer = window.dataLayer || [];
@@ -26,13 +25,38 @@
 			width: 100%;
 			max-width: 800px;
 		}
-
+		table {
+			margin-bottom: 10px; 
+		}
 		a {text-decoration:none}
 		a:any-link{color: royalblue;}
 		a:link{color:royalblue;}
 		a:visited{color:royalblue;}
 		a:hover{color:blue;}
+		.read-more-link {
+            color: #007bff; /* Link color */
+            background: #f0f0f0; /* Background color */
+            padding: 8px 12px; /* Padding around the text */
+            border-radius: 4px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Bold text */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+        .read-more-link:hover {
+            background: #e0e0e0; /* Change background color on hover */
+        }
 	</style>
+	<script type="text/javascript">
+        function ShowHide(divId, linkDivId) {
+            if(document.getElementById(divId).style.display == 'none') {
+                document.getElementById(divId).style.display='block';
+                document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+            }
+            else {
+                document.getElementById(divId).style.display = 'none';
+            }
+        }
+    </script>
 </head>
 <body><div class="container">
 	<table border="0" id="table1" width="720">
@@ -81,7 +105,7 @@
 	</table>
 
 
-	<p><b><font face="Times New Roman" size="5"><br>
+	<p><b><font face="Times New Roman" size="5">
 		News
 	</font></b></p>
 		<font face="Arial" style="font-size: 12pt; line-height: 2;">
@@ -94,7 +118,7 @@
 		</font>
 
 			
-	<p><b><font face="Times New Roman" size="5"><br>
+	<p><b><font face="Times New Roman" size="5">
 		Publication
 	</font></b></p>
 	<table width="1000">
@@ -114,7 +138,9 @@
 	<div style="height: 0px;"></div>
 	<table width="1000">
 	<tr><td>
-	<p><b><font face="Times New Roman" size="5"><br>
+
+
+	<p><b><font face="Times New Roman" size="5">
 		Selected Awards</font></b></p>
 		<font face="Arial" style="font-size: 12pt; line-height: 2;">
 			<ul>
@@ -131,7 +157,7 @@
 	</td></tr>
 	</table>
 
-	<p><b><font face="Times New Roman" size="5"><br>
+	<p><b><font face="Times New Roman" size="5">
 		Experience</font></b></p>
 		<table width="1000">
 			<tbody><tr>
@@ -168,37 +194,40 @@
 				</p></td></tr>
 			</tbody>
 		</table>
-		<div id="hiddenContent" style="display: none;">	
-		<table width="1000">
-			<tbody><tr>
-				<td width="10%" valign="middle"><p><img src="./imgs/FOCAREUS.png" width="100" alt="LGM" style="border-style: none" align="top"></p></td>
-				<td width="70%" valign="middle"><p style="margin-top: 3px; margin-bottom: 3px; line-height: 1.25;">
-					<font face="Arial" style="font-size: 12pt; margin-bottom: 3px;"><b>ACM MobileHCI Student Design Competition</b></font><br>
-					June, 2022 - Oct, 2022, International Conference on Mobile Human-Computer Interaction
-					<ul>
-						<li>Work received <b>People's Choice Award</b> (hackathon winner from 100+ global finalists)</li>
-					</ul>
-				</p></td></tr>
-			</tbody>
-			<tbody><tr>
-				<td width="10%" valign="middle"><p><img src="./imgs/NUS.jpg" width="100" alt="LGM" style="border-style: none" align="top"></p></td>
-				<td width="70%" valign="middle"><p style="margin-top: 3px; margin-bottom: 3px; line-height: 1.25;">
-					<font face="Arial" style="font-size: 12pt; margin-bottom: 3px;"><b>NUS Summer Workshop</b></font><br>
-					May, 2022 - July, 2022, <b>National University of Singapore</b>
-					<ul>
-						<li>Received <b>A+</b> in the course, Visual Computing, with a prize-winning project</li>
-					</ul>
-				</p></td></tr>
-			</tbody>
-		</table>	
+		
+		
+		<p id="readMoreDiv"><a href="javascript:void(0);" onclick="ShowHide('HiddenDiv', 'readMoreDiv')" class="read-more-link">show more</a></p>
+		<div class="mid" id="HiddenDiv" style="display: none;">	
+			<table width="1000">
+				<tbody><tr>
+					<td width="10%" valign="middle"><p><img src="./imgs/FOCAREUS.png" width="100" alt="LGM" style="border-style: none" align="top"></p></td>
+					<td width="70%" valign="middle"><p style="margin-top: 3px; margin-bottom: 3px; line-height: 1.25;">
+						<font face="Arial" style="font-size: 12pt; margin-bottom: 3px;"><b>ACM MobileHCI Student Design Competition</b></font><br>
+						June, 2022 - Oct, 2022, International Conference on Mobile Human-Computer Interaction
+						<ul>
+							<li>Work received <b>People's Choice Award</b> (hackathon winner from 100+ global finalists)</li>
+						</ul>
+					</p></td></tr>
+				</tbody>
+				<tbody><tr>
+					<td width="10%" valign="middle"><p><img src="./imgs/NUS.jpg" width="100" alt="LGM" style="border-style: none" align="top"></p></td>
+					<td width="70%" valign="middle"><p style="margin-top: 3px; margin-bottom: 3px; line-height: 1.25;">
+						<font face="Arial" style="font-size: 12pt; margin-bottom: 3px;"><b>NUS Summer Workshop</b></font><br>
+						May, 2022 - July, 2022, <b>National University of Singapore</b>
+						<ul>
+							<li>Received <b>A+</b> in the course, Visual Computing, with a prize-winning project</li>
+						</ul>
+					</p></td></tr>
+				</tbody>
+			</table>	
 		</div>
-		<button id="showMoreButton">Show More</button>
+		<br>
 			
 		
 
 
 
-	<p><b><font face="Times New Roman" size="5"><br>
+	<p><b><font face="Times New Roman" size="5">
 		Miscellaneous
 	</font></b></p>
 	<table width="1000">
