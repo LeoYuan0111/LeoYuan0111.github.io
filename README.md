@@ -1,4 +1,3 @@
-# Personal Website
-Homepage for Leo Yuan 
+This is my personal website: https://leoyuan.site
 
-(Template borrowed from Ziyi Wu)
+Style referenced from http://hexianghu.com/.
