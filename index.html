@@ -64,6 +64,22 @@
     }
   </script>
 
+  <style>
+    /* 为所有列表项设置样式 */
+    li.indented {
+        position: relative;
+        padding-left: 120px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+  </style>
+  
 </head>
 
 
@@ -197,11 +213,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </script>
 
-  <div class="page-content">
-    <div class="wrapper">
-      <div id="bio" class="bio">
+<div class="page-content">
+<div class="wrapper">
+<div id="bio" class="bio">
 
-  <h1 class="md-heading text-center">
+  <h1 class="md-heading text-left">
     <i class="fa fa-id-card" aria-hidden="true"></i>
     About
   </h1>
@@ -214,63 +230,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <br><br>
       My research interests are computer vision and machine learning. My ultimate goal is enabling machines to understand and generate an interactive 3D world.
       Previously, I have also done engaging projects on VR and HCI.
+      <br>
     </p>
 
     <div style="width: 50%; float:left">
 			<h3>
-		<i class="fa fa-star" aria-hidden="true"></i>
-		<strong>Interests</strong>
+		    <i class="fa fa-star" aria-hidden="true"></i>
+		    <strong>Interests</strong>
 			</h3>
-
-       <ul>
-          <li>Computer Vision & Machine Learning</li>
-          <ul>
-            <li>Generative Models</li>
-            <li>3D Scene Understanding</li>
-            <li>Video Understanding</li>
-            <li>Visual Analytics</li>
-          </ul>
+      <ul>
+        <li><b>Computer Vision & Machine Learning</b></li>
+        <ul>
+          <li>Generative Models</li>
+          <li>3D Scene Understanding</li>
+          <li>Video Understanding</li>
+          <li>Visual Analytics</li>
         </ul>
-   </div>
-    <div style="width: 40%; float:right">
+      </ul>
+    </div>
+
+    <div style="width: 50%; float:right">
 			<h3>
 				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 				<strong>Education</strong>
 			</h3>
-			<b>Zhejiang University</b> (ZJU)<br>
+			<b>Zhejiang University</b><br>
 			<ul>
         <li>B.E.(Honors) in Computer Science</li>
         <li>Top 1% (National Scholarship * 2)</li>
 			</ul>
-    <b>Xiamen NO.1 High School</b><br>
-			<ul>
-        <li>Valedictorian of Class of 2020</li>
-			</ul>
-   </div>
+      <b>Xiamen NO.1 High School</b><br>
+        <ul>
+          <li>Valedictorian of Class of 2020</li>
+        </ul>
+    </div>
+  
   </div>
 </div>
 
 
 
 <div id="news" class="bio">
-  <div class="bio-body" style="overflow:hidden;">
-    <h1 class="md-heading text-center">
-      <i class="fa fa-tasks" aria-hidden="true"></i>
-      News
-    </h1>  
-      <ul>
-        <li> [June, 2023] Start my visiting research internship @<a href="https://svl.stanford.edu/">Stanford Vision & Learning Lab</a></li>
-        <li> [Dec, 2022] Honored to receive <a href="https://www.sensetime.com/cn/scholarship-list">SenseTime Scholarship</a></li>
-        <li> [Oct, 2022] One work receives People's Choice Award in ACM MobileHCI 2022</li>
-        <li> [June, 2021] One paper, TIVEE, accepted to IEEE VIS and TVCG</li>
-      </ul>
-  </div>
+  <h1 class="md-heading text-left">
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    News
+  </h1>  
+  <ul>
+    <li class="indented" data-date="[Jun, 2023]"> Start my visiting research internship @<a href="https://svl.stanford.edu/">Stanford Vision & Learning Lab</a></li>
+    <li class="indented" data-date="[Dec, 2022]"> Awarded <a href="https://www.sensetime.com/cn/scholarship-list">SenseTime Scholarship</a></li>
+    <li class="indented" data-date="[Oct, 2022]"> One work receives People's Choice Award in ACM MobileHCI 2022</li>
+    <li class="indented" data-date="[Jun, 2021]"> One paper accepted to IEEE VIS and TVCG</li>
+  </ul>
 </div>
 
 
 
 <div id="publications" class="publications">
-  <h1 class="md-heading text-center">
+  <h1 class="md-heading text-left">
     <i class="fa fa-file" aria-hidden="true"></i>
     Publications and Manuscripts
   </h1>
@@ -347,28 +363,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="wrapper">
   <div id="awards" class="bio">
-    <div class="bio-body" style="overflow:hidden;">
-      <h1 class="md-heading text-center">
-        <i class="fa fa-tasks" aria-hidden="true"></i>
-        Selected Honors & Awards 
-      </h1>
-      <ul>
-        <li><strong>Chinese National Scholarship</strong>, 2021 & 2022 (Highest scholarship for <b>Top 1%</b> undergrads, <b>twice</b>)</li>
-        <li><strong>SenseTime Scholarship</strong>, 2022 (<b>30 undergrads nationwide</b> awarded for AI-related research)</li>
-        <li><b>People's Choice Award @ ACM MobileHCI</b>, 2022 (Global hackathon winner)</li>
-        <li>Baogang Scholarship, 2022 (<b>5 / ~24,000</b> in ZJU)</li>
-        <li>Top Ten Student in College of Computer Science, 2023 (<b>10 / ~2,000</b> in CS College)</li>
-        <li>CKC Honors College Scholarship for Excellence, 2022 (<b>Top 1%</b> in CKC Honors College)</li>
-        <li>Chinese National First-Class Athlete (Pinnacle of lifelong honor for semi-professional athletes)</li>
-      </ul>
-    </div>
+    <h1 class="md-heading text-left">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Selected Honors & Awards 
+    </h1>
+    <ul>
+      <li><strong>Chinese National Scholarship</strong>, 2021 & 2022 (Highest scholarship for <b>Top 1%</b> undergrads, <b>twice</b>)</li>
+      <li><strong>SenseTime Scholarship</strong>, 2022 (<b>30 undergrads nationwide</b> awarded for AI-related research)</li>
+      <li><b>People's Choice Award @ ACM MobileHCI</b>, 2022 (Global hackathon winner)</li>
+      <li>Baogang Scholarship, 2022 (<b>5 / ~24,000</b> in ZJU)</li>
+      <li>Top Ten Student in College of Computer Science, 2023 (<b>10 / ~2,000</b> in CS College)</li>
+      <li>CKC Honors College Scholarship for Excellence, 2022 (<b>Top 1%</b> in CKC Honors College)</li>
+      <li>Chinese National First-Class Athlete (Pinnacle of lifelong honor for semi-professional athletes)</li>
+    </ul>
   </div>
 </div>
 
-
-
+<div class="wrapper">
 <div id="timeline" class="timeline-brief">
-  <h1 class="md-heading text-center">
+  <h1 class="md-heading text-left">
     <i class="fa fa-tasks" aria-hidden="true"></i>
     Experiences
   </h1>
@@ -377,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="timeline-item">
       <div class="timeline-date">
         <img class="social-icon" src="images/icon/stanford.png"/>
-        2023 June. - Present
+        2023 Jun. - Present
       </div>
       <div class="timeline-title">
         Visiting Research Student @ Stanford
@@ -442,7 +455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="timeline-item">
       <div class="timeline-date">
         <img class="social-icon" src="images/icon/NUS.jpg"/>
-        2022 May. - 2022 July.
+        2022 May. - 2022 Jul.
       </div>
       <div class="timeline-title">
 	      Summer Workshop @ NUS
@@ -476,14 +489,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       He was Born
     </div>
   </div> -->
+  <br>
 </div>
 </div>
-
+</div>
 
 <div class="wrapper">
   <div id="misc" class="bio">
     <div class="bio-body" style="overflow:hidden;">
-      <h1 class="md-heading text-center">
+      <h1 class="md-heading text-left">
         <i class="fa fa-id-card" aria-hidden="true"></i>
         Miscellaneous
       </h1>  
@@ -496,7 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <td width="30%" valign="middle"><p><a href="https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92" target="_blank">
             <img src="./images/self-portrait/badminton.png" width="300" alt="LGM" style="border-style: none" align="top">
           </a></p></td>
-          <td width="70%" valign="middle"><p style="margin-top: 0px; margin-bottom: 0px; line-height: 1.25;">
+          <td width="50%" valign="middle"><p style="margin-top: 0px; margin-bottom: 0px; line-height: 1.25;">
               <ul>
                 <li><b>Chinese National First-Class Athlete</b> 
                   <ul>
@@ -504,7 +518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </ul>
                 </li>
                 <li>National 8th place in Badminton Men's Singles</li>
-                <li>Zhejiang Provincial 🥇🥈, &nbsp; <a href="https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1kK4y1P7FJ" alt="bilibili"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ" alt="bilibili"></a></li>
+                <li>Zhejiang Provincial 🥇🥈 &nbsp; <a href="https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1kK4y1P7FJ" alt="bilibili"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ" alt="bilibili"></a></li>
                 <li>Fujian Provincial 🥈🥈🥉🥉</li>
                 <li>Xiamen Municipal 🥇🥇🥇🥇🥇🥇🥇</li>
               </ul>
