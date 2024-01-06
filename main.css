@@ -1929,3 +1929,11 @@ div.paginate-container li:nth-last-child(2) a:after {
         font-size: 18px
     }
 }
+
+.scrollable-box {
+    height: 300px; /* Adjust as per your requirement */
+    width: 100%; /* Adjust if you need a specific width */
+    overflow-y: scroll; /* This enables vertical scrolling */
+    /* border: 1px solid #ccc;  */
+    padding: 10px; /* Optional, for internal spacing */
+}
