@@ -1931,9 +1931,39 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .scrollable-box {
-    height: 300px; /* Adjust as per your requirement */
+    height: 140px; /* Adjust as per your requirement */
     width: 100%; /* Adjust if you need a specific width */
     overflow-y: scroll; /* This enables vertical scrolling */
     /* border: 1px solid #ccc;  */
     padding: 10px; /* Optional, for internal spacing */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.overlay-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }

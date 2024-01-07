@@ -28,8 +28,8 @@
 	  
 	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
 
-  <title>Leo Yuan</title>
-  <meta name="description" lang="en" content="This is an academic website for Leo Yuan">
+  <title>Leo / Zeqing Yuan</title>
+  <meta name="description" lang="en" content="This is an academic website for Leo(Zeqing) Yuan">
   <meta name="keywords" lang="en" content="Leo, Zeqing Yuan, 袁泽清" />
   
 
@@ -65,10 +65,9 @@
   </script>
 
   <style>
-    /* 为所有列表项设置样式 */
     li.indented {
         position: relative;
-        padding-left: 120px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+        padding-left: 120px; 
     }
 
     li.indented::before {
@@ -253,20 +252,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </ul>
       <b>Computer Vision</b>
       <ul>
-        <li>Video Analysis</li>
+        <li>Video Understanding</li>
         <li>3D Vision</li>
       </ul>
-      
-      <!-- <ul>
-        <li><b>Computer Vision</b></li>
-        <li><b>Generative Modeling</b></li>
-        <li>3D Scene Generation</li>
-        <li>Video Understanding</li>
-        <li><b>Large Language Models</b></li>
-        <li>Data-centric AI for 2D Vision</li>
-        <li>Visual Analytics</li>
-      </ul> -->
-      
+            
     </div>
 
     <div style="width: 50%; float:right">
@@ -278,28 +267,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<ul>
         <li>B.E.(Honors) in Computer Science</li>
         <li>Minoring in Statistics</li>
+        <li><a href="#" class="image-link" data-image="./images/honors/ckc.jpg">Highest Honor & Scholarship</a></li>
         <li><a href="https://drive.google.com/file/d/1ICqVIm3GoEmY2mYXVdacYdyhQdvoCFVg/view?usp=sharing">Rank</a>: 1 / 317</li>
 			</ul>
       <b>Xiamen NO.1 High School</b><br>
         <ul>
-          <li><a href="https://mp.weixin.qq.com/s/Y3dKaSG1BW5ZOw4XK_ZtPA">Valedictorian</a> of Class of 2020</li>
+          <li>Valedictorian of Class of 2020</li>
         </ul>
     </div>
   
   </div>
 </div>
 
+<!-- Image overlay container -->
+<div id="image-overlay" class="overlay">
+  <span class="close" onclick="closeOverlay()">&times;</span>
+  <img class="overlay-content" id="overlay-image" src="">
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.image-link').forEach(function(link) {
+          link.addEventListener('click', function(e) {
+              e.preventDefault();
+              var imgSrc = this.getAttribute('data-image');
+              document.getElementById('overlay-image').src = imgSrc;
+              document.getElementById('image-overlay').style.display = 'flex';
+          });
+      });
+  });
+
+  function closeOverlay() {
+      document.getElementById('image-overlay').style.display = 'none';
+  }
+</script>
 
 <div id="news" class="bio">
   <h1 class="md-heading text-left">
     <i class="fa fa-tasks" aria-hidden="true"></i>
     News
   </h1>  
+  <div class="scrollable-box">
   <ul>
     <li class="indented" data-date="[Dec, 2023]"> One paper accepted by AAAI 2024</li>
-    <li class="indented" data-date="[Oct, 2023]"> Awarded <a href="./images/honors/ckc.jpg"><b>Chu Kochen Presidential Scholarship</b></a>, the highest scholarship at Zhejiang University (24/65k+)</li>
     <li class="indented" data-date="[Oct, 2023]"> Listed as one of the <a href="https://mp.weixin.qq.com/s/ilIQaNcILcRPk0GQLKGePg"><b>Top 10 Outstanding Students at Zhejiang University</b></a> (10/65k+)</li>
+    <li class="indented" data-date="[Oct, 2023]"> Awarded <a href="#" class="image-link" data-image="./images/honors/ckc.jpg"><b>Chu Kochen Presidential Scholarship</b></a>, the highest scholarship at Zhejiang University (24/65k+)</li>
     <li class="indented" data-date="[Oct, 2023]"> Awarded my 3rd National Scholarship by Ministry of Education (Top 0.2%)</li>
     <li class="indented" data-date="[Jul, 2023]"> One patent submitted</li>
     <!-- <li class="indented" data-date="[Jun, 2023]"> Start my visiting research internship @<a href="https://svl.stanford.edu/">Stanford Vision & Learning Lab</a></li> -->
@@ -307,6 +319,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li class="indented" data-date="[Oct, 2022]"> One work receives People's Choice Award at ACM MobileHCI 2022</li>
     <li class="indented" data-date="[Jun, 2021]"> One paper accepted by IEEE VIS 2021 and TVCG</li>
   </ul>
+  </div>
 </div>
 
 
@@ -316,6 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <i class="fa fa-file" aria-hidden="true"></i>
     Publications and Manuscripts
   </h1>
+  <div class="footnote">(*: equal contribution)</div><br>
 
   <div class="pub-list">
     
@@ -375,7 +389,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://sinlayout.github.io"><b>Project Page</b></a>]
+          [<a class="tag" href="https://sinlayout.github.io"><b>Webpage</b></a>]
           [<a class="tag" href="https://drive.google.com/file/d/18jlMTUGO6JWjy7Ak1CLdFK6C21G47yHY/view"><b>Paper</b></a>]
           <!-- [<a class="tag" href=""><strong>Video</strong></a>] -->
         </div>
@@ -410,8 +424,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://vistec2024.github.io"><strong>Project Page</strong></a>]
-          <!-- [<a class="tag" href=""><strong>Paper</strong></a>] -->
+          [<a class="tag" href="https://vistec2024.github.io"><strong>Webpage</strong></a>]
+          [<a class="tag" href="https://drive.google.com/file/d/1efSWeQ-Icaaw5hy4SOt4MCwh36ITT7gI/view?usp=drive_link"><strong>Paper</strong></a>]
           <!-- [<a class="tag" href=""><strong>Video</strong></a>] -->
         </div>
       </div>
@@ -463,19 +477,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <i class="fa fa-tasks" aria-hidden="true"></i>
       Selected Honors & Awards 
     </h1>
+    <!-- <div class="scrollable-box"> -->
     <ul>
       <!-- <li><a href="https://mp.weixin.qq.com/s/P9J1OUv7YbgRU2HFeVdhww"><b>Chu Kochen Presidential Scholarship</b></a>, 2023 </li> -->
-      <li><a href="./images/honors/ckc.jpg"><b>Chu Kochen Presidential Scholarship</b></a>, 2023 </li>
+      <li><b>Chu Kochen Presidential Scholarship</b>, 2023 </li>
       <ul>
         <li>Highest scholarship at Zhejiang University, awarded to <b>24/65k+</b> students</li>
       </ul>
-      <li><a href="https://mp.weixin.qq.com/s/ilIQaNcILcRPk0GQLKGePg"><b>Top 10 Outstanding Students at Zhejiang University</b></a>, 2023</li>
+      <li><b>Top 10 Outstanding Students at Zhejiang University</b>, 2023</li>
       <ul>
         <li>Highest student honor at Zhejiang University, awarded to <b>10/65k+</b> students</li>
       </ul>
       <li><b>National Scholarship</b>, 2021, 2022, 2023</li>
       <ul>
-        <li>Awarded by Ministry of Education of China, <b>Top 0.2%</b>, 3 consecutive times</li>
+        <li>Awarded by Ministry of Education of China; <b>Top 0.2%</b>; 3 consecutive times</li>
       </ul>
       <li><b>AAAI Student Scholarship</b>, 2024</li>
       <ul>
@@ -496,6 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li>Highest lifetime honor for semi-professional athletes, awarded by General Administration of Sport of China</li>
       </ul> -->
     </ul>
+    <!-- </div> -->
   </div>
 </div>
 
@@ -557,7 +573,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	      Research Project Lead @ ZJU
       </div>
       <div class="timeline-desc">
-        National Undergraduate Innovation Project<br>
+        <!-- National Undergraduate Innovation Project<br> -->
         <a href="http://zjuidg.org/">IDG, State Key Lab of CAD & CG</a><br>
         Work on video action understanding and sports data mining<br>
         <b>1 paper</b> accepted by AAAI 2024 (<b>co-first author</b>)<br>
@@ -617,11 +633,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </h1>
     <b>Teaching Assistant, Zhejiang University</b>
     <ul>
-      <li>ZJU 21191070: <i>Computer Vision</i>, with <a href="https://vipazoo.cn/people/songmingli.html">Professor Mingli Song</a> (2023)</li>
+      <li>CS 21191070: <i>Computer Vision</i>, with <a href="https://vipazoo.cn/people/songmingli.html">Professor Mingli Song</a> (2023)</li>
     </ul>
     <b>Senior Course Tutor Program, Zhejiang University</b>
     <ul>
-      <li>ZJU 211G0280: <i>Fundamentals of C Programming</i>, Chu Kochen Honors College (2022)</li>
+      <li>CS 211G0280: <i>Fundamentals of C Programming</i>, Chu Kochen Honors College (2022)</li>
     </ul>
   </div>
 </div>
