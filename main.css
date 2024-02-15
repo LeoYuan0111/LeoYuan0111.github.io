@@ -796,7 +796,7 @@ pre>code {
 #my-name {
     font-size: 34px;
     font-weight: bold;
-    color: #292929
+    color: #292929 
 }
 
 #my-title {
@@ -1973,4 +1973,18 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.honor-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #9b3022
+}
+
+.teaching-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #000000
 }
