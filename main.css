@@ -722,7 +722,7 @@ pre>code {
 
 .profile-col {
     float: left !important;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -730,8 +730,8 @@ pre>code {
 }
 
 .profile-col-1 {
-    width: -webkit-calc(40% - (20px / 2));
-    width: calc(40% - (20px / 2))
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2))
 }
 
 .profile-col-2 {
