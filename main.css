@@ -1979,7 +1979,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-size: 16px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    color: #9b3022
+    color: #610e03
+    /* color: #9b3022 */
 }
 
 .teaching-title {
