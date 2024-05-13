@@ -46,11 +46,15 @@
 
 
   <script src="js/jquery-2.1.3.min.js"> </script>
-
-  <!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
-</script>
-<![endif]-->
+  <script>
+    // JavaScript function to generate a scrambled email address
+    function generateEmail() {
+        var name = "leoyuan"; // Replace with your email username
+        var domain = "cmu.edu"; // Replace with your email domain
+        var email = name + "@" + domain;
+        document.getElementById("email").innerHTML = email;
+    }
+  </script>
 
   <script type="text/javascript">
     function ShowHide(divId, linkDivId) {
@@ -89,7 +93,7 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 
-    <header class="site-header">
+  <header class="site-header">
 
   <div class="wrapper">
 <nav class="site-nav">
@@ -104,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="trigger">
     <a class="page-link" href="#bio"><b>Biography</b></a>
     <a class="page-link" href="#publications"><b>Publications</b></a>
-    <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
+    <a class="page-link" href="#awards"><b>Honors</b></a>
     <a class="page-link" href="#timeline"><b>Experiences</b></a>
     <a class="page-link" href="#teaching"><b>Academic Services</b></a>
     <a class="page-link" href="#misc"><b>Misc</b></a>
@@ -126,20 +130,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Leo / Zeqing Yuan<br>
         </div>
         <div id="my-title" class="text-grey">
-          CS @Zhejiang University 24'
-        </div>
-        <div id="my-email" class="text-grey-light">
-          leo.zq.yuan [at] gmail [dot] com
+          CS undergrad @ZJU 24'<br>
+          Incoming MSR student @CMU 26'
+          <!-- Prev intern @Stanford 23' -->
         </div>
 
         <div class="social-media">
           <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github">
           <i class="ai ai-google-scholar-square icon-github"></i>
-            <span></span>
-          </a>
-
-          <a href="https://github.com/leoyuan0111" class="icon-button github">
-            <i class="fa fa-github icon-github"></i>
             <span></span>
           </a>
 
@@ -153,6 +151,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <span></span>
           </a>
          
+          <a href="https://github.com/leoyuan0111" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+
           <!-- <a href="files/CV.pdf" class="icon-button github">
             <i class="ai ai-cv icon-github"></i>
             <span></span>
@@ -223,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </h1>
   <div class="bio-body" style="overflow:hidden;">
     <p>
-      Hi! I am a senior undergraduate student majoring in computer science in 
+      Hi! I am a senior undergraduate student majoring in Computer Science in 
       <a href="http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm">Turing Class</a>, <a href="http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp">Chu Kochen Honors College</a>, <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>. 
       During my undergraduate, I am grateful to be advised by
       <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>,
@@ -231,8 +234,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       and <a href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100">Prof. Chunhua Shen</a>.
       I also spent a lovely summer at <a href="https://ai.stanford.edu/">Stanford AI Lab</a> working with <a href="https://jiajunwu.com/">Prof. Jiajun Wu</a>'s team.
       <br><br>
-      I am broadly interested in visual computing and AI, with a recent focus on visual generative models. 
+      I am broadly interested in computer vision, graphics and robotics, with a recent focus on visual generative models. 
+      I am particularly fascinated by how machines can perceive, understand, virtually recreate and interact with humans.
+      My fundamental research motivation is to develop proficient digital avatars and humanoid robots with these capabilities.
       Previously, I have worked on two sports-related projects, inspired by my background as a badminton player.
+      <br><br>
+      I am always eager to learn from and collaborate with creative minds from diverse backgrounds. If you would like to discuss something, please don't hesitate to shoot me an email at:
+      <body onload="generateEmail()">
+        <a href="mailto:"><span id="email"></span></a>
+      </body>
       <br><br>
     </p>
 
@@ -270,7 +280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<b>Zhejiang University</b>, 2020 - 2024<br>
 			<ul>
         <li>B.E.(Honors) in Computer Science</li>
-        <li><a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">Highest Honor & Scholarship</a></li>
+        <li><a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">Highest Honor & Presidential Scholarship</a></li>
         <!-- <li><a href="http://www.cs.zju.edu.cn/turingclass_en/2023/1023/c51325a2815951/page.htm">Highest Honor & Presidential Scholarship</a></li> -->
         <!-- <li><a href="https://drive.google.com/file/d/1ICqVIm3GoEmY2mYXVdacYdyhQdvoCFVg/view?usp=sharing">Rank</a>: 1st / 317</li> -->
 			</ul>
@@ -321,6 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </h1>  
   <div class="scrollable-box">
   <ul>
+    <li class="indented" data-date="[May, 2024]"> One paper accepted by AI for 3D Generation Workshop at CVPR 2024</li>
     <li class="indented" data-date="[Dec, 2023]"> One paper accepted by AAAI 2024</li>
     <li class="indented" data-date="[Oct, 2023]"> Listed as one of the Top 10 Outstanding Students at Zhejiang University (10/65k+)</li>
     <li class="indented" data-date="[Oct, 2023]"> Awarded <a href="#" class="image-link" data-image="./images/honors/ckc.jpg">Chu Kochen Scholarship</a>, the highest scholarship at Zhejiang University (24/65k+)</li>
@@ -365,12 +376,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </font>
         </div>
         <div class="publish">
-          <span class="publisher">In Submission</span>
+          <span class="publisher">CVPR 2024</span> Workshop on AI for 3D Generation
           <span class="place"></span>
         </div>
         <div class="tags">
           [<a class="tag" href="https://sinlayout.github.io"><b>Webiste</b></a>]
           [<a class="tag" href="papers/sinlayout/paper.pdf"><b>Paper</b></a>]
+          [<a class="tag" href="papers/sinlayout/sinlayout.bib"><b>BibTex</b></a>]
           <!-- [<a class="tag" href=""><strong>Video</strong></a>] -->
         </div>
       </div>
@@ -402,6 +414,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="tags">
           [<a class="tag" href="https://arxiv.org/abs/2401.06437"><b>arXiv</b></a>]
           [<a class="tag" href="papers/3d-premise/paper.pdf"><b>Paper</b></a>]
+          [<a class="tag" href="papers/3d-premise/3d-premise.bib"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -436,6 +449,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           [<a class="tag" href="https://arxiv.org/abs/2402.15952"><strong>arXiv</strong></a>]
           [<a class="tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/28692"><strong>www</strong></a>]
           [<a class="tag" href="https://vistec2024.github.io/static/videos/ViSTec_video.mp4"><strong>Video</strong></a>]
+          [<a class="tag" href="papers/vistec/vistec.bib"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -472,6 +486,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           [<a class="tag" href="https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf"><strong>Paper</strong></a>]
           [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><strong>www</strong></a>]
           [<a class="tag" href="https://www.youtube.com/watch?v=4j5CL5HamQQ"><strong>Video</strong></a>]
+          [<a class="tag" href="papers/tivee/tivee.bib"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -484,7 +499,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div id="awards" class="bio">
     <h1 class="md-heading text-left">
       <i class="fa fa-tasks" aria-hidden="true"></i>
-      Selected Honors & Awards 
+      Selected Honors
     </h1>
     <!-- <div class="scrollable-box"> -->
     <ul>
@@ -500,13 +515,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul>
         <li>Awarded by Ministry of Education of China; <b>Top 0.2%</b>; <b>3 consecutive times</b></li>
       </ul>
-      <div class="honor-title">SenseTime Scholarship, 2022</div>
-      <ul>
-        <li>Awarded to <b>30 undergraduates in China</b> for AI-related research</li>
-      </ul>
       <div class="honor-title">AAAI Student Scholarship, 2024</div>
       <ul>
         <li>Awarded by Association for the Advancement of Artificial Intelligence</li>
+      </ul>
+      <div class="honor-title">SenseTime Scholarship, 2022</div>
+      <ul>
+        <li>Awarded to <b>30 undergraduates in China</b> for AI-related research</li>
       </ul>
       <div class="honor-title">ACM MobileHCI People's Choice Award, 2022</div>
       <ul>
@@ -713,7 +728,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <table style="width:16%;max-width:400px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody><tr>
         <td style="width:100%; vertical-align:middle; text-align:center;"><p>
-          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=O8suamHxmsJ0Q9xPWGTZ-axPrNLubvMXcLlaLEJQwzk"></script>
+          <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=O8suamHxmsJ0Q9xPWGTZ-axPrNLubvMXcLlaLEJQwzk"></script> -->
           <!-- <a href="https://clustrmaps.com/site/1bwtj"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=O8suamHxmsJ0Q9xPWGTZ-axPrNLubvMXcLlaLEJQwzk&cl=ffffff" /></a>   -->
         </a></p></td>
       </tr></tbody>
@@ -726,21 +741,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+      <!-- <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>Personal Email:</li>
           <li><a href="mailto:">leo.zq.yuan [at] gmail [dot] com</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <div class="footer-col  footer-col-2">
           <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github">
           <i class="ai ai-google-scholar-square icon-github"></i>
-            <span></span>
-          </a>
-
-          <a href="https://github.com/leoyuan0111" class="icon-button github">
-            <i class="fa fa-github icon-github"></i>
             <span></span>
           </a>
 
@@ -753,10 +763,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <i class="fa fa-twitter icon-twitter"></i>
             <span></span>
           </a>
+
+          <a href="https://github.com/leoyuan0111" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
       </div>
 	<div class="footer-col footer-col-3">
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleoyuan.site&count_bg=%2350A7E3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false"/></a>
-		<p class="text">The style of this homepage is adapted from <a href='http://hexianghu.com/'>this website</a>.</p>
+		<p class="text">Designed based on Hexiang Hu's website.</p>
 	</div>
   </div>
   </div>
