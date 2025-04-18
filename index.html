@@ -595,22 +595,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           I am a sports enthusiast interested in badminton🏸, hiking🏞️, basketball🏀 and so much more.<br>
           I spent 5 lovely years in the Xiamen Professional Badminton Team.<br><br>
           <div class="pub-left">
-            <img class="intro-img frame" src="./images/self-portrait/badminton.png">
+            <img id="badminton-img" class="intro-img frame" src="./images/self-portrait/badminton.png">
           </div>
           <div class="pub-right">
             <div class="desc">
               <ul>
-                <li>National First-Class Athlete
+                <li>U.S. National Collegiate Team Badminton Championships 🥇, 2025</li>
+                <li>Chinese National First-Class Athlete
                   <!-- <ul>
                     <li>Highest lifetime honor for semi-professional athletes</li>	
                   </ul> -->
                 </li>
-                <li>National 8th place in Badminton Men's Singles, 2013</li>
-                <li>Zhejiang Provincial 🥇🥇🥈 
+                <li>Chinese National 8th place in Badminton Men's Singles, 2013</li>
+                <li>Zhejiang Provincial 🥇🥇🥈, 2021-2024
                   <!-- &nbsp; <a href="https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1kK4y1P7FJ" alt="bilibili"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ" alt="bilibili"></a> -->
                 </li>
-                <li>Fujian Provincial 🥈🥈🥉🥉</li>
-                <li>Xiamen Municipal 🥇🥇🥇🥇🥇🥇🥇</li>
+                <li>Fujian Provincial 🥈🥈🥉🥉, 2016-2019</li>
+                <li>Xiamen Municipal 🥇🥇🥇🥇🥇🥇🥇, 2013-2019</li>
               </ul>
             </div>
           </div>
@@ -687,6 +688,23 @@ jQuery(document).ready(function() {
         jQuery('html, body').animate({scrollTop: 0}, duration);
         return false;
     })
+});
+
+// Badminton image hover effect
+document.addEventListener('DOMContentLoaded', function() {
+  const badmintonImg = document.getElementById('badminton-img');
+  const staticSrc = './images/self-portrait/badminton.png';
+  const animatedSrc = './images/self-portrait/badminton.gif';
+  
+  if (badmintonImg) {
+    badmintonImg.addEventListener('mouseenter', function() {
+      this.src = animatedSrc;
+    });
+    
+    badmintonImg.addEventListener('mouseleave', function() {
+      this.src = staticSrc;
+    });
+  }
 });
 </script>
 </body>
