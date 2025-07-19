@@ -1605,8 +1605,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .pub-left {
     float: left;
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2));
+    width: -webkit-calc(30% - (30px / 2));
+    width: calc(30% - (30px / 2));
     text-align: center;
     margin-left: auto;
     margin-right: auto
@@ -1620,8 +1620,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .pub-right {
     float: right;
-    width: -webkit-calc(60% - (30px / 2));
-    width: calc(60% - (30px / 2))
+    width: -webkit-calc(70% - (30px / 2));
+    width: calc(70% - (30px / 2))
 }
 
 @media screen and (max-width: 800px) {
