@@ -207,11 +207,12 @@ li.indented::before {
     }
 }
 
-/* Visitor map styling - improved positioning for both mobile and desktop */
+/* Visitor map styling - improved positioning and sizing for both mobile and desktop */
 .visitor-map {
     text-align: center;
     clear: both;
     width: 100%;
+    max-width: 30%;
     margin: 0 auto;
     padding: 0;
 }
@@ -221,6 +222,7 @@ li.indented::before {
     .visitor-map {
         margin-top: 20px;
         padding: 10px 0;
+        max-width: 30%;
     }
 }
 
@@ -229,6 +231,7 @@ li.indented::before {
     .visitor-map {
         margin-top: 15px;
         padding: 10px 0;
+        max-width: 30%;
     }
     
     .misc-sports-section {
