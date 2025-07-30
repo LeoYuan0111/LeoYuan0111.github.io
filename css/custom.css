@@ -207,12 +207,33 @@ li.indented::before {
     }
 }
 
-/* Visitor map styling */
+/* Visitor map styling - improved positioning for both mobile and desktop */
 .visitor-map {
     text-align: center;
-    margin-top: 30px;
-    padding: 20px;
     clear: both;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Desktop visitor map positioning */
+@media screen and (min-width: 800px) {
+    .visitor-map {
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+}
+
+/* Mobile visitor map positioning */
+@media screen and (max-width: 799px) {
+    .visitor-map {
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+    
+    .misc-sports-section {
+        margin-bottom: 15px;
+    }
 }
 
 /* Sports section specific styling - keep for backwards compatibility */
