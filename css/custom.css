@@ -4,3 +4,444 @@
 .grey-hl{
   color: #696969;
 }
+
+/* Performance and Layout Optimizations */
+
+/* Inline styles moved to CSS for better performance */
+li.indented {
+    position: relative;
+    padding-left: 120px; 
+}
+
+li.indented::before {
+    content: attr(data-date);
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+}
+
+/* Publication categories styling */
+.publication-category {
+    font-size: 18px;
+    font-weight: 600;
+    color: #9b3022;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 5px;
+}
+
+/* Improved publication alignment */
+.pub {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+    overflow: visible; /* Allow scaled images to show */
+}
+
+.pub:last-child {
+    border-bottom: none;
+}
+
+.pub-left {
+    flex: 0 0 280px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.pub-right {
+    flex: 1;
+    min-width: 0; /* Allows flex item to shrink */
+}
+
+.pub-right .title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.pub-right .authors {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.pub-right .publish {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.pub-right .tags {
+    line-height: 1.5;
+}
+
+/* Better responsive design for publications */
+@media screen and (max-width: 800px) {
+    .pub {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px 10px; /* Add horizontal padding to prevent cutoff */
+        margin-left: -10px;
+        margin-right: -10px;
+        width: calc(100% + 20px); /* Compensate for negative margins */
+    }
+    
+    .pub-left {
+        flex: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .pub-left .intro-img {
+        max-width: 95%; /* Ensure image fits with some margin */
+        height: auto;
+    }
+    
+    .pub-right {
+        width: 100%;
+        max-width: 95%;
+        padding: 0 10px; /* Add some padding for readability */
+    }
+}
+
+/* Mobile-specific publication container fix */
+@media screen and (max-width: 600px) {
+    .publications {
+        overflow-x: hidden; /* Prevent horizontal scroll */
+        padding: 0 5px; /* Add small padding */
+    }
+    
+    .pub {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 15px 5px;
+    }
+    
+    .pub-left .intro-img {
+        max-width: 85%; /* Further reduce for very small screens */
+    }
+    
+    .pub-right {
+        padding: 0 5px;
+    }
+}
+
+/* Miscellaneous section specific styling - separate from publications */
+.misc-content {
+    overflow: visible; /* Changed from auto to visible to accommodate scaled images */
+    margin-bottom: 30px;
+}
+
+.misc-content .misc-intro {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.misc-sports-section {
+    overflow: visible; /* Changed from auto to visible */
+    margin-bottom: 30px;
+    padding: 10px 0; /* Add padding to accommodate scaled images */
+}
+
+.misc-sports-left {
+    float: left;
+    width: calc(30% - 15px);
+    text-align: center;
+    margin-right: 30px;
+}
+
+.misc-sports-right {
+    float: right;
+    width: calc(70% - 15px);
+}
+
+.misc-sports-left .intro-img {
+    width: 100%;
+    max-width: 260px; /* Slightly reduced to leave room for scaling */
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #9b3022;
+    transition: transform 0.3s ease;
+    transform-origin: center; /* Ensure scaling happens from center */
+}
+
+.misc-sports-left .intro-img:hover {
+    transform: scale(1.02);
+}
+
+.misc-sports-right .desc {
+    margin-top: 0;
+}
+
+.misc-sports-right .desc ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.misc-sports-right .desc ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Responsive design for miscellaneous section */
+@media screen and (max-width: 800px) {
+    .misc-sports-left,
+    .misc-sports-right {
+        float: none;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+    
+    .misc-sports-left {
+        margin-bottom: 20px;
+    }
+}
+
+/* Visitor map styling */
+.visitor-map {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    clear: both;
+}
+
+/* Sports section specific styling - keep for backwards compatibility */
+.sports-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.achievements-list {
+    margin-left: 20px;
+}
+
+.achievements-list li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Honors list styling */
+.honors-list {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.honors-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Image loading optimization */
+.intro-img {
+    width: 100%;
+    max-width: 260px; /* Slightly reduced to leave room for scaling */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform-origin: center; /* Ensure scaling happens from center */
+}
+
+.intro-img:hover {
+    transform: scale(1.02);
+}
+
+/* Profile section improvements */
+.profile-wrapper {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Better focus styles for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid #2a7ae2;
+    outline-offset: 2px;
+}
+
+/* Smooth scrolling for better UX */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading states */
+img[loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+img[loading="lazy"].loaded {
+    opacity: 1;
+}
+
+/* Back to top button improvements */
+.back-to-top {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Font loading optimization */
+.font-loading body {
+    visibility: hidden;
+}
+
+.font-loaded body {
+    visibility: visible;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .pub {
+        border-bottom: 2px solid #000;
+    }
+    
+    .publication-category {
+        border-bottom: 3px solid #000;
+    }
+}
+
+/* Dark mode preparation (can be extended) */
+@media (prefers-color-scheme: dark) {
+    .back-to-top {
+        background-color: rgba(45, 45, 45, 0.9);
+        color: #fff;
+    }
+}
+
+/* Improved spacing for better visual hierarchy */
+section {
+    margin-bottom: 40px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+/* Better alignment for social media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .social-media {
+        gap: 8px;
+    }
+    
+    .icon-button {
+        width: 2.8rem;
+        height: 2.8rem;
+        line-height: 2.8rem;
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile-specific social media centering fix */
+@media screen and (max-width: 600px) {
+    .profile-col-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+    
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 15px auto 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .icon-button {
+        margin: 0;
+        flex-shrink: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .icon-button i {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        line-height: inherit;
+    }
+}
+
+/* Performance optimization: will-change for animations */
+.intro-img,
+.back-to-top,
+.icon-button {
+    will-change: transform;
+}
+
+/* Content loading animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.bio,
+.publications,
+section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Stagger animation delays for sections */
+.bio { animation-delay: 0.1s; }
+.publications { animation-delay: 0.2s; }
+#awards { animation-delay: 0.3s; }
+#teaching { animation-delay: 0.4s; }
+#misc { animation-delay: 0.5s; }

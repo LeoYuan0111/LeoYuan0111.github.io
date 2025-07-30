@@ -730,13 +730,13 @@ pre>code {
 }
 
 .profile-col-1 {
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2))
+    width: -webkit-calc(40% - (20px / 2));
+    width: calc(40% - (20px / 2))
 }
 
 .profile-col-2 {
-    width: -webkit-calc(60% - (30px / 2));
-    width: calc(60% - (30px / 2))
+    width: -webkit-calc(60% - (20px / 2));
+    width: calc(60% - (20px / 2))
 }
 
 @media screen and (max-width: 800px) {
@@ -1593,57 +1593,28 @@ div.paginate-container li:nth-last-child(2) a:after {
     overflow: auto
 }
 
+/* Publication styles - updated for flexbox layout */
 .pub {
-    /* border-top: thin solid #c0c0c0; */
-    /* radius: 15px; */
-    /* float: left !important; */
-    margin-top: 5px;
-    margin-bottom: 15px;
-    /* padding-top: 15px; */
-    overflow: auto
+    /* Styles moved to custom.css for better organization */
+    clear: both;
 }
 
 .pub-left {
-    float: left;
-    width: -webkit-calc(30% - (30px / 2));
-    width: calc(30% - (30px / 2));
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto
+    /* Flexbox styles now handled in custom.css */
 }
 
 .pub-left>.intro-img {
-    width: 280px;
     border-style: solid;
-    border-color: #9b3022
+    border-color: #9b3022;
+    border-width: 2px;
+    max-width: 260px; /* Ensure consistent sizing with custom.css */
 }
 
 .pub-right {
-    float: right;
-    width: -webkit-calc(70% - (30px / 2));
-    width: calc(70% - (30px / 2))
+    /* Flexbox styles now handled in custom.css */
 }
 
-@media screen and (max-width: 800px) {
-
-    .pub-left,
-    .pub-right {
-        float: none;
-        margin: 10px auto;
-        width: -webkit-calc(100% - (30px / 2));
-        width: calc(100% - (30px / 2))
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .pub {
-        position: relative;
-        margin: 10px auto;
-        float: none;
-        width: -webkit-calc(100% - (30px / 2));
-        width: calc(100% - (30px / 2))
-    }
-}
+/* Responsive layout handled in custom.css */
 
 .pub-right>.title {
     font-weight: 600
@@ -1715,7 +1686,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .bio-body {
     margin: 5px;
-    padding: 0px
+    padding: 0px;
+    overflow: visible; /* Changed to visible to accommodate scaled images */
 }
 
 .posts {

@@ -1,129 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Leo / Zeqing Yuan</title>
+    <meta name="description" lang="en" content="This is a personal homepage for Zeqing(Leo) Yuan">
+    <meta name="keywords" lang="en" content="Leo Yuan, Zeqing Yuan, 袁泽清" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./images/self-portrait/me.jpg" as="image">
+    <link rel="preload" href="main.css" as="style">
+    
+    <!-- Critical CSS -->
+    <link rel="shortcut icon" href="images/icon/ImagingCMU_logo.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Non-critical CSS - load asynchronously -->
+    <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+    
+    <link rel="preload" href="css/academicons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/academicons.css"></noscript>
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-RFR2GFKT75');
-  </script> -->
-  <!-- Google Tag Manager -->
-  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
-  <!-- End Google Tag Manager -->
+    <!-- JavaScript - load asynchronously -->
+    <script src="js/jquery-2.1.3.min.js" defer></script>
+    
+    <!-- Inline critical JavaScript -->
+    <script>
+      // Email generation function
+      function generateEmail() {
+          var name = "leoyuan";
+          var domain = "cmu.edu";
+          var email = name + "@" + domain;
+          var emailEl = document.getElementById("email");
+          if (emailEl) emailEl.innerHTML = email;
+      }
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+      // Show/Hide function
+      function ShowHide(divId, linkDivId) {
+          var divEl = document.getElementById(divId);
+          var linkEl = document.getElementById(linkDivId);
+          if(divEl && divEl.style.display == 'none') {
+              divEl.style.display='block';
+              if(linkEl) linkEl.style.display='none';
+          } else if(divEl) {
+              divEl.style.display = 'none';
+          }
+      }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  
-	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+      // Image overlay functions
+      function openOverlay(imgSrc) {
+          var overlay = document.getElementById('image-overlay');
+          var overlayImg = document.getElementById('overlay-image');
+          if (overlay && overlayImg) {
+              overlayImg.src = imgSrc;
+              overlay.style.display = 'flex';
+          }
+      }
 
-  <title>Leo / Zeqing Yuan</title>
-  <meta name="description" lang="en" content="This is a personal homepage for Leo(Zeqing) Yuan">
-  <meta name="keywords" lang="en" content="Leo, Zeqing Yuan, 袁泽清" />
-  
-
-  <link rel="shortcut icon" href="images/icon/ImagingCMU_logo.png">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <!-- <link rel="canonical" href="https://cs.stanford.edu/~leoyuan/"> -->
-  <!-- <link rel="alternate" type="application/rss+xml" title="Zeqing (Leo) Yuan" href="https://LeoYuan0111.github.io/feed.xml" /> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="css/academicons.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-
-
-  <script src="js/jquery-2.1.3.min.js"> </script>
-  <script>
-    // JavaScript function to generate a scrambled email address
-    function generateEmail() {
-        var name = "leoyuan"; // Replace with your email username
-        var domain = "cmu.edu"; // Replace with your email domain
-        var email = name + "@" + domain;
-        document.getElementById("email").innerHTML = email;
-    }
-  </script>
-
-  <script type="text/javascript">
-    function ShowHide(divId, linkDivId) {
-        if(document.getElementById(divId).style.display == 'none') {
-            document.getElementById(divId).style.display='block';
-            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
-        }
-        else {
-            document.getElementById(divId).style.display = 'none';
-        }
-    }
-  </script>
-
-  <style>
-    li.indented {
-        position: relative;
-        padding-left: 120px; 
-    }
-
-    li.indented::before {
-        content: attr(data-date);
-        position: absolute;
-        left: 0;
-        top: 0;
-        white-space: nowrap;
-    }
-  </style>
-  
-</head>
-
+      function closeOverlay() {
+          var overlay = document.getElementById('image-overlay');
+          if (overlay) overlay.style.display = 'none';
+      }
+    </script>
+  </head>
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-<!-- End Google Tag Manager (noscript) -->
-
   <header class="site-header">
+    <div class="wrapper">
+      <nav class="site-nav">
+        <a href="#" class="menu-icon" aria-label="Menu">
+          <svg viewBox="0 0 18 15" aria-hidden="true">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </a>
 
-  <div class="wrapper">
-<nav class="site-nav">
-  <a href="#" class="menu-icon">
-    <svg viewBox="0 0 18 15">
-      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-    </svg>
-  </a>
-
-  <div class="trigger">
-    <a class="page-link" href="#bio"><b>Biography</b></a>
-    <a class="page-link" href="#publications"><b>Publications</b></a>
-    <a class="page-link" href="#awards"><b>Honors</b></a>
-    <!-- <a class="page-link" href="#timeline"><b>Experiences</b></a> -->
-    <a class="page-link" href="#teaching"><b>Academic Service</b></a>
-    <a class="page-link" href="#misc"><b>Misc</b></a>
-    <!-- <a class="page-link" href="files/CV.pdf"><b>CV</b></a> -->
-    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
-    <!-- Button for Posts -->
-  </div>
-</nav>
-  </div>
-</header>
+        <div class="trigger">
+          <a class="page-link" href="#bio"><b>Biography</b></a>
+          <a class="page-link" href="#publications"><b>Publications</b></a>
+          <a class="page-link" href="#awards"><b>Honors</b></a>
+          <a class="page-link" href="#teaching"><b>Academic Service</b></a>
+          <a class="page-link" href="#misc"><b>Misc</b></a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
   <div id="profile-cover" class="cover shallow-bg img-responsive"> 
     <div id="profile-namecard" class="profile-wrapper wrapper-light">
       <div id="my-pic" class="profile-col profile-col-1">
-        <img id="profile-avatar" src="./images/self-portrait/me.jpg" alt="Me" class="circle-img border-dark"-/>
+        <img id="profile-avatar" src="./images/self-portrait/me.jpg" alt="Leo / Zeqing Yuan" class="circle-img border-dark" loading="eager" />
       </div>
       <div id="my-contact" class="profile-col profile-col-2">
         <div id="my-name" class="text-grey-dark">
@@ -131,167 +107,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div id="my-title" class="text-grey">
           Graduate student @CMU 26'<br>
-          <!-- CS undergrad @ZJU 24' -->
-          <!-- Prev intern @Stanford 23' -->
         </div>
 
         <div class="social-media">
-          <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github">
-          <i class="ai ai-google-scholar-square icon-github"></i>
+          <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar-square icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="https://www.linkedin.com/in/zeqing-yuan/" class="icon-button linkedin">
-            <i class="fa fa-linkedin icon-linkedin"></i>
+          <a href="https://www.linkedin.com/in/zeqing-yuan/" class="icon-button linkedin" aria-label="LinkedIn">
+            <i class="fa fa-linkedin icon-linkedin" aria-hidden="true"></i>
             <span></span>
           </a>
           
-          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter">
-            <i class="fa fa-twitter icon-twitter"></i>
+          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="Twitter">
+            <i class="fa fa-twitter icon-twitter" aria-hidden="true"></i>
             <span></span>
           </a>
          
-          <a href="https://github.com/leoyuan0111" class="icon-button github">
-            <i class="fa fa-github icon-github"></i>
+          <a href="https://github.com/leoyuan0111" class="icon-button github" aria-label="GitHub">
+            <i class="fa fa-github icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="mailto:leoyuan@cmu.edu" class="icon-button github">
-            <i class="fa fa-envelope icon-github"></i>
+          <a href="mailto:leoyuan@cmu.edu" class="icon-button github" aria-label="Email">
+            <i class="fa fa-envelope icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
-          <!-- <a href="files/CV.pdf" class="icon-button github">
-            <i class="ai ai-cv icon-github"></i>
-            <span></span>
-          </a> -->
         </div>
       </div>
-
-      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
-        <div id="my-desc-title">
-          Another me.
-        </div>
-        <div id="my-desc-content">
-        </div>
-      </div> -->
     </div>
   </div>
-  <!-- <script type="text/javascript">
-    function deepFeature()
-    {
-      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
-      $('#profile-avatar').removeClass('border-dark');
-      $('#profile-avatar').addClass('border-bright');
 
-      $('#profile-cover').removeClass('shallow-bg');
-      $('#profile-cover').addClass('deep-bg');
-      
-      $('#profile-namecard').removeClass('wrapper-light');
-      $('#profile-namecard').addClass('wrapper-dark');
-      
-      $('#my-desc').removeClass('hide');
-      $('#my-contact').addClass('hide');    
-      // console.log('Move in now...');
-    }
+  <main class="page-content">
+    <div class="wrapper">
+      <section id="bio" class="bio">
+        <h1 class="md-heading text-left">
+          <i class="fa fa-id-card" aria-hidden="true"></i>
+          About
+        </h1>
+        <div class="bio-body">
+          <p>
+            Hi! I am a graduate student researcher at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, 
+            where I am fortunate to be advised by Prof. <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a> and Prof. <a href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a>.
+            Previously, I graduated with <a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">the highest honor</a> from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, 
+            where I am grateful to be advised by 
+            Prof. <a href="http://www.ycwu.org/">Yingcai Wu</a>,
+            Prof. <a href="https://scholar.google.com/citations?user=8ipao8MAAAAJ">Jake Zhao</a>,
+            and 
+            Prof. <a href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>.
+            I also spent a summer at Stanford working with Prof. <a href="http://jiajunwu.com">Jiajun Wu</a>'s group.
+            <br><br>
 
-    function shallowFeature()
-    {
-      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
-      $('#profile-avatar').removeClass('border-bright');
-      $('#profile-avatar').addClass('border-dark');
+            My research interest lies in physics-based vision, and more broadly, computer vision and computational imaging. Currently I study light transport and energy flow to address inverse problems in vision and graphics. 
+            During my undergraduate years, I worked on visual generative models and AI / VR for sports.
+            <br><br>
+          </p>
+        </div>
+      </section>
 
-      $('#profile-cover').removeClass('deep-bg');
-      $('#profile-cover').addClass('shallow-bg');
-      
-      $('#profile-namecard').removeClass('wrapper-dark');
-      $('#profile-namecard').addClass('wrapper-light');
-      
-      $('#my-contact').removeClass('hide');
-      $('#my-desc').addClass('hide');
-      // console.log('Move out now...');
-    }
-
-    $(function() { 
-      $('#my-pic').hover(deepFeature, shallowFeature);
-    })
-
-  </script> -->
-
-<div class="page-content">
-<div class="wrapper">
-<div id="bio" class="bio">
-
-  <h1 class="md-heading text-left">
-    <i class="fa fa-id-card" aria-hidden="true"></i>
-    About
-  </h1>
-  <div class="bio-body" style="overflow:hidden;">
-    <p>
-      Hi! I am a graduate student researcher at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, 
-      where I am fortunate to be advised by Prof. <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a> and Prof. <a href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a>.
-      <!-- <br> -->
-      Previously, I graduated with <a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">the highest honor</a> from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, 
-      <!-- and received my Bachelor's degree in computer science with honors from the <a href="http://ckc.zju.edu.cn/ckcen/_t1906/wbout/list.psp">Chu Kochen Honors College</a>.  -->
-      where I am grateful to be advised by 
-      Prof. <a href="http://www.ycwu.org/">Yingcai Wu</a>,
-      Prof. <a href="https://scholar.google.com/citations?user=8ipao8MAAAAJ">Jake Zhao</a>,
-      and 
-      Prof. <a href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>.
-      I also spent a summer at Stanford working with Prof. <a href="http://jiajunwu.com">Jiajun Wu</a>'s group.
-      <br><br>
-
-      My research interest lies in physics-based vision, and more broadly, computer vision and computational imaging. Currently I study light transport and energy flow to address inverse problems in vision and graphics. 
-      <!-- <br> -->
-      During my undergraduate years, I worked on visual generative models and AI / VR for sports.
-      <br><br>
-
-      <!-- I am excited to connect and collaborate with individuals from diverse backgrounds. Feel free to email me at:
-      <body onload="generateEmail()">
-        <a href="mailto:"><span id="email"></span></a>
-      </body>
-      <br><br> -->
-    </p>
-<!-- 
-    <div style="width: 50%; float:left">
-			<h3>
-		    <i class="fa fa-star" aria-hidden="true"></i>
-		    <b>Research Topics</b>
-			</h3>
-      <b>Computer Vision</b>
-      <ul>
-        <li>3D Scene Understanding, Video Analysis, Image Editing</li>
-      </ul>
-
-      <b>Generative Models</b>
-      <ul>
-        <li>Diffusion Model, GAN, LLM</li>
-      </ul>
-                   
-    </div>
-
-    <div style="width: 50%; float:right">
-			<h3>
-				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-				<b>Background</b>
-			</h3>
-			<b>Carnegie Mellon University</b>, 2024 - 2026<br>
-			<ul>
-        <li>M.S. in Robotics</li>
-			</ul>
-      <b>Zhejiang University</b>, 2020 - 2024<br>
-			<ul>
-        <li>B.E.(Honors) in Computer Science</li>
-        <li><a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp">Highest Honor & Presidential Scholarship</a></li>
-			</ul>
-    </div> -->
-  </div>
-</div>
-
-<!-- Image overlay container -->
-<div id="image-overlay" class="overlay">
-  <span class="close" onclick="closeOverlay()">&times;</span>
-  <img class="overlay-content" id="overlay-image" src="">
-</div>
+      <!-- Image overlay container -->
+      <div id="image-overlay" class="overlay">
+        <span class="close" onclick="closeOverlay()">&times;</span>
+        <img class="overlay-content" id="overlay-image" src="" alt="Enlarged view">
+      </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -527,7 +406,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       Selected Honors
     </h1>
     <!-- <div class="scrollable-box"> -->
-    <ul>
+    <ul class="honors-list">
       <li>Chinese National Scholarship, 2021, 2022, 2023</li>
       <!-- <ul>
         <li>Awarded by Ministry of Education of China; <b>Top 0.2%</b>; <b>3 consecutive times</b></li>
@@ -561,60 +440,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <i class="fa fa-tasks" aria-hidden="true"></i>
       Academic Service 
     </h1>
-    <!-- <ul>
-      <b>Conference Reviewer</b> 
-      <ul>
-        <li>IEEE / CVF Computer Vision and Pattern Recognition Conference Workshop (CVPR-W), 2024</li>
-      </ul>
-    </ul>
+    <!-- <b>Reviewer</b>: AAAI<br> -->
+    <b>Teaching</b> <br>
     <ul>
-      <b>Student Volunteer</b>
-      <ul>
-        <li>AAAI Conference on Artificial Intelligence (AAAI), 2024</li>
-      </ul>
-    </ul> -->
-    <ul>
-      <div class="teaching-title">Teaching Assistant</div>
-      <ul>
-        <li>CS 21191070: <i>Computer Vision</i>, Zhejiang University, 2023</li>
-      </ul>
+      <li>CS 21191070: <i>Computer Vision</i>, with Prof. <a href="https://scholar.google.com/citations?user=7oLbhAwAAAAJ&hl=en">Mingli Song</a>, Zhejiang University, 2023<br></li>
     </ul>
+    <!-- <b>Volunteer</b>: AAAI <br> -->
   </div>
 </div>
 
-
 <div class="wrapper">
-  <div id="misc" class="bio">
-      <h1 class="md-heading text-left">
-        <i class="fa fa-id-card" aria-hidden="true"></i>
-        Miscellaneous
-      </h1>  
-
-      <div class="pub-list">
-        <div class="pub">
-          I am a sports enthusiast and here's a fun snapshot of my sports career:)<br>
-          I spent 5 years with the awesome Xiamen professional badminton team. Later in undergrad, I was fortunate to combine AI and VR research with racket sports for the national team, and got covered by the national central television.<br>
-          <br>
-          <div class="pub-left">
-            <img id="badminton-img" class="intro-img frame" src="./images/self-portrait/badminton.png">
-          </div>
-          <div class="pub-right">
-            <div class="desc">
-              <ul>
-                <li>U.S. National Collegiate Team Badminton Championships 🥇 (CMU record), 2025</li>
-                <li>Chinese National First-Class Athlete (highest honor for semi-pro athletes)</li>
-                <li>Chinese National 8th Place in Badminton Men's Singles, 2013</li>
-                <li>Zhejiang Provincial 🥇🥇🥈, 2021-2024
-                  <!-- &nbsp; <a href="https://www.bilibili.com/video/BV1ao4y1t7LJ/?spm_id_from=333.999.0.0&vd_source=24a1de585eee62ca4067d60b85fe0d92"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1kK4y1P7FJ" alt="bilibili"> <img src="https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=$.data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ao4y1t7LJ" alt="bilibili"></a> -->
-                </li>
-                <li>Fujian Provincial 🥈🥈🥉🥉, 2016-2019</li>
-                <li>Xiamen Municipal 🥇x7, 2013-2019</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+<section id="misc" class="bio">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    Miscellaneous
+  </h1>  
+  <div class="misc-content">
+  <div class="misc-intro">
+    I am a sports enthusiast and here's a fun snapshot of my sports career:)<br>
+    I spent 5 lovely years with the Xiamen professional badminton team. Later in undergrad, I was fortunate to combine AI and VR with racket sports for the national team, and got covered by the national central television.
+  </div>
+  
+  <div class="misc-sports-section">
+    <div class="misc-sports-left">
+      <img id="badminton-img" class="intro-img frame" src="./images/self-portrait/badminton.png" alt="Badminton achievements">
+    </div>
+    <div class="misc-sports-right">
+      <div class="desc">
+        <ul>
+          <li>U.S. National Collegiate Team Badminton Championships 🥇, 2025</li>
+          <li>Chinese National First-Class Athlete</li>
+          <li>Chinese National 8th Place in Badminton Men's Singles, 2013</li>
+          <li>Zhejiang Provincial 🥇🥇🥈, 2021-2024</li>
+          <li>Fujian Provincial 🥈🥈🥉🥉, 2016-2019</li>
+        </ul>
+        <br><br>
       </div>
+    </div>
+  </div>
+</div>
       
+
 
     <table style="width:16%;max-width:400px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody><tr>
@@ -629,81 +495,119 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-2">
-          <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github">
-          <i class="ai ai-google-scholar-square icon-github"></i>
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-2">
+          <a href="https://scholar.google.com/citations?hl=en&user=IcfUuAkAAAAJ" class="icon-button github" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar-square icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="https://www.linkedin.com/in/zeqing-yuan/" class="icon-button linkedin">
-            <i class="fa fa-linkedin icon-linkedin"></i>
+          <a href="https://www.linkedin.com/in/zeqing-yuan/" class="icon-button linkedin" aria-label="LinkedIn">
+            <i class="fa fa-linkedin icon-linkedin" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter">
-            <i class="fa fa-twitter icon-twitter"></i>
+          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="Twitter">
+            <i class="fa fa-twitter icon-twitter" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="https://github.com/leoyuan0111" class="icon-button github">
-            <i class="fa fa-github icon-github"></i>
+          <a href="https://github.com/leoyuan0111" class="icon-button github" aria-label="GitHub">
+            <i class="fa fa-github icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
 
-          <a href="mailto:leoyuan@cmu.edu" class="icon-button github">
-            <i class="fa fa-envelope icon-github"></i>
+          <a href="mailto:leoyuan@cmu.edu" class="icon-button github" aria-label="Email">
+            <i class="fa fa-envelope icon-github" aria-hidden="true"></i>
             <span></span>
           </a>
+        </div>
+        <div class="footer-col footer-col-3">
+          <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleoyuan.site&count_bg=%2350A7E3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false" alt="Visit counter" loading="lazy"/></a>
+          <p class="text">Style borrowed from this amazing <a href="https://www.hexianghu.com/">website</a>.</p>
+        </div>
       </div>
-	<div class="footer-col footer-col-3">
-    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleoyuan.site&count_bg=%2350A7E3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false"/></a>
-		<p class="text">Designed based on Hexiang Hu's website.</p>
-	</div>
-  </div>
-  </div>
-
-</footer>
-    <div class="back-to-top">Top</div>
-
-<script type="text/javascript">
-jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-    
-        }
-    });
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-
-// Badminton image hover effect
-document.addEventListener('DOMContentLoaded', function() {
-  const badmintonImg = document.getElementById('badminton-img');
-  const staticSrc = './images/self-portrait/badminton.png';
-  const animatedSrc = './images/self-portrait/badminton.gif';
+    </div>
+  </footer>
   
-  if (badmintonImg) {
-    badmintonImg.addEventListener('mouseenter', function() {
-      this.src = animatedSrc;
+  <div class="back-to-top">Top</div>
+
+  <!-- Deferred JavaScript -->
+  <script defer>
+    // Back to top functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      var offset = 220;
+      var duration = 500;
+      var backToTop = document.querySelector('.back-to-top');
+      
+      function fadeIn(element) {
+        element.style.opacity = 0;
+        element.style.display = 'block';
+        var tick = function() {
+          element.style.opacity = +element.style.opacity + 0.02;
+          if (+element.style.opacity < 1) {
+            requestAnimationFrame(tick);
+          }
+        };
+        tick();
+      }
+      
+      function fadeOut(element) {
+        element.style.opacity = 1;
+        var tick = function() {
+          element.style.opacity = +element.style.opacity - 0.02;
+          if (+element.style.opacity > 0) {
+            requestAnimationFrame(tick);
+          } else {
+            element.style.display = 'none';
+          }
+        };
+        tick();
+      }
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > offset) {
+          fadeIn(backToTop);
+        } else {
+          fadeOut(backToTop);
+        }
+      });
+      
+      backToTop.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Badminton image hover effect
+      var badmintonImg = document.getElementById('badminton-img');
+      var staticSrc = './images/self-portrait/badminton.png';
+      var animatedSrc = './images/self-portrait/badminton.gif';
+      
+      if (badmintonImg) {
+        badmintonImg.addEventListener('mouseenter', function() {
+          this.src = animatedSrc;
+        });
+        
+        badmintonImg.addEventListener('mouseleave', function() {
+          this.src = staticSrc;
+        });
+      }
+
+      // Image overlay functionality
+      document.querySelectorAll('.image-link').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var imgSrc = this.getAttribute('data-image');
+          openOverlay(imgSrc);
+        });
+      });
     });
-    
-    badmintonImg.addEventListener('mouseleave', function() {
-      this.src = staticSrc;
-    });
-  }
-});
-</script>
+  </script>
 </body>
 
 </html>
