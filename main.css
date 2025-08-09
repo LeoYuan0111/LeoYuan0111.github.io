@@ -677,11 +677,9 @@ pre>code {
     }
 }
 
+/* Background styles moved to inline CSS for faster loading */
 .shallow-bg {
-    background-image: url("images/background/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center
+    /* background styles are now inlined in HTML head for critical rendering path */
 }
 
 .deep-bg {

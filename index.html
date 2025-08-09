@@ -10,14 +10,56 @@
     <meta name="description" lang="en" content="This is a personal homepage for Zeqing(Leo) Yuan">
     <meta name="keywords" lang="en" content="Leo Yuan, Zeqing Yuan, 袁泽清" />
     
-    <!-- Preload critical resources -->
-    <link rel="preload" href="./images/self-portrait/me.jpg" as="image">
-    <link rel="preload" href="main.css" as="style">
+    <!-- Preload critical resources with high priority -->
+    <link rel="preload" href="./images/self-portrait/me.jpg" as="image" fetchpriority="high">
+    <link rel="preload" href="./images/background/background.jpg" as="image" fetchpriority="high">
+    <link rel="preload" href="main.css" as="style" fetchpriority="high">
+    <link rel="preload" href="css/custom.css" as="style" fetchpriority="high">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//clustrmaps.com">
     
     <!-- Critical CSS -->
     <link rel="shortcut icon" href="images/icon/ImagingCMU_logo.png">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Inline critical CSS for immediate rendering -->
+    <style>
+      /* Critical above-the-fold styles */
+      .cover.shallow-bg {
+        background-image: url("./images/background/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 320px;
+      }
+      
+      /* Optimize profile image loading */
+      #profile-avatar {
+        content-visibility: auto;
+        contain-intrinsic-size: 168px 168px;
+      }
+      
+      /* Loading state for images */
+      .loading-placeholder {
+        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+        background-size: 200% 100%;
+        animation: loading 2s infinite;
+      }
+      
+      @keyframes loading {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+      
+      /* Prevent layout shift */
+      .profile-wrapper {
+        min-height: 200px;
+      }
+    </style>
     
     <!-- Non-critical CSS - load asynchronously -->
     <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -34,6 +76,24 @@
     
     <!-- Inline critical JavaScript -->
     <script>
+      // Performance optimization: Image loading
+      document.addEventListener('DOMContentLoaded', function() {
+        // Remove loading placeholders when images load
+        var profileImg = document.getElementById('profile-avatar');
+        if (profileImg) {
+          profileImg.onload = function() {
+            this.style.opacity = '1';
+            this.classList.remove('loading-placeholder');
+          };
+          
+          // Add loading state initially
+          if (!profileImg.complete) {
+            profileImg.classList.add('loading-placeholder');
+            profileImg.style.opacity = '0.7';
+          }
+        }
+      });
+
       // Email generation function
       function generateEmail() {
           var name = "leoyuan";
@@ -99,7 +159,7 @@
   <div id="profile-cover" class="cover shallow-bg img-responsive"> 
     <div id="profile-namecard" class="profile-wrapper wrapper-light">
       <div id="my-pic" class="profile-col profile-col-1">
-        <img id="profile-avatar" src="./images/self-portrait/me.jpg" alt="Leo / Zeqing Yuan" class="circle-img border-dark" loading="eager" />
+        <img id="profile-avatar" src="./images/self-portrait/me.jpg" alt="Leo / Zeqing Yuan" class="circle-img border-dark" loading="eager" fetchpriority="high" />
       </div>
       <div id="my-contact" class="profile-col profile-col-2">
         <div id="my-name" class="text-grey-dark">

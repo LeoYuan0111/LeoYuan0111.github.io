@@ -7,6 +7,12 @@
 
 /* Performance and Layout Optimizations */
 
+/* Critical rendering path optimizations */
+.cover {
+  /* Ensure background loads quickly */
+  will-change: background-image;
+}
+
 /* Inline styles moved to CSS for better performance */
 li.indented {
     position: relative;
@@ -50,6 +56,7 @@ li.indented::before {
     flex: 0 0 280px;
     margin-right: 30px;
     text-align: center;
+    padding: 10px; /* Add padding to accommodate scaled images */
 }
 
 .pub-right {
@@ -101,13 +108,13 @@ li.indented::before {
     }
     
     .pub-left .intro-img {
-        max-width: 95%; /* Ensure image fits with some margin */
+        max-width: 90%; /* Ensure image fits with some margin */
         height: auto;
     }
     
     .pub-right {
         width: 100%;
-        max-width: 95%;
+        max-width: 100%;
         padding: 0 10px; /* Add some padding for readability */
     }
 }
@@ -157,6 +164,7 @@ li.indented::before {
     width: calc(30% - 15px);
     text-align: center;
     margin-right: 30px;
+    padding: 10px; /* Add padding around the image container */
 }
 
 .misc-sports-right {
@@ -265,7 +273,7 @@ li.indented::before {
     line-height: 1.5;
 }
 
-/* Image loading optimization */
+/* Image loading optimization with performance hints */
 .intro-img {
     width: 100%;
     max-width: 260px; /* Slightly reduced to leave room for scaling */
@@ -273,6 +281,7 @@ li.indented::before {
     border-radius: 8px;
     transition: transform 0.3s ease;
     transform-origin: center; /* Ensure scaling happens from center */
+    content-visibility: auto; /* Improve rendering performance */
 }
 
 .intro-img:hover {
@@ -283,6 +292,7 @@ li.indented::before {
 .profile-wrapper {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    content-visibility: auto; /* Optimize rendering */
 }
 
 /* Better focus styles for accessibility */
@@ -297,14 +307,27 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Loading states */
+/* Enhanced loading states for better perceived performance */
 img[loading="lazy"] {
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s ease-in-out;
 }
 
-img[loading="lazy"].loaded {
+img[loading="lazy"].loaded,
+img[loading="lazy"]:not([src=""]) {
     opacity: 1;
+}
+
+/* Loading placeholder animation */
+.loading-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
 }
 
 /* Back to top button improvements */
@@ -400,47 +423,80 @@ section:last-child {
 
 /* Mobile-specific social media centering fix */
 @media screen and (max-width: 600px) {
+    /* Force mobile layout for profile */
+    .profile-wrapper {
+        width: 95% !important;
+        margin: 0 auto !important;
+    }
+    
+    .profile-col {
+        float: none !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+    }
+    
+    .profile-col-1,
     .profile-col-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        float: none;
+        float: none !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+        display: block !important;
+    }
+    
+    #my-contact {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    
+    #my-name,
+    #my-title {
+        text-align: center !important;
+        width: 100% !important;
+        margin: 5px 0 !important;
     }
     
     .social-media {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin: 15px auto 0 auto;
-        padding: 0;
-        text-align: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        margin: 15px 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+        left: 0 !important;
+        right: 0 !important;
+        position: relative !important;
     }
     
     .icon-button {
-        margin: 0;
-        flex-shrink: 0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        vertical-align: middle;
+        margin: 0 5px !important;
+        flex-shrink: 0 !important;
+        position: relative !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        vertical-align: middle !important;
     }
     
     .icon-button i {
-        position: relative;
-        left: 0;
-        top: 0;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        line-height: inherit;
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        line-height: inherit !important;
     }
 }
 
