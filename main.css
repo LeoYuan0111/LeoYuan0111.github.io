@@ -310,8 +310,8 @@ pre>code {
 }
 
 .footer-col-2 {
-    width: -webkit-calc(35% - (30px / 2));
-    width: calc(35% - (30px / 2))
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2))
 }
 
 .footer-col-3 {
@@ -1581,8 +1581,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .publications {
-    max-width: -webkit-calc(100% - (30px / 2));
-    max-width: calc(100% - (30px / 2));
+    /* max-width: -webkit-calc(100% - (30px / 2));
+    max-width: calc(100% - (30px / 2)); */
     margin-top: 10px;
     font-family: 'Roboto', sans-serif, Helvetica
 }
@@ -1620,7 +1620,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .pub-right>.authors>.author {
     color: #0077B5;
-    font-weight: 400
+    font-weight: 400;
+    font-size: 11pt;
 }
 
 .pub-right>.tags>.tag {
