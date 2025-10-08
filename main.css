@@ -728,8 +728,8 @@ pre>code {
 }
 
 .profile-col-1 {
-    width: -webkit-calc(40% - (20px / 2));
-    width: calc(40% - (20px / 2))
+    width: -webkit-calc(40% - (10px / 2));
+    width: calc(40% - (10px / 2))
 }
 
 .profile-col-2 {
@@ -770,6 +770,7 @@ pre>code {
     height: 168px;
     border-width: 4px;
     border-style: solid;
+    border-radius: 15px;
 }
 .border-dark {
     border-color: #292929
