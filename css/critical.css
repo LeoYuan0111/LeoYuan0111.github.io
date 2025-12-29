@@ -1,0 +1,20 @@
+/* Critical above-the-fold styles */
+
+.cover.shallow-bg {
+  background-image: url("../images/background/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 320px;
+}
+
+/* Optimize profile image loading */
+#profile-avatar {
+  content-visibility: auto;
+  contain-intrinsic-size: 168px 168px;
+}
+
+/* Prevent layout shift */
+.profile-wrapper {
+  min-height: 200px;
+}

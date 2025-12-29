@@ -26,40 +26,9 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/custom.css">
     
-    <!-- Inline critical CSS for immediate rendering -->
-    <style>
-      /* Critical above-the-fold styles */
-      .cover.shallow-bg {
-        background-image: url("./images/background/background.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        min-height: 320px;
-      }
-      
-      /* Optimize profile image loading */
-      #profile-avatar {
-        content-visibility: auto;
-        contain-intrinsic-size: 168px 168px;
-      }
-      
-      /* Loading state for images */
-      .loading-placeholder {
-        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-        background-size: 200% 100%;
-        animation: loading 2s infinite;
-      }
-      
-      @keyframes loading {
-        0% { background-position: 200% 0; }
-        100% { background-position: -200% 0; }
-      }
-      
-      /* Prevent layout shift */
-      .profile-wrapper {
-        min-height: 200px;
-      }
-    </style>
+    <!-- Critical CSS for immediate rendering -->
+    <link rel="stylesheet" href="css/critical.css">
+    <link rel="stylesheet" href="css/modal.css">
     
     <!-- Non-critical CSS - load asynchronously -->
     <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -73,63 +42,9 @@
 
     <!-- JavaScript - load asynchronously -->
     <script src="js/jquery-2.1.3.min.js" defer></script>
-    
-    <!-- Inline critical JavaScript -->
-    <script>
-      // Performance optimization: Image loading
-      document.addEventListener('DOMContentLoaded', function() {
-        // Remove loading placeholders when images load
-        var profileImg = document.getElementById('profile-avatar');
-        if (profileImg) {
-          profileImg.onload = function() {
-            this.style.opacity = '1';
-            this.classList.remove('loading-placeholder');
-          };
-          
-          // Add loading state initially
-          if (!profileImg.complete) {
-            profileImg.classList.add('loading-placeholder');
-            profileImg.style.opacity = '0.7';
-          }
-        }
-      });
-
-      // Email generation function
-      function generateEmail() {
-          var name = "leoyuan";
-          var domain = "cmu.edu";
-          var email = name + "@" + domain;
-          var emailEl = document.getElementById("email");
-          if (emailEl) emailEl.innerHTML = email;
-      }
-
-      // Show/Hide function
-      function ShowHide(divId, linkDivId) {
-          var divEl = document.getElementById(divId);
-          var linkEl = document.getElementById(linkDivId);
-          if(divEl && divEl.style.display == 'none') {
-              divEl.style.display='block';
-              if(linkEl) linkEl.style.display='none';
-          } else if(divEl) {
-              divEl.style.display = 'none';
-          }
-      }
-
-      // Image overlay functions
-      function openOverlay(imgSrc) {
-          var overlay = document.getElementById('image-overlay');
-          var overlayImg = document.getElementById('overlay-image');
-          if (overlay && overlayImg) {
-              overlayImg.src = imgSrc;
-              overlay.style.display = 'flex';
-          }
-      }
-
-      function closeOverlay() {
-          var overlay = document.getElementById('image-overlay');
-          if (overlay) overlay.style.display = 'none';
-      }
-    </script>
+    <script src="js/bibtex-data.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/main.js" defer></script>
   </head>
 
 <body>
@@ -237,24 +152,23 @@
         <span class="close" onclick="closeOverlay()">&times;</span>
         <img class="overlay-content" id="overlay-image" src="" alt="Enlarged view">
       </div>
-    </div>
-    
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('.image-link').forEach(function(link) {
-          link.addEventListener('click', function(e) {
-              e.preventDefault();
-              var imgSrc = this.getAttribute('data-image');
-              document.getElementById('overlay-image').src = imgSrc;
-              document.getElementById('image-overlay').style.display = 'flex';
-          });
-      });
-  });
 
-  function closeOverlay() {
-      document.getElementById('image-overlay').style.display = 'none';
-  }
-</script>
+      <!-- BibTeX modal container -->
+      <div id="bibtex-modal" class="bibtex-modal">
+        <div class="bibtex-modal-content">
+          <div class="bibtex-modal-header">
+            <h3>BibTeX Citation</h3>
+            <span class="bibtex-close" onclick="closeBibtexModal()">&times;</span>
+          </div>
+          <div class="bibtex-modal-body">
+            <pre id="bibtex-content"></pre>
+            <button id="copy-bibtex-btn" class="copy-btn" onclick="copyBibtex()">
+              <i class="fa fa-copy"></i> Copy to Clipboard
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 <!-- 
 <div id="news" class="bio">
   <h1 class="md-heading text-left">
@@ -311,10 +225,10 @@
           <span class="place"></span>
         </div>
         <div class="tags">
-          <!-- [<a class="tag" href=""><b>Webiste</b></a>] -->
+          [<a class="tag" href="https://vt-intrinsic.github.io/"><b>Webpage</b></a>]
           [<a class="tag" href="https://arxiv.org/abs/2509.10388"><b>arXiv</b></a>]
-          [<a class="tag" href="papers/IID_vis_thr/VT-Intrinsics_video.mp4"><b>Video</b></a>]
-          [<a class="tag" href="papers/IID_vis_thr/IID_vis_thr.bib"><b>BibTex</b></a>]
+          [<a class="tag" href="papers/IID_vis_thr/VT-Intrinsic_video.mp4"><b>Video</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="IID_vis_thr"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -346,9 +260,9 @@
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://sinlayout.github.io"><b>Webiste</b></a>]
+          [<a class="tag" href="https://sinlayout.github.io"><b>Webpage</b></a>]
           [<a class="tag" href="papers/sinlayout/paper.pdf"><b>Paper</b></a>]
-          [<a class="tag" href="papers/sinlayout/sinlayout.bib"><b>BibTex</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="sinlayout"><b>BibTex</b></a>]
           <!-- [<a class="tag" href=""><strong>Video</strong></a>] -->
         </div>
       </div>
@@ -379,8 +293,9 @@
         </div>
         <div class="tags">
           [<a class="tag" href="https://arxiv.org/abs/2407.04947v1"><b>arXiv</b></a>]
+          [<a class="tag" href="https://link.springer.com/chapter/10.1007/978-3-031-72643-9_5"><b>Proceedings</b></a>]
           [<a class="tag" href="https://github.com/aim-uofa/FreeCompose"><b>Code</b></a>]
-          [<a class="tag" href="papers/free-compose/freecompose.bib"><b>BibTex</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="freecompose"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -410,7 +325,7 @@
         <div class="tags">
           [<a class="tag" href="https://arxiv.org/abs/2401.06437"><b>arXiv</b></a>]
           [<a class="tag" href="papers/3d-premise/paper.pdf"><b>Paper</b></a>]
-          [<a class="tag" href="papers/3d-premise/3d-premise.bib"><b>BibTex</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="3d-premise"><b>BibTex</b></a>]
         </div>
       </div>
     </div> -->
@@ -441,11 +356,11 @@
           <span class="place"></span>
         </div>
         <div class="tags">
-          [<a class="tag" href="https://vistec2024.github.io"><strong>Webiste</strong></a>]
+          [<a class="tag" href="https://vistec2024.github.io"><strong>Webpage</strong></a>]
           [<a class="tag" href="https://arxiv.org/abs/2402.15952"><strong>arXiv</strong></a>]
-          [<a class="tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/28692"><strong>www</strong></a>]
+          [<a class="tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/28692"><strong>Proceedings</strong></a>]
           [<a class="tag" href="https://vistec2024.github.io/static/videos/ViSTec_video.mp4"><strong>Video</strong></a>]
-          [<a class="tag" href="papers/vistec/vistec.bib"><b>BibTex</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="vistec"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -478,9 +393,9 @@
         </div>
         <div class="tags">
           [<a class="tag" href="https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><strong>www</strong></a>]
+          [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><strong>IEEE Xplore</strong></a>]
           [<a class="tag" href="https://www.youtube.com/watch?v=4j5CL5HamQQ"><strong>Video</strong></a>]
-          [<a class="tag" href="papers/tivee/tivee.bib"><b>BibTex</b></a>]
+          [<a class="tag bibtex-link" href="#" data-bibtex="tivee"><b>BibTex</b></a>]
         </div>
       </div>
     </div>
@@ -620,80 +535,6 @@
   
   <div class="back-to-top">Top</div>
 
-  <!-- Deferred JavaScript -->
-  <script defer>
-    // Back to top functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      var offset = 220;
-      var duration = 500;
-      var backToTop = document.querySelector('.back-to-top');
-      
-      function fadeIn(element) {
-        element.style.opacity = 0;
-        element.style.display = 'block';
-        var tick = function() {
-          element.style.opacity = +element.style.opacity + 0.02;
-          if (+element.style.opacity < 1) {
-            requestAnimationFrame(tick);
-          }
-        };
-        tick();
-      }
-      
-      function fadeOut(element) {
-        element.style.opacity = 1;
-        var tick = function() {
-          element.style.opacity = +element.style.opacity - 0.02;
-          if (+element.style.opacity > 0) {
-            requestAnimationFrame(tick);
-          } else {
-            element.style.display = 'none';
-          }
-        };
-        tick();
-      }
-      
-      window.addEventListener('scroll', function() {
-        if (window.pageYOffset > offset) {
-          fadeIn(backToTop);
-        } else {
-          fadeOut(backToTop);
-        }
-      });
-      
-      backToTop.addEventListener('click', function(event) {
-        event.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      });
-
-      // Badminton image hover effect
-      var badmintonImg = document.getElementById('badminton-img');
-      var staticSrc = './images/self-portrait/badminton.png';
-      var animatedSrc = './images/self-portrait/badminton.gif';
-      
-      if (badmintonImg) {
-        badmintonImg.addEventListener('mouseenter', function() {
-          this.src = animatedSrc;
-        });
-        
-        badmintonImg.addEventListener('mouseleave', function() {
-          this.src = staticSrc;
-        });
-      }
-
-      // Image overlay functionality
-      document.querySelectorAll('.image-link').forEach(function(link) {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          var imgSrc = this.getAttribute('data-image');
-          openOverlay(imgSrc);
-        });
-      });
-    });
-  </script>
 </body>
 
 </html>
