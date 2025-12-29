@@ -1,13 +1,13 @@
 // BibTeX citation data
 const bibtexData = {
-  'IID_vis_thr': `@article{yuan2025ordinality,
-  title   = {Ordinality of Visible-Thermal Image Intensities for Intrinsic Image Decomposition},
-  author  = {Zeqing Leo Yuan and Mani Ramanagopal and Aswin C. Sankaranarayanan and Srinivasa G. Narasimhan},
-  year    = {2025},
-  journal = {arXiv preprint arXiv: 2509.10388}
+  'IID_vis_thr': `@article{yuan2025vt-intrinsic,
+    title={Physics-Based Decomposition of Reflectance and Shading using a Single Visible-Thermal Image Pair}, 
+    author={Zeqing Leo Yuan and Mani Ramanagopal and Aswin C. Sankaranarayanan and Srinivasa G. Narasimhan},
+    year={2025},
+    journal = {arXiv}
 }`,
 
-  'sinlayout': `@article{sinlayout2024,
+  'sinlayout': `@article{sinlayout,
     author    = {Zhao, Linan and Yuan, Zeqing and Zhang, Yunzhi and Wu, Shangzhe and Wu, Jiajun},
     title     = {Learning Generative 3D Scene Layouts from a Single Image},
     booktitle = {CVPR},
@@ -15,14 +15,22 @@ const bibtexData = {
     year      = {2024},
 }`,
 
-  'freecompose': `@article{chen2024freecompose,
-  title   = {FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior},
-  author  = {Zhekai Chen and Wen Wang and Zhen Yang and Zeqing Yuan and Hao Chen and Chunhua Shen},
-  year    = {2024},
-  journal = {arXiv preprint arXiv: 2407.04947}
+  'freecompose': `@InProceedings{freecompose,
+    author="Chen, Zhekai
+    and Wang, Wen
+    and Yang, Zhen
+    and Yuan, Zeqing
+    and Chen, Hao
+    and Shen, Chunhua",
+    title="FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior",
+    booktitle="Computer Vision -- ECCV 2024",
+    year="2025",
+    publisher="Springer Nature Switzerland",
+    pages="70--87",
+    isbn="978-3-031-72643-9"
 }`,
 
-  'vistec': `@inproceedings{DBLP:conf/aaai/HeY0CDW24,
+  'vistec': `@inproceedings{vistec,
   author    = {Yuchen He and Zeqing Yuan and Yihong Wu and Liqi Cheng and Dazhen Deng and Yingcai Wu},
   editor    = {Michael J. Wooldridge and Jennifer G. Dy and Sriraam Natarajan},
   title     = {ViSTec: Video Modeling for Sports Technique Recognition and Tactical Analysis},
@@ -37,7 +45,7 @@ const bibtexData = {
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }`,
 
-  'tivee': `@ARTICLE{9557225,
+  'tivee': `@ARTICLE{tivee,
   author={Chu, Xiangtong and Xie, Xiao and Ye, Shuainan and Lu, Haolin and Xiao, Hongguang and Yuan, Zeqing and Zhu-Tian, Chen and Zhang, Hui and Wu, Yingcai},
   journal={IEEE Transactions on Visualization and Computer Graphics}, 
   title={TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations}, 
