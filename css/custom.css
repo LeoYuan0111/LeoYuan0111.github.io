@@ -498,6 +498,40 @@ section:last-child {
     }
 }
 
+/* Footer width customization - match standard wrapper width */
+.footer-col-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px; /* Reduce gap to give more space to quote */
+}
+
+.footer-col-2 {
+    flex: 0 0 auto; /* Don't grow, just fit content */
+    min-width: 200px; /* Ensure minimum space for social icons */
+}
+
+.footer-col-3 {
+    flex: 1; /* Take up remaining space */
+    max-width: none; /* Remove width constraint to allow more space */
+    min-width: 0; /* Allow shrinking if needed */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+    .footer-col-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-col-2,
+    .footer-col-3 {
+        flex: none;
+        width: 100%;
+        max-width: none;
+    }
+}
+
 /* Performance optimization: will-change for animations */
 .intro-img,
 .back-to-top,
