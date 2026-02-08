@@ -1,3 +1,3 @@
-This is my personal website: https://leoyuan.site
+Personal website of Zeqing (Leo) Yuan: https://zqyuan.com
 
-Style referenced from http://hexianghu.com/.
+Template credit to http://hexianghu.com/.
