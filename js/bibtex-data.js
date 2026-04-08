@@ -1,10 +1,10 @@
 // BibTeX citation data
 const bibtexData = {
-  'IID_vis_thr': `@article{yuan2025vt-intrinsic,
-    title={Physics-Based Decomposition of Reflectance and Shading using a Single Visible-Thermal Image Pair}, 
-    author={Zeqing Leo Yuan and Mani Ramanagopal and Aswin C. Sankaranarayanan and Srinivasa G. Narasimhan},
-    year={2025},
-    journal = {arXiv}
+  'IID_vis_thr': `@inproceedings{yuan2026vt-intrinsic,
+    title={VT-Intrinsic: Physics-Based Decomposition of Reflectance and Shading using a Single Visible-Thermal Image Pair}, 
+    author={Zeqing Yuan and Mani Ramanagopal and Aswin C. Sankaranarayanan and Srinivasa G. Narasimhan},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2026}
 }`,
 
   'sinlayout': `@article{sinlayout,
