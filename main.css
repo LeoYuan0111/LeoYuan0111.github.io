@@ -34,19 +34,16 @@ html {
 }
 
 body {
+    --page-bg: #f4f2ea;
+    --card-bg: #fbfaf4;
     z-index: initial;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
     color: #111;
-    background-color: #f9f9f9;
+    background-color: var(--page-bg);
     -webkit-text-size-adjust: 100%
-}
-
-body:after {
-    display: none;
-    content: url("images/background/background.jpg") url("images/background/background-2.jpg")
 }
 
 h1,
@@ -99,16 +96,16 @@ h6 {
 }
 
 a {
-    color: #2a7ae2;
+    color: #750014;
     text-decoration: none
 }
 
 a:visited {
-    color: #1756a9
+    color: #750014
 }
 
 a:hover {
-    color: #111;
+    color: #A31F34;
     text-decoration: underline
 }
 
@@ -188,8 +185,10 @@ pre>code {
 }
 
 .site-header {
-    border-top: 3px solid #9b3022;
-    border-bottom: 1px solid #9b3022;
+    border-top: 3px solid #750014;
+    border-bottom: 1px solid #ddd8ca;
+    background-color: var(--card-bg);
+    box-shadow: 0 2px 12px rgba(43, 24, 16, 0.06);
     min-height: 56px;
     position: relative
 }
@@ -222,7 +221,13 @@ pre>code {
 .site-nav .page-link {
     font-weight: 400;
     color: #002336;
-    line-height: 1.5
+    line-height: 1.5;
+    transition: color 0.18s ease
+}
+
+.site-nav .page-link:hover {
+    color: #750014;
+    text-decoration: none
 }
 
 .site-nav .page-link:not(:first-child) {
@@ -234,8 +239,8 @@ pre>code {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: #f9f9f9;
-        border: 1px solid #e8e8e8;
+        background-color: var(--card-bg);
+        border: 1px solid #ddd8ca;
         border-radius: 5px;
         text-align: right
     }
@@ -277,7 +282,7 @@ pre>code {
 }
 
 .site-footer {
-    border-top: 1px solid #9b3022;
+    border-top: 1px solid #750014;
     padding: 30px 0
 }
 
@@ -342,7 +347,7 @@ pre>code {
 }
 
 .page-content {
-    padding: 30px 0
+    padding: 8px 0 30px
 }
 
 .text-center {
@@ -351,19 +356,19 @@ pre>code {
 
 .sm-heading {
     font-size: 20px;
-    font-color: #9b3022;
+    font-color: #750014;
     font-weight: 300
 }
 
 .md-heading {
     font-size: 24px;
-    font-color: #9b3022;
+    font-color: #750014;
     font-weight: 400
 }
 
 .lg-heading {
     font-size: 30px;
-    font-color: #9b3022;
+    font-color: #750014;
     font-weight: 600
 }
 
@@ -654,12 +659,11 @@ pre>code {
 
 .cover {
     max-width: 100%;
-    height: 320px;
+    height: auto;
     z-index: initial;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 0px;
-    padding-left: 0px
+    padding: 36px 0px 12px
 }
 
 @media screen and (max-width: 800px) {
@@ -673,7 +677,7 @@ pre>code {
 
 @media screen and (max-width: 600px) {
     .cover {
-        height: 400px
+        height: auto
     }
 }
 
@@ -683,39 +687,39 @@ pre>code {
 }
 
 .deep-bg {
-    background-image: url("images/background/background-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center
+    background-color: var(--page-bg)
 }
 
 .profile-wrapper {
     border-radius: 25px;
     position: relative;
-    top: 15%;
-    width: 600px;
+    top: 0;
+    width: 680px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
     .profile-wrapper {
-        top: 5%;
+        top: 0;
         border-radius: 25px;
         position: relative;
         width: -webkit-calc(90% - (30px / 2));
         width: calc(90% - (30px / 2));
         margin-left: auto;
         margin-right: auto;
-        padding: 10px;
+        padding: 14px;
         box-sizing: border-box;
     }
 }
 
 .wrapper-light {
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: var(--card-bg);
+    box-shadow: 0 6px 24px rgba(43, 24, 16, 0.08);
+    border: 1px solid #e7e3d7
 }
 
 .wrapper-dark {
@@ -770,8 +774,8 @@ pre>code {
 
 .square-img {
     margin: 0px auto;
-    width: 168px;
-    height: 168px;
+    width: 190px;
+    height: 190px;
     border-width: 4px;
     border-style: solid;
     border-radius: 15px;
@@ -861,7 +865,7 @@ pre>code {
 .maxim>div>strong,
 .maxim>p>strong,
 .maxim>strong {
-    color: #9b3022
+    color: #750014
 }
 
 .maxim>div>b,
@@ -944,8 +948,10 @@ hr.soft {
 }
 
 .icon-button {
-    background-color: white;
+    background-color: #eeebe1;
+    border: 0px solid #e4e1da;
     border-radius: 3.2rem;
+    box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
     font-size: 2.0rem;
@@ -984,7 +990,7 @@ hr.soft {
 }
 
 .twitter span {
-    background-color: #4099ff
+    background-color: #000
 }
 
 .facebook span {
@@ -1016,7 +1022,7 @@ hr.soft {
 }
 
 .icon-button .icon-twitter {
-    color: #4099ff
+    color: #000
 }
 
 .icon-button .icon-facebook {
@@ -1116,7 +1122,7 @@ hr.soft {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #9b3022
+    color: #750014
 }
 
 .timeline-desc {
@@ -1608,7 +1614,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .pub-left>.intro-img {
     border-style: solid;
-    border-color: #9b3022;
+    border-color: #750014;
     border-width: 2px;
     max-width: 260px; /* Ensure consistent sizing with custom.css */
 }
@@ -1624,13 +1630,20 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .pub-right>.authors>.author {
-    color: #0077B5;
+    color: #5b5c5e;
     font-weight: 400;
     font-size: 11pt;
+    text-decoration: none;
+    transition: color 0.18s ease;
+}
+
+.pub-right>.authors>.author:hover {
+    color: #750014;
+    text-decoration: underline;
 }
 
 .pub-right>.tags>.tag {
-    color: #9b3022;
+    color: #750014;
     font-weight: 500;
     font-size: 14px
 }
@@ -1649,7 +1662,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .pub-right>.publish>.status {
-    color: #9b3022;
+    color: #750014;
     font-weight: 800;
     font-size: 16px
 }
@@ -1678,7 +1691,11 @@ div.paginate-container li:nth-last-child(2) a:after {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    font-weight: 300;
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: #2d2d2f
 }
 
 @media screen and (max-width: 600px) {
@@ -1689,9 +1706,17 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .bio-body {
-    margin: 5px;
-    padding: 0px;
+    margin: 6px 0 0;
+    padding: 18px 22px;
+    background: var(--card-bg);
+    border: 1px solid #e7e3d7;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(43, 24, 16, 0.04);
     overflow: visible; /* Changed to visible to accommodate scaled images */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #2d2d2f;
 }
 
 .posts {
@@ -1863,7 +1888,7 @@ div.paginate-container li:nth-last-child(2) a:after {
 .project-desc>div>strong,
 .project-desc>p>strong,
 .project-desc>strong {
-    color: #9b3022
+    color: #750014
 }
 
 .project-desc>.tags {
@@ -1872,12 +1897,12 @@ div.paginate-container li:nth-last-child(2) a:after {
 
 .project-desc>.tag,
 .project-desc>.tags>.tag {
-    color: #9b3022
+    color: #750014
 }
 
 .publisher {
-    color: #00a200;
-    font-size: 14px;
+    color: black;
+    font-size: 16px;
     font-weight: 600
 }
 
@@ -1958,7 +1983,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     /* color: #610e03 */
-    /* color: #9b3022 */
+    /* color: #750014 */
 }
 
 .teaching-title {

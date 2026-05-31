@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize badminton image hover effect
     initializeBadmintonHover();
+
+    // Initialize publication filter tabs
+    initializePublicationTabs();
 });
 
 // Email generation function
@@ -137,6 +140,55 @@ function initializeBackToTop() {
             behavior: 'smooth'
         });
     });
+}
+
+// Publication filter tabs
+function initializePublicationTabs() {
+    const tabBar = document.getElementById('pub-tabs');
+    const pubSection = document.getElementById('publications');
+    if (!tabBar || !pubSection) return;
+
+    const tabs = Array.from(tabBar.querySelectorAll('.pub-tab'));
+    const pubs = Array.from(pubSection.querySelectorAll('.pub-list .pub'));
+    const emptyState = pubSection.querySelector('.pub-empty');
+
+    function applyFilter(filter) {
+        let visibleCount = 0;
+        let lastVisible = null;
+
+        pubs.forEach(function(pub) {
+            const tags = (pub.getAttribute('data-tags') || '').split(/\s+/);
+            const show = filter === 'all' || tags.indexOf(filter) !== -1;
+            pub.hidden = !show;
+            pub.classList.remove('pub--last-visible');
+            if (show) {
+                visibleCount++;
+                lastVisible = pub;
+            }
+        });
+
+        if (lastVisible) {
+            lastVisible.classList.add('pub--last-visible');
+        }
+        if (emptyState) {
+            emptyState.hidden = visibleCount !== 0;
+        }
+    }
+
+    tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            tabs.forEach(function(t) { t.classList.remove('is-active'); });
+            tab.classList.add('is-active');
+            applyFilter(tab.getAttribute('data-filter'));
+        });
+    });
+
+    // Apply the initially active tab (defaults to the first tab)
+    const initial = tabs.find(function(t) { return t.classList.contains('is-active'); }) || tabs[0];
+    if (initial) {
+        initial.classList.add('is-active');
+        applyFilter(initial.getAttribute('data-filter'));
+    }
 }
 
 // Badminton image hover effect

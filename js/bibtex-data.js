@@ -30,6 +30,13 @@ const bibtexData = {
     isbn="978-3-031-72643-9"
 }`,
 
+  '3d-premise': `@article{yuan20243dpremise,
+    title   = {3D-PreMise: Can Large Language Models Generate 3D Shapes with Sharp Features and Parametric Control?},
+    author  = {Zeqing Yuan and Haoxuan Lan and Qiang Zou and Junbo Zhao},
+    year    = {2024},
+    journal = {arXiv preprint arXiv: 2401.06437}
+}`,
+
   'vistec': `@inproceedings{vistec,
   author    = {Yuchen He and Zeqing Yuan and Yihong Wu and Liqi Cheng and Dazhen Deng and Yingcai Wu},
   editor    = {Michael J. Wooldridge and Jennifer G. Dy and Sriraam Natarajan},

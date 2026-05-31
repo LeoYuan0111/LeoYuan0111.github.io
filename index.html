@@ -7,12 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Leo / Zeqing Yuan</title>
-  <meta name="description" lang="en" content="This is a personal homepage for Zeqing(Leo) Yuan">
+  <meta name="description" lang="en" content="This is a personal homepage for Zeqing (Leo) Yuan">
   <meta name="keywords" lang="en" content="Leo Yuan, Zeqing Yuan, 袁泽清" />
 
   <!-- Preload critical resources with high priority -->
   <link rel="preload" href="./images/self-portrait/me.png" as="image" fetchpriority="high">
-  <link rel="preload" href="./images/background/background.jpg" as="image" fetchpriority="high">
   <link rel="preload" href="main.css" as="style" fetchpriority="high">
   <link rel="preload" href="css/custom.css" as="style" fetchpriority="high">
 
@@ -22,7 +21,7 @@
   <link rel="dns-prefetch" href="//clustrmaps.com">
 
   <!-- Critical CSS -->
-  <link rel="shortcut icon" href="images/icon/ImagingCMU_logo.png">
+  <link rel="shortcut icon" href="images/icon/MIT_favicon.svg">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="css/custom.css">
 
@@ -59,6 +58,9 @@
 
   <header class="site-header">
     <div class="wrapper">
+      <!-- <a href="#" class="site-logo" aria-label="Home">
+        <img src="images/icon/MIT_logo.png" alt="MIT" />
+      </a> -->
       <nav class="site-nav">
         <a href="#" class="menu-icon" aria-label="Menu">
           <svg viewBox="0 0 18 15" aria-hidden="true">
@@ -94,7 +96,7 @@
           Leo / Zeqing Yuan<br>
         </div>
         <div id="my-title" class="text-grey">
-          Graduate student @CMU<br>
+          <b>Incoming Grad Student @MIT</b><br>
         </div>
 
         <div class="social-media">
@@ -109,8 +111,8 @@
             <span></span>
           </a>
 
-          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="Twitter">
-            <i class="fa fa-twitter icon-twitter" aria-hidden="true"></i>
+          <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="X (formerly Twitter)">
+            <svg class="icon-twitter" aria-hidden="true" viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M714.163 519.284 1160.89 0H1055.03L667.137 450.887 357.328 0H0L468.492 681.821 0 1226.37H105.866L515.491 750.218 842.672 1226.37H1200L714.137 519.284h.026Zm-145.084 169.171-47.41-67.795L143.892 79.6885H306.604l304.682 435.792 47.41 67.795 395.844 566.117H892.176L569.078 688.479v-.024Z"/></svg>
             <span></span>
           </a>
 
@@ -131,29 +133,29 @@
   <main class="page-content">
     <div class="wrapper">
       <section id="bio" class="bio">
-        <h1 class="md-heading text-left">
+        <!-- <h1 class="md-heading text-left">
           <i class="fa fa-id-card" aria-hidden="true"></i>
           About
-        </h1>
+        </h1> -->
         <div class="bio-body">
           <p>
-            Hi, I am a graduate student in robotics at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>,
-            where I am fortunate to be advised by Professors <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa
-              Narasimhan</a> and <a href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a>.
-            Previously, I obtained my bachelor's degree in computer science with
+            I am joining <a href="https://www.mit.edu/"><b>MIT</b></a> to pursue my Ph.D. this fall. 
+            Prior to that, I am completing my M.S. in Robotics at <a href="https://www.cmu.edu/"><b>Carnegie Mellon University</b></a>,
+            where I am fortunate to be advised by Prof. <a href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a> and Prof. <a href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a>.
+            I am broadly interested in computer vision, embodied agents and generative AI.
+            My master's research focused on physics-based vision with light and heat, and my undergraduate work explored generative models and video understanding.
+            <br><br>
+            Previously, I received my bachelor's degree in Computer Science with
             <!-- <a href="https://www.zju.edu.cn/english/2024/0318/c19573a2891858/page.psp"> -->
             the highest honor
             <!-- </a>  -->
-            from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>,
-            where I am grateful to be advised by
+            from <a href="https://www.zju.edu.cn/english/"><b>Zhejiang University</b></a>,
+            advised by 
             Professors <a href="http://www.ycwu.org/">Yingcai Wu</a>,
             <a href="https://scholar.google.com/citations?user=8ipao8MAAAAJ">Jake Zhao</a>
             and <a href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>.
-            <br><br>
-            My research interests broadly span computer vision, agentic and embodied AI.
-            My master's work studies vision with light and heat.
-            Previously, my undergraduate work focused on generative models, video understanding and VR for sports.
-            <br>
+            I also spent a lovely summer at <a href="https://www.stanford.edu/"><b>Stanford</b></a> working with Prof. <a href="https://jiajunwu.com/">Jiajun Wu</a>.
+            <!-- <br> -->
           </p>
         </div>
       </section>
@@ -206,218 +208,302 @@
 
     <div class="wrapper">
       <div id="publications" class="publications">
-        <h1 class="md-heading text-left">
-          <i class="fa fa-file" aria-hidden="true"></i>
-          Selected Publications
-        </h1>
-        <!-- <div class="footnote">(*: equal contribution)</div><br> -->
-        <b>Vision with Light and Heat</b>
+        <div class="pub-header">
+          <h1 class="md-heading text-left">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            Publications and Manuscripts
+          </h1>
+          <!--
+            PUBLICATION TABS
+            - "selected" shows papers tagged with "selected"; "all" shows everything.
+            - To assign a paper to a tab: add the tag(s) to that paper's
+              data-tags attribute on its <div class="pub"> (space-separated).
+          -->
+          <div class="pub-tabs" id="pub-tabs" role="tablist">
+            <button class="pub-tab is-active" data-filter="selected">Selected</button>
+            <button class="pub-tab" data-filter="all">All</button>
+          </div>
+        </div>
+
         <div class="pub-list">
-          <div class="pub">
+          <div class="pub" data-tags="selected imaging">
             <div class="pub-left">
               <img class="intro-img frame" src="papers/IID_vis_thr/IID_vis_thr.png">
             </div>
             <div class="pub-right">
-              <div class="title" id="sinlayout">
-                <!-- Ordinality of Visible-Thermal Image Intensities for Intrinsic Image Decomposition -->
+              <div class="title" id="vt-intrinsic">
                 VT-Intrinsic: Physics-Based Decomposition of Reflectance and Shading using a Single Visible-Thermal
                 Image Pair
               </div>
-              <!-- <div class="desc">
-          TLDR; A training-free method for intrinsic image decomposition using a single pair of visible-thermal images.
-        </div> -->
               <div class="authors">
                 <b>Zeqing Yuan</b>,
                 <a class="author" href="https://scholar.google.com/citations?user=46v2zoYAAAAJ&hl=en">Mani
                   Ramanagopal</a>,
                 <a class="author" href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a>,
-                <a class="author" href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a><br>
-              </div><br>
-              <div class="publish">
-                <span class="publisher">CVPR 2026</span>
-                <span class="place"></span>
+                <a class="author" href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a>
               </div>
-              <div class="tags">
-                [<a class="tag" href="https://vt-intrinsic.github.io/"><b>Webpage</b></a>]
-                [<a class="tag" href="https://arxiv.org/abs/2509.10388"><b>arXiv</b></a>]
-                [<a class="tag" href="https://vt-intrinsic.github.io/static/videos/VT-Intrinsic_video.mp4"><b>Video</b></a>]
-                [<a class="tag bibtex-link" href="#" data-bibtex="IID_vis_thr"><b>BibTex</b></a>]
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://vt-intrinsic.github.io/"><b>Webpage</b></a>
+                  <a class="tag" href="https://arxiv.org/abs/2509.10388"><b>arXiv</b></a>
+                  <a class="tag" href="https://vt-intrinsic.github.io/static/videos/VT-Intrinsic_video.mp4"><b>Video</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="IID_vis_thr"><b>BibTex</b></a>
+                </div>
+                <div class="publish">
+                  <span class="publisher">CVPR 2026</span>
+                  <span class="place"></span>
+                </div>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">Light absorbed rather than reflected leaves thermal traces that reveal lighting and material reflectance.</span>
+                </details>
               </div>
             </div>
           </div>
 
-          <b>Generative Models</b>
-          <div class="pub-list">
-            <div class="pub">
-              <div class="pub-left">
-                <!-- <img class="intro-img frame" src="papers/sinlayout/SinLayout.jpg"> -->
-                <img class="intro-img frame" src="papers/sinlayout/sinlayout_demo.gif">
+          <div class="pub" data-tags="selected imaging">
+            <div class="pub-left">
+              <img class="intro-img frame" src="papers/thr_denoising/thr_denoising_teaser.png">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="heatflow">
+                Revealing Subtle Heat Flows all around us using Microbolometric Videos
               </div>
-              <div class="pub-right">
-                <div class="title" id="sinlayout">
-                  SinLayout: Learning Generative 3D Scene Layouts from a Single Image
+              <div class="authors">
+                <a class="author" href="https://scholar.google.com/citations?user=46v2zoYAAAAJ&hl=en">Mani
+                  Ramanagopal</a>,
+                <a class="author" href="https://akihikooharazawa.github.io/">Akihiko Oharazawa</a>,
+                <a class="author" href="https://nnsriram97.github.io/">Sriram Narayanan</a>,
+                <b>Zeqing Yuan</b>,
+                <a class="author" href="https://www.cs.cmu.edu/~srinivas/">Srinivasa Narasimhan</a>
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <!-- [<a class="tag" href=""><b>Webpage</b></a>] -->
+                  <!-- [<a class="tag" href=""><b>arXiv</b></a>]
+                  [<a class="tag" href=""><b>Video</b></a>] -->
+                  <!-- [<a class="tag bibtex-link" href="#" data-bibtex=""><b>BibTex</b></a>] -->
                 </div>
-                <div class="desc">
-                  <!-- TLDR; Disentangling zero-shot image-to-3D scene generation by uncovering 3D scene layout distributions from a single image -->
-                </div>
-                <div class="authors">
-                  <a class="author" href="https://frankz24.github.io">Linan Zhao*</a>,
-                  <b>Zeqing Yuan*</b>,
-                  <a class="author" href="https://ai.stanford.edu/~yzzhang/">Yunzhi Zhang</a>,
-                  <a class="author" href="https://elliottwu.com/">Shangzhe Wu</a>,
-                  <a class="author" href="http://www.jiajunwu.com/">Jiajun Wu</a><br>
-                  <div class="footnote">(*: equal contribution, each may be listed first)</div>
-                </div><br>
                 <div class="publish">
-                  <span class="publisher">CVPR-W 2024</span>
+                  <span class="publisher">ICCP 2026</span>
                   <span class="place"></span>
                 </div>
-                <div class="tags">
-                  [<a class="tag" href="https://sinlayout.github.io"><b>Webpage</b></a>]
-                  [<a class="tag" href="papers/sinlayout/paper.pdf"><b>Paper</b></a>]
-                  [<a class="tag bibtex-link" href="#" data-bibtex="sinlayout"><b>BibTex</b></a>]
-                  <!-- [<a class="tag" href=""><strong>Video</strong></a>] -->
-                </div>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                     Revealing subtle signals in thermal videos by modeling bolometric sensor physics.
+                  </span>
+                </details>
               </div>
             </div>
+          </div>
 
-            <div class="pub">
-              <div class="pub-left">
-                <img class="intro-img frame" src="papers/free-compose/freecompose.jpg">
+          <div class="pub" data-tags="selected gen-ai">
+            <div class="pub-left">
+              <!-- <img class="intro-img frame" src="papers/sinlayout/SinLayout.jpg"> -->
+              <img class="intro-img frame" src="papers/sinlayout/sinlayout_demo.gif">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="sinlayout">
+                SinLayout: Learning Generative 3D Scene Layouts from a Single Image
               </div>
-              <div class="pub-right">
-                <div class="title" id="sinlayout">
-                  FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior
+              <div class="authors">
+                <a class="author" href="https://frankz24.github.io">Linan Zhao*</a>,
+                <b>Zeqing Yuan*</b>,
+                <a class="author" href="https://ai.stanford.edu/~yzzhang/">Yunzhi Zhang</a>,
+                <a class="author" href="https://elliottwu.com/">Shangzhe Wu</a>,
+                <a class="author" href="http://www.jiajunwu.com/">Jiajun Wu</a>
+                <!-- <div class="footnote">(*: equal contribution, each may be listed first)</div> -->
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://sinlayout.github.io"><b>Webpage</b></a>
+                  <a class="tag" href="papers/sinlayout/paper.pdf"><b>Paper</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="sinlayout"><b>BibTex</b></a>
                 </div>
-                <div class="desc">
+                <div class="publish">
+                  <span class="publisher">AI3DG @CVPR 2024</span>
+                  <span class="place"></span>
                 </div>
-                <div class="authors">
-                  <a class="author" href="">Zhekai Chen*</a>,
-                  <a class="author" href="">Wen Wang*</a>,
-                  <a class="author" href="">Zhen Yang</a>,
-                  <b>Zeqing Yuan</b>,
-                  <a class="author" href="https://scholar.google.com/citations?user=FaOqRpcAAAAJ">Hao Chen</a>,
-                  <a class="author" href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>
-                  <!-- <br> -->
-                  <!-- <div class="footnote">(*: equal contribution)</div> -->
-                </div><br>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                    Learning spatial layout distribution from a single image using an adversarial generator.
+                  </span>
+                </details>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub" data-tags="selected gen-ai">
+            <div class="pub-left">
+              <img class="intro-img frame" src="papers/free-compose/freecompose.jpg">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="freecompose">
+                FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior
+              </div>
+              <div class="authors">
+                <a class="author" href="">Zhekai Chen*</a>,
+                <a class="author" href="">Wen Wang*</a>,
+                <a class="author" href="">Zhen Yang</a>,
+                <b>Zeqing Yuan</b>,
+                <a class="author" href="https://scholar.google.com/citations?user=FaOqRpcAAAAJ">Hao Chen</a>,
+                <a class="author" href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>
+                <!-- <div class="footnote">(*: equal contribution)</div> -->
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://arxiv.org/abs/2407.04947v1"><b>arXiv</b></a>
+                  <a class="tag"
+                    href="https://link.springer.com/chapter/10.1007/978-3-031-72643-9_5"><b>Proceedings</b></a>
+                  <a class="tag" href="https://github.com/aim-uofa/FreeCompose"><b>Code</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="freecompose"><b>BibTex</b></a>
+                </div>
                 <div class="publish">
                   <span class="publisher">ECCV 2024</span>
                   <span class="place"></span>
                 </div>
-                <div class="tags">
-                  [<a class="tag" href="https://arxiv.org/abs/2407.04947v1"><b>arXiv</b></a>]
-                  [<a class="tag"
-                    href="https://link.springer.com/chapter/10.1007/978-3-031-72643-9_5"><b>Proceedings</b></a>]
-                  [<a class="tag" href="https://github.com/aim-uofa/FreeCompose"><b>Code</b></a>]
-                  [<a class="tag bibtex-link" href="#" data-bibtex="freecompose"><b>BibTex</b></a>]
-                </div>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                    Exploiting pretrained diffusion priors for training-free image composition.
+                  </span>
+                </details>
               </div>
             </div>
+          </div>
 
-            <!-- <div class="pub">
-      <div class="pub-left">
-        <img class="intro-img frame" src="papers/3d-premise/3d-premise.jpg">
-      </div>
-      <div class="pub-right">
-        <div class="title" id="3d-premise">
-          3D-PreMise: Can Large Language Models Generate 3D Shapes with Sharp Features and Parametric Control?
-        </div>
-        <div class="desc">
-          TLDR; Proposing a framework and dataset for leveraging LLMs to generate text-driven 3D shapes with sharp features and parametric control
-        </div>
-        <div class="authors">
-          <b>Zeqing Yuan*</b>,
-          <a class="author" href="">Haoxuan Lan*</a>,
-          <a class="author" href="https://qiang-zou.github.io/">Qiang Zou</a>,
-          <a class="author" href="https://scholar.google.com/citations?user=8ipao8MAAAAJ&hl=en">Junbo Zhao</a><br>
-          <div class="footnote">(*: equal contribution)</div>
-        </div><br>
-        <div class="publish">
-          <span class="publisher">Technical Report</span>
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2401.06437"><b>arXiv</b></a>]
-          [<a class="tag" href="papers/3d-premise/paper.pdf"><b>Paper</b></a>]
-          [<a class="tag bibtex-link" href="#" data-bibtex="3d-premise"><b>BibTex</b></a>]
-        </div>
-      </div>
-    </div> -->
-
-            <b>Video Understanding / VR for Sports</b>
-            <div class="pub">
-              <div class="pub-left">
-                <img class="intro-img frame" src="papers/vistec/vistec.jpg">
+          <div class="pub" data-tags="selected video">
+            <div class="pub-left">
+              <img class="intro-img frame" src="papers/vistec/vistec.jpg">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="vistec">
+                ViSTec: Video Modeling for Sports Technique Recognition and Tactical Analysis
               </div>
-              <div class="pub-right">
-                <div class="title" id="vistec">
-                  ViSTec: Video Modeling for Sports Technique Recognition and Tactical Analysis
+              <div class="authors">
+                <a class="author" href="https://he-yc.github.io/">Yuchen He*</a>,
+                <b>Zeqing Yuan*</b>,
+                <a class="author" href="">Yihong Wu</a>,
+                <a class="author" href="">Liqi Cheng</a>,
+                <a class="author" href="https://dengdazhen.github.io/">Dazhen Deng</a>,
+                <a class="author" href="http://www.ycwu.org/">Yingcai Wu</a>
+                <!-- <div class="footnote">(*: equal contribution, each may be listed first)</div> -->
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://vistec2024.github.io"><b>Webpage</b></a>
+                  <a class="tag" href="https://arxiv.org/abs/2402.15952"><b>arXiv</b></a>
+                  <a class="tag"
+                    href="https://ojs.aaai.org/index.php/AAAI/article/view/28692"><b>Proceedings</b></a>
+                  <a class="tag"
+                    href="https://vistec2024.github.io/static/videos/ViSTec_video.mp4"><b>Video</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="vistec"><b>BibTex</b></a>
                 </div>
-                <div class="desc">
-                  <!-- TLDR; Parsing racket sports videos into technique sequences by jointly leveraging sparse visual information and contextual knowledge -->
-                </div>
-                <div class="authors">
-                  <a class="author" href="https://he-yc.github.io/">Yuchen He*</a>,
-                  <b>Zeqing Yuan*</b>,
-                  <a class="author" href="">Yihong Wu</a>,
-                  <a class="author" href="">Liqi Cheng</a>,
-                  <a class="author" href="https://dengdazhen.github.io/">Dazhen Deng</a>,
-                  <a class="author" href="http://www.ycwu.org/">Yingcai Wu</a><br>
-                  <div class="footnote">(*: equal contribution, each may be listed first)</div>
-                </div><br>
                 <div class="publish">
                   <span class="publisher">AAAI 2024</span>
                   <span class="place"></span>
                 </div>
-                <div class="tags">
-                  [<a class="tag" href="https://vistec2024.github.io"><strong>Webpage</strong></a>]
-                  [<a class="tag" href="https://arxiv.org/abs/2402.15952"><strong>arXiv</strong></a>]
-                  [<a class="tag"
-                    href="https://ojs.aaai.org/index.php/AAAI/article/view/28692"><strong>Proceedings</strong></a>]
-                  [<a class="tag"
-                    href="https://vistec2024.github.io/static/videos/ViSTec_video.mp4"><strong>Video</strong></a>]
-                  [<a class="tag bibtex-link" href="#" data-bibtex="vistec"><b>BibTex</b></a>]
-                </div>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                    Parsing broadcast racket-sport videos into stroke-level technique sequences.
+                  </span>
+                </details>
               </div>
             </div>
+          </div>
 
-            <div class="pub">
-              <div class="pub-left">
-                <img class="intro-img frame" src="papers/tivee/TIVEE.png">
+          <div class="pub" data-tags="gen-ai">
+            <div class="pub-left">
+              <img class="intro-img frame" src="papers/3d-premise/3d-premise.jpg">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="3d-premise">
+                3D-PreMise: Can Large Language Models Generate 3D Shapes with Sharp Features and Parametric Control?
               </div>
-              <div class="pub-right">
-                <div class="title" id="tivee">
-                  TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations
+              <div class="authors">
+                <b>Zeqing Yuan*</b>,
+                <a class="author" href="">Haoxuan Lan*</a>,
+                <a class="author" href="https://qiang-zou.github.io/">Qiang Zou</a>,
+                <a class="author" href="https://scholar.google.com/citations?user=8ipao8MAAAAJ&hl=en">Junbo Zhao</a>
+                <!-- <div class="footnote">(*: equal contribution)</div> -->
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://arxiv.org/abs/2401.06437"><b>arXiv</b></a>
+                  <a class="tag" href="papers/3d-premise/paper.pdf"><b>Paper</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="3d-premise"><b>BibTex</b></a>
                 </div>
-                <div class="desc">
-                  <!-- TLDR; 3D visualization and VR interaction for immersive sports analysis -->
+                <div class="publish">
+                  <span class="publisher">Tech Report 2023</span>
+                  <span class="place"></span>
                 </div>
-                <div class="authors">
-                  <a class="author" href="https://sheaton1.github.io/"> Xiangtong Chu</a>,
-                  <a class="author" href="https://ssxiexiao.github.io/"> Xiao Xie</a>,
-                  <a class="author" href="">Shuainan Ye</a>,
-                  <a class="author" href="">Haolin Lu</a>,
-                  <a class="author" href="">Hongguang Xiao</a>,
-                  <b>Zeqing Yuan</b>,
-                  <a class="author" href="https://chenzhutian.org/">Zhutian Chen</a>,
-                  <a class="author" href="http://www.ycwu.org/">Yingcai Wu</a>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                    A framework and dataset for LLMs to generate code for parametric 3D modeling.
                   </span>
+                </details>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub" data-tags="vr">
+            <div class="pub-left">
+              <img class="intro-img frame" src="papers/tivee/TIVEE.png">
+            </div>
+            <div class="pub-right">
+              <div class="title" id="tivee">
+                TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations
+              </div>
+              <div class="authors">
+                <a class="author" href="https://sheaton1.github.io/">Xiangtong Chu</a>,
+                <a class="author" href="https://ssxiexiao.github.io/">Xiao Xie</a>,
+                <a class="author" href="">Shuainan Ye</a>,
+                <a class="author" href="">Haolin Lu</a>,
+                <a class="author" href="">Hongguang Xiao</a>,
+                <b>Zeqing Yuan</b>,
+                <a class="author" href="https://chenzhutian.org/">Zhutian Chen</a>,
+                <a class="author" href="http://www.ycwu.org/">Yingcai Wu</a>
+              </div>
+              <div class="pub-tags-row">
+                <div class="tags">
+                  <a class="tag" href="https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf"><b>Paper</b></a>
+                  <a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><b>IEEE
+                      Xplore</b></a>
+                  <a class="tag" href="https://www.youtube.com/watch?v=4j5CL5HamQQ"><b>Video</b></a>
+                  <a class="tag bibtex-link" href="#" data-bibtex="tivee"><b>BibTex</b></a>
                 </div>
                 <div class="publish">
                   <span class="publisher">TVCG 2021</span>
                   <span class="place"></span>
                 </div>
-                <div class="tags">
-                  [<a class="tag" href="https://zjuidg.org/source/projects/TIVEE/TIVEE.pdf"><strong>Paper</strong></a>]
-                  [<a class="tag" href="https://ieeexplore.ieee.org/abstract/document/9557225"><strong>IEEE
-                      Xplore</strong></a>]
-                  [<a class="tag" href="https://www.youtube.com/watch?v=4j5CL5HamQQ"><strong>Video</strong></a>]
-                  [<a class="tag bibtex-link" href="#" data-bibtex="tivee"><b>BibTex</b></a>]
-                </div>
+              </div>
+              <div class="desc">
+                <details class="tldr-details">
+                  <summary class="tldr-label">TLDR</summary>
+                  <span class="tldr-content">
+                    Immersive VR visualization system for badminton tactical analysis.
+                  </span>
+                </details>
               </div>
             </div>
           </div>
+          <div class="pub-empty" hidden>No publications in this category yet.</div>
         </div>
       </div>
     </div>
@@ -428,7 +514,7 @@
           <i class="fa fa-tasks" aria-hidden="true"></i>
           Talks
         </h1>
-        [2026/01] Invited talk @ Columbia University: Physics-based Vision with Heat and Light<br>
+        <b>[2026/01] Invited talk @Columbia University</b>: Physics-based Vision with Heat and Light<br>
       </div>
     </div>
 
@@ -441,9 +527,12 @@
         <!-- <div class="scrollable-box"> -->
         <!-- <ul class="honors-list"> -->
         <b>Best Poster Award</b>, CVPR Workshop on Computational Cameras and Displays, 2025
-        &nbsp;<a
+        <!-- &nbsp;<a
           href="https://imaging.cs.cmu.edu/vision-with-heat-and-light/files/Vision_with_Heat_and_Light_Poster.pdf"
-          aria-label="PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a><br>
+          aria-label="PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> -->
+          <br>
+        <b>Columbia University Presidential Fellowship</b>, 2026<br>
+        <b>Berkeley EECS Department Fellowship</b>, 2026<br>
         <b>AAAI Student Scholarship</b>, 2024<br>
         <b>Chinese National Scholarship</b>, Ministry of Education, 2021, 2022, 2023<br>
         <!-- <ul>
@@ -477,17 +566,17 @@
           <i class="fa fa-tasks" aria-hidden="true"></i>
           Academic Services
         </h1>
-        <b>Program Committee / Reviewer</b> @ AAAI, CVPR, ECCV, NeurIPS<br>
+        <b>Program Committee / Reviewer</b> for AAAI, CVPR, ECCV, NeurIPS<br>
         <b>Teaching Assistant</b> for CS 21191070: <i>Computer Vision</i>,
         <!-- , with Prof. <a
           href="https://scholar.google.com/citations?user=7oLbhAwAAAAJ&hl=en">Mingli Song</a> -->
         <!-- Zhejiang Univ., -->
         2023<br></li>
-        <b>Mentor</b> at CMU Paths to AI Research (PAIR) Program<br>
+        <b>Mentor</b> at CMU Paths to AI Research (PAIR) Program, 2025<br>
         <!-- <a href="https://sites.google.com/andrew.cmu.edu/ai-mentoring/">PAIR</a> -->
-        <b>Member</b> of CMU School of Computer Science Dean's Advisory Committee<br>
+        <b>Member</b> of CMU School of Computer Science Dean's Advisory Committee, 2025<br>
         <!-- <a href="https://scsbusinessoffice.cs.cmu.edu/advisory-committees/index.html">Advisory Committee</a> <br> -->
-        <b>Conference Volunteer</b> for AAAI <br>
+        <b>Conference Volunteer</b> for AAAI, 2024<br>
       </div>
     </div>
 
@@ -500,7 +589,7 @@
         <div class="misc-content">
           <div class="misc-intro">
             I love playing with cameras and enjoy a wide range of sports.
-            I spent five lovely years in the Xiamen professional badminton team,
+            I spent five lovely years in the a professional badminton team,
             and during undergrad I worked on AI for racket sports used by the national team.
             Here's a snapshot of my badminton journey:<br>
           </div>
@@ -513,11 +602,11 @@
             <div class="misc-sports-right">
               <div class="desc">
                 <ul>
-                  <li>U.S. National Collegiate Team Championships (D1-B) 🥇, 2025</li>
+                  <li>U.S. National Collegiate Team Championships (D1-B) 🥇</li>
                   <li>Chinese National First-Class Athlete</li>
-                  <li>Zhejiang Provincial 🥇🥇🥈, 2021-2024</li>
-                  <li>Fujian Provincial 🥈🥈🥉🥉, 2016-2019</li>
-                  <li>Chinese National 8th Place in Men's Singles, 2013</li>
+                  <li>Chinese National 8th Place in Men's Singles</li>
+                  <li>Zhejiang Provincial 🥇🥇🥈</li>
+                  <li>Fujian Provincial 🥈🥈🥉🥉</li>
                 </ul>
                 <br><br>
               </div>
@@ -549,8 +638,8 @@
               <span></span>
             </a>
 
-            <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="Twitter">
-              <i class="fa fa-twitter icon-twitter" aria-hidden="true"></i>
+            <a href="https://twitter.com/Leo_ZQ_Yuan" class="icon-button twitter" aria-label="X (formerly Twitter)">
+              <svg class="icon-twitter" aria-hidden="true" viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M714.163 519.284 1160.89 0H1055.03L667.137 450.887 357.328 0H0L468.492 681.821 0 1226.37H105.866L515.491 750.218 842.672 1226.37H1200L714.137 519.284h.026Zm-145.084 169.171-47.41-67.795L143.892 79.6885H306.604l304.682 435.792 47.41 67.795 395.844 566.117H892.176L569.078 688.479v-.024Z"/></svg>
               <span></span>
             </a>
 
@@ -566,7 +655,7 @@
           </div>
           <div class="footer-col footer-col-3">
             <i class="text">"The highest activity a human being can attain is learning for understanding, because to
-              understand is to be free." - Baruch Spinoza</i>
+              understand is to be free." — Baruch Spinoza</i>
             <br><br>
             <p class="text">Style inspired by this <a href="https://www.hexianghu.com/">website</a>.</p>
           </div>

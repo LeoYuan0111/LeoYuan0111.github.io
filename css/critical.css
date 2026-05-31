@@ -1,17 +1,13 @@
 /* Critical above-the-fold styles */
 
 .cover.shallow-bg {
-  background-image: url("../images/background/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 320px;
+  background-color: var(--page-bg);
 }
 
 /* Optimize profile image loading */
 #profile-avatar {
   content-visibility: auto;
-  contain-intrinsic-size: 168px 168px;
+  contain-intrinsic-size: 190px 190px;
 }
 
 /* Prevent layout shift */
