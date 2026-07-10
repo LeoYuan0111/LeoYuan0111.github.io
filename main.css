@@ -34,8 +34,8 @@ html {
 }
 
 body {
-    --page-bg: #f4f2ea;
-    --card-bg: #fbfaf4;
+    --page-bg: #f1f3f5;
+    --card-bg: #fafbfc;
     z-index: initial;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -186,9 +186,9 @@ pre>code {
 
 .site-header {
     border-top: 3px solid #750014;
-    border-bottom: 1px solid #ddd8ca;
+    border-bottom: 1px solid #d9dee3;
     background-color: var(--card-bg);
-    box-shadow: 0 2px 12px rgba(43, 24, 16, 0.06);
+    box-shadow: 0 2px 12px rgba(31, 35, 40, 0.06);
     min-height: 56px;
     position: relative
 }
@@ -718,8 +718,8 @@ pre>code {
 
 .wrapper-light {
     background-color: var(--card-bg);
-    box-shadow: 0 6px 24px rgba(43, 24, 16, 0.08);
-    border: 1px solid #e7e3d7
+    box-shadow: 0 6px 24px rgba(31, 35, 40, 0.08);
+    border: 1px solid #dde2e7
 }
 
 .wrapper-dark {
@@ -1709,9 +1709,9 @@ div.paginate-container li:nth-last-child(2) a:after {
     margin: 6px 0 0;
     padding: 18px 22px;
     background: var(--card-bg);
-    border: 1px solid #e7e3d7;
+    border: 1px solid #dde2e7;
     border-radius: 14px;
-    box-shadow: 0 1px 3px rgba(43, 24, 16, 0.04);
+    box-shadow: 0 1px 3px rgba(31, 35, 40, 0.04);
     overflow: visible; /* Changed to visible to accommodate scaled images */
     font-weight: 400;
     font-size: 16px;

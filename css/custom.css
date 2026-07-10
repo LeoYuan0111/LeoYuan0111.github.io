@@ -113,9 +113,9 @@ li.indented::before {
     margin-bottom: 18px;
     padding: 20px;
     background: var(--card-bg);
-    border: 1px solid #e7e3d7;
+    border: 1px solid #dde2e7;
     border-radius: 14px;
-    box-shadow: 0 1px 3px rgba(43, 24, 16, 0.04);
+    box-shadow: 0 1px 3px rgba(31, 35, 40, 0.04);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     overflow: visible; /* Allow scaled images to show */
 }
@@ -801,8 +801,8 @@ section {
     line-height: 3.0rem;
     font-size: 1.75rem;
     border-radius: 50%;
-    background-color: #eeebe1;
-    border: 1px solid #ddd8ca;
+    background-color: #f0f2f4;
+    border: 1px solid #d9dee3;
     box-shadow: none;
     transition: transform 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
