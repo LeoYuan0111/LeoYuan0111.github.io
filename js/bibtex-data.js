@@ -7,6 +7,13 @@ const bibtexData = {
     year={2026}
 }`,
 
+  'thr_denoising': `@inproceedings{ramanagopal2026revealingsubtleheat,
+  title     = {Revealing Subtle Heat Flows all around us using Microbolometric Videos},
+  author    = {Ramanagopal, Mani and Oharazawa, Akihiko and Narayanan, Sriram and Yuan, Zeqing and Narasimhan, Srinivasa},
+  booktitle = {IEEE International Conference on Computational Photography (ICCP)},
+  year      = {2026}
+}`,
+
   'sinlayout': `@article{sinlayout,
     author    = {Zhao, Linan and Yuan, Zeqing and Zhang, Yunzhi and Wu, Shangzhe and Wu, Jiajun},
     title     = {Learning Generative 3D Scene Layouts from a Single Image},
