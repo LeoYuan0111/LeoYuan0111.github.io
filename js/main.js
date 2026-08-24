@@ -28,6 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize publication filter tabs
     initializePublicationTabs();
+
+    // Initialize hover-to-unfold TLDRs on publication cards
+    initializePublicationTldrs();
 });
 
 // Email generation function
@@ -189,6 +192,60 @@ function initializePublicationTabs() {
         initial.classList.add('is-active');
         applyFilter(initial.getAttribute('data-filter'));
     }
+}
+
+// Publication TLDRs that unfold while the card is hovered or focused
+function initializePublicationTldrs() {
+    const pubs = document.querySelectorAll('#publications .pub-list .pub');
+
+    pubs.forEach(function(pub) {
+        const details = pub.querySelector('.tldr-details');
+        const summary = details && details.querySelector('.tldr-label');
+        const content = details && details.querySelector('.tldr-content');
+        if (!details || !summary || !content) return;
+
+        // A single grid item is what lets the fold animate to the text's own height.
+        const text = document.createElement('span');
+        text.className = 'tldr-text';
+        while (content.firstChild) text.appendChild(content.firstChild);
+        content.appendChild(text);
+
+        // Keep the text laid out at all times so folding can be animated, and
+        // take over the disclosure state from the native [open] attribute.
+        let pinned = details.hasAttribute('open');
+        details.classList.add('tldr--enhanced');
+        details.open = true;
+        details.classList.toggle('is-open', pinned);
+        details.classList.toggle('is-wide', pinned);
+
+        let foldTimer = null;
+        function setOpen(open) {
+            clearTimeout(foldTimer);
+            if (open) {
+                // Widen first so the text unfolds at its final width.
+                details.classList.add('is-wide', 'is-open');
+            } else {
+                details.classList.remove('is-open');
+                // Narrow back to the label only once the text has finished folding.
+                foldTimer = setTimeout(function() {
+                    details.classList.remove('is-wide');
+                }, 320);
+            }
+        }
+
+        summary.addEventListener('click', function(event) {
+            event.preventDefault();
+            pinned = !details.classList.contains('is-open');
+            setOpen(pinned);
+        });
+
+        pub.addEventListener('mouseenter', function() { setOpen(true); });
+        pub.addEventListener('mouseleave', function() { setOpen(pinned); });
+        pub.addEventListener('focusin', function() { setOpen(true); });
+        pub.addEventListener('focusout', function(event) {
+            if (!pub.contains(event.relatedTarget)) setOpen(pinned);
+        });
+    });
 }
 
 // Badminton image hover effect

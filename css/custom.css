@@ -107,7 +107,12 @@ li.indented::before {
 }
 
 /* Publication cards */
+.pub-list {
+    overflow: visible; /* Let the hover-scaled cards spill past the list box */
+}
+
 .pub {
+    position: relative;
     display: flex;
     align-items: flex-start;
     margin-bottom: 18px;
@@ -116,13 +121,22 @@ li.indented::before {
     border: 1px solid #dde2e7;
     border-radius: 14px;
     box-shadow: 0 1px 3px rgba(31, 35, 40, 0.04);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform-origin: center center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
     overflow: visible; /* Allow scaled images to show */
 }
 
-.pub:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+.pub:hover,
+.pub:focus-within {
+    transform: translateY(-3px) scale(1.018);
+    box-shadow: 0 16px 36px rgba(31, 35, 40, 0.13);
+    border-color: rgba(117, 0, 20, 0.28);
+    z-index: 3;
+}
+
+.pub:hover .pub-left .intro-img,
+.pub:focus-within .pub-left .intro-img {
+    transform: scale(1.03);
 }
 
 .pub:last-child,
@@ -241,7 +255,8 @@ li.indented::before {
 
 .pub-right .desc .tldr-details {
     display: inline-block;
-    width: 100%;
+    box-sizing: border-box; /* Keep padding and accent border inside the card */
+    width: calc(100% + 12px); /* Reach into the card's padding, short of its edge */
     padding: 6px 12px;
     background-color: rgba(0, 0, 0, 0.06);
     border-left: 3px solid #750014;
@@ -295,8 +310,59 @@ li.indented::before {
     color: #5c5246;
 }
 
+/*
+  Enhanced TLDR: JS force-opens the <details> so its text is always laid out and
+  uses .is-open to fold/unfold, which lets hovering a card animate the reveal.
+  Without JS the native [open] rules above keep working.
+*/
+.pub-right .desc .tldr-details.tldr--enhanced:not(.is-wide) {
+    width: auto;
+    padding: 4px 10px;
+}
+
+.pub-right .desc .tldr-details.tldr--enhanced:not(.is-open) .tldr-label::after {
+    transform: rotate(0deg);
+}
+
+.pub-right .desc .tldr-details.tldr--enhanced .tldr-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    margin-top: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: grid-template-rows 0.3s ease, opacity 0.25s ease, margin-top 0.3s ease;
+}
+
+/*
+  Only the fully folded box narrows to its label: zero width keeps the hidden
+  text from widening the pill, but a text reflowing to zero width while it folds
+  would balloon into a tall column, so is-wide outlives the fold animation.
+*/
+.pub-right .desc .tldr-details.tldr--enhanced:not(.is-wide) .tldr-content {
+    width: 0;
+}
+
+.pub-right .desc .tldr-details.tldr--enhanced.is-open .tldr-content {
+    grid-template-rows: 1fr;
+    margin-top: 6px;
+    opacity: 1;
+}
+
+.pub-right .desc .tldr-details.tldr--enhanced .tldr-content > .tldr-text {
+    min-height: 0;
+}
+
 /* Better responsive design for publications */
 @media screen and (max-width: 800px) {
+    .pub:hover,
+    .pub:focus-within {
+        transform: translateY(-3px); /* No scale: cards already span the viewport */
+    }
+
+    .pub-list {
+        overflow: auto; /* No scaled cards to make room for; keep the cards' bleed contained */
+    }
+
     .pub {
         flex-direction: column;
         align-items: center;
@@ -324,6 +390,10 @@ li.indented::before {
         width: 100%;
         max-width: 95%;
         padding: 0 10px; /* Add some padding for readability */
+    }
+
+    .pub-right .desc .tldr-details {
+        width: 100%; /* Narrow cards have no spare padding to reach into */
     }
 }
 
@@ -582,6 +652,11 @@ img[loading="lazy"]:not([src=""]) {
     
     html {
         scroll-behavior: auto;
+    }
+
+    .pub:hover,
+    .pub:focus-within {
+        transform: none;
     }
 }
 
