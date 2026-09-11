@@ -766,7 +766,7 @@ pre>code {
 
 .circle-img {
     margin: 0px auto;
-    width: 168px;
+    width: 185px;
     border-width: 4px;
     border-style: solid;
     border-radius: 50%
@@ -1629,17 +1629,16 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-weight: 600
 }
 
+.pub-right>.authors {
+    pointer-events: none;
+    cursor: default;
+}
+
 .pub-right>.authors>.author {
     color: #5b5c5e;
     font-weight: 400;
     font-size: 11pt;
     text-decoration: none;
-    transition: color 0.18s ease;
-}
-
-.pub-right>.authors>.author:hover {
-    color: #750014;
-    text-decoration: underline;
 }
 
 .pub-right>.tags>.tag {

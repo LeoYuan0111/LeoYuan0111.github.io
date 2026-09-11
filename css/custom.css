@@ -572,11 +572,26 @@ li.indented::before {
     content-visibility: auto; /* Optimize rendering */
 }
 
-/* Vertically center name/title/icons against the portrait (desktop only) */
+/* Center the portrait + name/title/icons as one group (desktop only) */
 @media screen and (min-width: 601px) {
     #profile-namecard {
         display: flex;
         align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    /* The float-clearing pseudo-element would become a stray flex item */
+    #profile-namecard::after {
+        display: none;
+    }
+
+    #my-pic,
+    #my-contact {
+        width: auto;
+        flex: 0 1 auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
