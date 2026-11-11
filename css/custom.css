@@ -1,0 +1,891 @@
+.text-hl{
+  color: #0A942F;
+}
+
+/* Site logo in header (top left) */
+.site-logo {
+  float: left;
+  line-height: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.site-logo img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+.grey-hl{
+  color: #696969;
+}
+
+/* Performance and Layout Optimizations */
+
+/* Inline styles moved to CSS for better performance */
+li.indented {
+    position: relative;
+    padding-left: 120px; 
+}
+
+li.indented::before {
+    content: attr(data-date);
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+}
+
+/* Publication categories styling */
+.publication-category {
+    font-size: 18px;
+    font-weight: 600;
+    color: #750014;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 5px;
+}
+
+/* Publication filter tabs */
+.pub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.pub-header .md-heading {
+    margin: 0;
+}
+
+.pub-tabs {
+    display: inline-flex;
+    gap: 0;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    padding: 3px;
+    margin: 0;
+}
+
+.pub-tab {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    color: #5b5c5e;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 7px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.pub-tab:hover {
+    color: #2d2d2f;
+}
+
+.pub-tab.is-active {
+    background: var(--card-bg);
+    color: #750014;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+}
+
+.pub-tab.is-active:hover {
+    color: #750014;
+}
+
+.pub-empty {
+    padding: 18px 0;
+    color: #8a8a8a;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Publication cards */
+.pub-list {
+    overflow: visible; /* Let the hover-scaled cards spill past the list box */
+}
+
+.pub {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    background: var(--card-bg);
+    border: 1px solid #dde2e7;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(31, 35, 40, 0.04);
+    transform-origin: center center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    overflow: visible; /* Allow scaled images to show */
+}
+
+.pub:hover,
+.pub:focus-within {
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 12px 28px rgba(31, 35, 40, 0.12);
+    border-color: rgba(117, 0, 20, 0.28);
+    z-index: 3;
+}
+
+.pub:last-child,
+.pub--last-visible {
+    border-bottom: none;
+}
+
+.pub[hidden] {
+    display: none;
+}
+
+.pub-left {
+    flex: 0 0 190px;
+    margin-right: 18px;
+    text-align: center;
+    transition: flex-basis 0.28s ease;
+}
+
+.pub-left > .intro-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 190px;
+    border-radius: 6px;
+    transition: max-width 0.28s ease;
+}
+
+@media (hover: hover) and (min-width: 801px) {
+    .pub:hover .pub-left,
+    .pub:focus-within .pub-left {
+        flex-basis: 250px;
+    }
+
+    .pub:hover .pub-left > .intro-img,
+    .pub:focus-within .pub-left > .intro-img {
+        max-width: 250px;
+    }
+}
+
+.pub-right {
+    flex: 1;
+    min-width: 0; /* Allows flex item to shrink */
+}
+
+.pub-right .title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    color: #2c3e50;
+}
+
+.pub-right .authors {
+    font-size: 13px;
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.pub-right .publish {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.pub-right .tags {
+    line-height: 1.5;
+}
+
+.pub-right .pub-tags-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.pub-right .pub-tags-row .tags {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    line-height: 1.4;
+}
+
+.pub-right .pub-tags-row .tags .tag {
+    display: inline-flex;
+    align-items: center;
+    color: #5b5c5e;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 1px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.pub-right .pub-tags-row .tags .tag b {
+    font-weight: 600;
+}
+
+.pub-right .pub-tags-row .tags .tag:hover {
+    background: rgba(117, 0, 20, 0.08);
+    border-color: rgba(117, 0, 20, 0.2);
+    color: #750014;
+    text-decoration: none;
+}
+
+.pub-right .pub-tags-row .publish {
+    float: none;
+    flex-shrink: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.pub-right .pub-tags-row .publish .publisher {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.06);
+    color: #750014;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.pub-right .desc:not(:empty) {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: #4a5a6a;
+    text-align: left;
+}
+
+.pub-right .desc .tldr-details {
+    box-sizing: border-box;
+    padding: 4px 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-left: 3px solid #750014;
+    border-radius: 0 4px 4px 0;
+}
+
+.pub-right .desc .tldr-label {
+    font-weight: 700;
+    color: #750014;
+    letter-spacing: 0.3px;
+    margin-right: 6px;
+}
+
+.pub-right .desc .tldr-content {
+    font-style: italic;
+    color: #5c5246;
+}
+
+/* Touch screens can't hover, so they keep the TLDR visible */
+@media (hover: hover) {
+    .pub-right .desc:not(:empty) {
+        display: grid;
+        grid-template-rows: 0fr;
+        margin-top: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: grid-template-rows 0.28s ease, opacity 0.22s ease, margin-top 0.28s ease;
+    }
+
+    .pub-right .desc > .tldr-details {
+        min-height: 0;
+    }
+
+    .pub:hover .pub-right .desc:not(:empty),
+    .pub:focus-within .pub-right .desc:not(:empty) {
+        grid-template-rows: 1fr;
+        margin-top: 6px;
+        opacity: 1;
+    }
+}
+
+/* Better responsive design for publications */
+@media screen and (max-width: 800px) {
+    .pub:hover,
+    .pub:focus-within {
+        transform: translateY(-3px); /* No scale: cards already span the viewport */
+    }
+
+    .pub-list {
+        overflow: auto; /* No scaled cards to make room for; keep the cards' bleed contained */
+    }
+
+    .pub {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px 10px; /* Add horizontal padding to prevent cutoff */
+        margin-left: -10px;
+        margin-right: -10px;
+        width: calc(100% + 20px); /* Compensate for negative margins */
+    }
+    
+    .pub-left {
+        flex: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .pub-left .intro-img {
+        max-width: 95%; /* Ensure image fits with some margin */
+        height: auto;
+    }
+    
+    .pub-right {
+        width: 100%;
+        max-width: 95%;
+        padding: 0 10px; /* Add some padding for readability */
+    }
+}
+
+/* Mobile-specific publication container fix */
+@media screen and (max-width: 600px) {
+    .publications {
+        overflow-x: hidden; /* Prevent horizontal scroll */
+        padding: 0 5px; /* Add small padding */
+    }
+    
+    .pub {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 15px 5px;
+    }
+    
+    .pub-left .intro-img {
+        max-width: 85%; /* Further reduce for very small screens */
+    }
+    
+    .pub-right {
+        padding: 0 5px;
+    }
+}
+
+/* Miscellaneous section specific styling - separate from publications */
+.misc-content {
+    overflow: visible; /* Changed from auto to visible to accommodate scaled images */
+    margin-bottom: 30px;
+}
+
+.misc-content .misc-intro {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.misc-sports-section {
+    overflow: visible; /* Changed from auto to visible */
+    margin-bottom: 30px;
+    padding: 10px 0; /* Add padding to accommodate scaled images */
+}
+
+.misc-sports-left {
+    float: left;
+    width: calc(30% - 15px);
+    text-align: center;
+    margin-right: 30px;
+}
+
+.misc-sports-right {
+    float: right;
+    width: calc(70% - 15px);
+}
+
+.misc-sports-left .intro-img {
+    width: 100%;
+    max-width: 260px; /* Slightly reduced to leave room for scaling */
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #750014;
+    transition: transform 0.3s ease;
+    transform-origin: center; /* Ensure scaling happens from center */
+}
+
+.misc-sports-left .intro-img:hover {
+    transform: scale(1.02);
+}
+
+.misc-sports-right .desc {
+    margin-top: 0;
+}
+
+.misc-sports-right .desc ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.misc-sports-right .desc ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Responsive design for miscellaneous section */
+@media screen and (max-width: 800px) {
+    .misc-sports-left,
+    .misc-sports-right {
+        float: none;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+    
+    .misc-sports-left {
+        margin-bottom: 20px;
+    }
+}
+
+/* Visitor map styling - improved positioning and sizing for both mobile and desktop */
+.visitor-map {
+    text-align: center;
+    clear: both;
+    width: 100%;
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Desktop visitor map positioning */
+@media screen and (min-width: 800px) {
+    .visitor-map {
+        margin-top: 20px;
+        padding: 10px 0;
+        max-width: 30%;
+    }
+}
+
+/* Mobile visitor map positioning */
+@media screen and (max-width: 799px) {
+    .visitor-map {
+        margin-top: 15px;
+        padding: 10px 0;
+        max-width: 30%;
+    }
+    
+    .misc-sports-section {
+        margin-bottom: 15px;
+    }
+}
+
+/* Sports section specific styling - keep for backwards compatibility */
+.sports-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.achievements-list {
+    margin-left: 20px;
+}
+
+.achievements-list li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Honors list styling */
+.honors-list {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.honors-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Image loading optimization with performance hints */
+.intro-img {
+    width: 100%;
+    max-width: 260px; /* Slightly reduced to leave room for scaling */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform-origin: center; /* Ensure scaling happens from center */
+    content-visibility: auto; /* Improve rendering performance */
+}
+
+.intro-img:hover {
+    transform: scale(1.02);
+}
+
+/* Profile section improvements */
+.profile-wrapper {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    content-visibility: auto; /* Optimize rendering */
+}
+
+/* Center the portrait + name/title/icons as one group (desktop only) */
+@media screen and (min-width: 601px) {
+    #profile-namecard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    /* The float-clearing pseudo-element would become a stray flex item */
+    #profile-namecard::after {
+        display: none;
+    }
+
+    #my-pic,
+    #my-contact {
+        width: auto;
+        flex: 0 1 auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Better focus styles for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid #2a7ae2;
+    outline-offset: 2px;
+}
+
+/* Smooth scrolling for better UX */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Enhanced loading states for better perceived performance */
+img[loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"].loaded,
+img[loading="lazy"]:not([src=""]) {
+    opacity: 1;
+}
+
+/* Loading placeholder animation */
+.loading-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Back to top button improvements */
+.back-to-top {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Font loading optimization */
+.font-loading body {
+    visibility: hidden;
+}
+
+.font-loaded body {
+    visibility: visible;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+
+    .pub:hover,
+    .pub:focus-within {
+        transform: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .pub {
+        border-bottom: 2px solid #000;
+    }
+    
+    .publication-category {
+        border-bottom: 3px solid #000;
+    }
+}
+
+/* Dark mode preparation (can be extended) */
+@media (prefers-color-scheme: dark) {
+    .back-to-top {
+        background-color: rgba(45, 45, 45, 0.9);
+        color: #fff;
+    }
+}
+
+/* Improved spacing for better visual hierarchy */
+section {
+    margin-bottom: 40px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+/* Better alignment for social media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .social-media {
+        gap: 8px;
+    }
+    
+    .icon-button {
+        width: 2.8rem;
+        height: 2.8rem;
+        line-height: 2.8rem;
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile-specific social media centering fix */
+@media screen and (max-width: 600px) {
+    /* Force mobile layout for profile */
+    .profile-wrapper {
+        width: 95% !important;
+        margin: 0 auto !important;
+    }
+    
+    .profile-col {
+        float: none !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+    }
+    
+    .profile-col-1,
+    .profile-col-2 {
+        float: none !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+        display: block !important;
+    }
+    
+    #my-contact {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    
+    #my-name,
+    #my-title {
+        text-align: center !important;
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+    
+    .social-media {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        margin: 15px 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+        left: 0 !important;
+        right: 0 !important;
+        position: relative !important;
+    }
+    
+    .icon-button {
+        margin: 0 5px !important;
+        flex-shrink: 0 !important;
+        position: relative !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        vertical-align: middle !important;
+    }
+    
+    .icon-button i {
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        line-height: inherit !important;
+    }
+}
+
+/* Footer width customization - match standard wrapper width */
+.footer-col-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px; /* Reduce gap to give more space to quote */
+}
+
+.footer-col-2 {
+    flex: 0 0 auto; /* Don't grow, just fit content */
+    min-width: 200px; /* Ensure minimum space for social icons */
+}
+
+.footer-col-3 {
+    flex: 1; /* Take up remaining space */
+    max-width: none; /* Remove width constraint to allow more space */
+    min-width: 0; /* Allow shrinking if needed */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+    .footer-col-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-col-2,
+    .footer-col-3 {
+        flex: none;
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* Performance optimization: will-change for animations */
+.intro-img,
+.back-to-top,
+.icon-button {
+    will-change: transform;
+}
+
+/* Content loading animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.bio,
+.publications,
+section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Stagger animation delays for sections */
+.bio { animation-delay: 0.1s; }
+.publications { animation-delay: 0.2s; }
+#awards { animation-delay: 0.3s; }
+#teaching { animation-delay: 0.4s; }
+#misc { animation-delay: 0.5s; }
+
+/* Inline SVG icon (e.g. X / Twitter) inside circular icon-button */
+.icon-button svg.icon-twitter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    transform: translate(-50%, -50%);
+    transition: color 0.3s;
+    z-index: 11;
+}
+
+@media screen and (max-width: 600px) {
+    .icon-button svg.icon-twitter {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+}
+
+/* --- Social icon row: unified size, consistent style, subtle hover --- */
+.icon-button {
+    width: 3.0rem;
+    height: 3.0rem;
+    line-height: 3.0rem;
+    font-size: 1.75rem;
+    border-radius: 50%;
+    background-color: #f0f2f4;
+    border: 1px solid #d9dee3;
+    box-shadow: none;
+    transition: transform 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+/* Disable the legacy expanding dark-fill animation */
+.icon-button span {
+    display: none;
+}
+
+.icon-button i {
+    width: 2.85rem;
+    height: 2.85rem;
+    line-height: 2.85rem;
+}
+
+.icon-button svg.icon-twitter {
+    width: 1.35rem;
+    height: 1.35rem;
+}
+
+/* Unify all glyphs to a single neutral tone */
+.icon-button .icon-twitter,
+.icon-button .icon-github,
+.icon-button .icon-linkedin,
+.icon-button .icon-facebook {
+    color: #4a4b4d;
+}
+
+.icon-button:hover {
+    background-color: rgba(117, 0, 20, 0.10);
+    border-color: rgba(117, 0, 20, 0.28);
+    transform: scale(1.05);
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-facebook {
+    color: #750014;
+}
