@@ -1,0 +1,16 @@
+/* Critical above-the-fold styles */
+
+.cover.shallow-bg {
+  background-color: var(--page-bg);
+}
+
+/* Optimize profile image loading */
+#profile-avatar {
+  content-visibility: auto;
+  contain-intrinsic-size: 190px 190px;
+}
+
+/* Prevent layout shift */
+.profile-wrapper {
+  min-height: 200px;
+}
